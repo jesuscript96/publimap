@@ -115,39 +115,57 @@ function calculateDistance(coords1: [number, number], coords2: [number, number])
   return R * c;
 }
 
-// Generate Canvas-based Pin with Publimex Logo inside for Mapbox
-function createBillboardLogoIcon(logoImg: HTMLImageElement): HTMLImageElement {
-  const canvas = document.createElement('canvas');
-  canvas.width = 44;
-  canvas.height = 54;
-  const ctx = canvas.getContext('2d');
-  
-  if (ctx) {
-    // 1. Draw Post (miniature black pole)
-    ctx.fillStyle = '#000000';
-    ctx.fillRect(20, 40, 4, 12);
-    
-    // 2. Draw Billboard Panel (Square rect) - Solid red background with white border
-    ctx.fillStyle = '#E30613';
-    ctx.fillRect(2, 2, 40, 38);
-    
-    ctx.strokeStyle = '#FFFFFF';
-    ctx.lineWidth = 2;
-    ctx.strokeRect(2, 2, 40, 38);
-    
-    // 3. Draw the logo inside (aspect ratio 568/402 = 1.41)
-    const destW = 34;
-    const destH = 34 / 1.41;
-    const destX = 5;
-    const destY = 4 + (34 - destH) / 2;
-    
-    ctx.drawImage(logoImg, destX, destY, destW, destH);
-  }
+const size = 100;
+const pulsingDot = {
+  width: size,
+  height: size,
+  data: new Uint8ClampedArray(size * size * 4),
+  context: null as CanvasRenderingContext2D | null,
 
-  const img = new Image();
-  img.src = canvas.toDataURL();
-  return img;
-}
+  onAdd() {
+    const canvas = document.createElement('canvas');
+    canvas.width = this.width;
+    canvas.height = this.height;
+    this.context = canvas.getContext('2d');
+  },
+
+  render() {
+    const duration = 2000; // soft and slow breath (2 seconds)
+    const t = (performance.now() % duration) / duration;
+
+    const radius = 5; // very fine inner dot
+    const outerRadius = 5 + 10 * t; // expands softly up to 15px
+    const ctx = this.context;
+
+    if (!ctx) return false;
+
+    ctx.clearRect(0, 0, this.width, this.height);
+
+    // Draw outer pulsing halo
+    ctx.beginPath();
+    ctx.arc(this.width / 2, this.height / 2, outerRadius, 0, Math.PI * 2);
+    ctx.fillStyle = `rgba(0, 230, 118, ${0.35 * (1 - t)})`; // green fading out
+    ctx.fill();
+
+    // Draw inner solid dot
+    ctx.beginPath();
+    ctx.arc(this.width / 2, this.height / 2, radius, 0, Math.PI * 2);
+    ctx.fillStyle = '#00c853'; // bright green
+    ctx.strokeStyle = '#FFFFFF'; // fine white outline for contrast
+    ctx.lineWidth = 1.5;
+    ctx.fill();
+    ctx.stroke();
+
+    // Update image data
+    const imgData = ctx.getImageData(0, 0, this.width, this.height);
+    this.data.set(imgData.data);
+
+    // Force map repaint to animate
+    map.triggerRepaint();
+
+    return true;
+  }
+};
 
 // Helper: close sidebar on mobile viewport to reveal map
 function closeSidebarOnMobile() {
@@ -229,25 +247,18 @@ function initMap() {
       ]);
     }
 
-    // Load custom WebGL Pin Image using Publimex Logo
-    const logoImg = new Image();
-    logoImg.src = '/logo.png';
-    logoImg.onload = () => {
-      const pinImage = createBillboardLogoIcon(logoImg);
-      pinImage.onload = () => {
-        map.addImage('publimex-logo', pinImage);
-        
-        // Fetch and load GeoJSON after logo is loaded
-        fetch('/billboards.geojson')
-          .then(res => res.json())
-          .then(data => {
-            billboardsData = data;
-            setupBillboardLayers();
-            updateStats();
-          })
-          .catch(err => console.error('Error loading GeoJSON:', err));
-      };
-    };
+    // Add pulsing dot image
+    map.addImage('pulsing-dot', pulsingDot as any);
+      
+    // Fetch and load GeoJSON
+    fetch('/billboards.geojson')
+      .then(res => res.json())
+      .then(data => {
+        billboardsData = data;
+        setupBillboardLayers();
+        updateStats();
+      })
+      .catch(err => console.error('Error loading GeoJSON:', err));
       
     // Load Landmark markers
     setupLandmarkMarkers();
@@ -314,12 +325,12 @@ function setupBillboardLayers() {
     type: 'symbol',
     source: 'billboards',
     layout: {
-      'icon-image': 'publimex-logo',
+      'icon-image': 'pulsing-dot',
       'icon-size': [
         'interpolate', ['linear'], ['zoom'],
-        8, 0.4,
-        12, 0.7,
-        16, 1.0
+        8, 0.5,
+        12, 0.8,
+        16, 1.2
       ],
       'icon-allow-overlap': true,
       'icon-ignore-placement': true
