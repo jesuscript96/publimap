@@ -170,6 +170,7 @@ body {
 
 /* Availability Toggle Switch */
 .availability-toggle {
+  display: none !important;
   align-self: flex-start;
   background: var(--publimex-red);
   border: 1px solid var(--border-light);

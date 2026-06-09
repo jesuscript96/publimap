@@ -9,7 +9,6 @@ let map: mapboxgl.Map;
 let billboardsData: any = null;
 let selectedLandmark: any = null;
 let activeCategoryFilter = 'all';
-let showOnlyAvailable = true;
 
 // Proximity Radius in Kilometers
 const PROXIMITY_RADIUS_KM = 2.0;
@@ -116,30 +115,33 @@ function calculateDistance(coords1: [number, number], coords2: [number, number])
   return R * c;
 }
 
-// Generate Canvas-based Square Billboard Pins for Mapbox Symbol Layer (Square post and panel!)
-function createBillboardIcon(color: string, isAvailable: boolean): HTMLImageElement {
+// Generate Canvas-based Pin with Publimex Logo inside for Mapbox
+function createBillboardLogoIcon(logoImg: HTMLImageElement): HTMLImageElement {
   const canvas = document.createElement('canvas');
-  canvas.width = 32;
-  canvas.height = 42;
+  canvas.width = 44;
+  canvas.height = 54;
   const ctx = canvas.getContext('2d');
   
   if (ctx) {
-    // 1. Draw Post (miniature billboard pole)
-    ctx.fillStyle = '#000000'; // Black pole for contrast on light map
-    ctx.fillRect(14, 22, 4, 18);
+    // 1. Draw Post (miniature black pole)
+    ctx.fillStyle = '#000000';
+    ctx.fillRect(20, 40, 4, 12);
     
-    // 2. Draw Billboard Panel (Square rect)
-    ctx.fillStyle = color;
-    ctx.fillRect(2, 2, 28, 20);
+    // 2. Draw Billboard Panel (Square rect) - Solid red background with white border
+    ctx.fillStyle = '#E30613';
+    ctx.fillRect(2, 2, 40, 38);
     
-    // 3. Draw border
-    ctx.strokeStyle = '#000000'; // Black border for contrast on light map
+    ctx.strokeStyle = '#FFFFFF';
     ctx.lineWidth = 2;
-    ctx.strokeRect(2, 2, 28, 20);
+    ctx.strokeRect(2, 2, 40, 38);
     
-    // Inner indicator block
-    ctx.fillStyle = isAvailable ? '#00e676' : '#E30613';
-    ctx.fillRect(5, 5, 6, 6);
+    // 3. Draw the logo inside (aspect ratio 568/402 = 1.41)
+    const destW = 34;
+    const destH = 34 / 1.41;
+    const destX = 5;
+    const destY = 4 + (34 - destH) / 2;
+    
+    ctx.drawImage(logoImg, destX, destY, destW, destH);
   }
 
   const img = new Image();
@@ -227,22 +229,25 @@ function initMap() {
       ]);
     }
 
-    // Load custom WebGL Pin Images
-    const availablePin = createBillboardIcon('#00c853', true); // Green
-    const reservedPin = createBillboardIcon('#1F2430', false);  // Dark Grey
-    
-    availablePin.onload = () => map.addImage('pin-available', availablePin);
-    reservedPin.onload = () => map.addImage('pin-reserved', reservedPin);
-    
-    // Fetch and load GeoJSON
-    fetch('/billboards.geojson')
-      .then(res => res.json())
-      .then(data => {
-        billboardsData = data;
-        setupBillboardLayers();
-        updateStats();
-      })
-      .catch(err => console.error('Error loading GeoJSON:', err));
+    // Load custom WebGL Pin Image using Publimex Logo
+    const logoImg = new Image();
+    logoImg.src = '/logo.png';
+    logoImg.onload = () => {
+      const pinImage = createBillboardLogoIcon(logoImg);
+      pinImage.onload = () => {
+        map.addImage('publimex-logo', pinImage);
+        
+        // Fetch and load GeoJSON after logo is loaded
+        fetch('/billboards.geojson')
+          .then(res => res.json())
+          .then(data => {
+            billboardsData = data;
+            setupBillboardLayers();
+            updateStats();
+          })
+          .catch(err => console.error('Error loading GeoJSON:', err));
+      };
+    };
       
     // Load Landmark markers
     setupLandmarkMarkers();
@@ -309,17 +314,12 @@ function setupBillboardLayers() {
     type: 'symbol',
     source: 'billboards',
     layout: {
-      'icon-image': [
-        'case',
-        ['==', ['get', 'available'], true],
-        'pin-available',
-        'pin-reserved'
-      ],
+      'icon-image': 'publimex-logo',
       'icon-size': [
         'interpolate', ['linear'], ['zoom'],
-        8, 0.5,
-        12, 0.8,
-        16, 1.2
+        8, 0.4,
+        12, 0.7,
+        16, 1.0
       ],
       'icon-allow-overlap': true,
       'icon-ignore-placement': true
@@ -394,15 +394,14 @@ function showBillboardPopup(feature: any) {
 
   const props = feature.properties || {};
   const coords = feature.geometry.coordinates;
-  const isAvailable = typeof props.available === 'string' ? props.available === 'true' : props.available;
   const imgHtml = props.images && JSON.parse(props.images).length > 0
     ? `<img src="${JSON.parse(props.images)[0]}" style="width: 100%; height: 90px; object-fit: cover; border-radius: 0 !important; margin-top: 8px; border: 1px solid #FFFFFF;">`
     : '';
 
   const popupContent = `
     <div style="font-family: var(--font-primary); color: #FFFFFF; padding: 4px; max-width: 200px;">
-      <div style="font-size: 0.65rem; font-weight: 800; text-transform: uppercase; color: ${isAvailable ? '#00e676' : '#FFFFFF'};">
-        ${isAvailable ? 'Disponible Mundial' : 'Reservado'}
+      <div style="font-size: 0.65rem; font-weight: 800; text-transform: uppercase; color: #00e676;">
+        Disponible
       </div>
       <div style="font-size: 0.85rem; font-weight: 800; margin-top: 2px;">${props.address || ''}</div>
       <div style="font-size: 0.7rem; color: var(--text-muted); margin-top: 4px;">Categoría: ${props.category || ''}</div>
@@ -587,11 +586,6 @@ function applyMapFilters() {
     filters.push(['in', activeCategoryFilter, ['get', 'category']]);
   }
 
-  // Availability Filter
-  if (showOnlyAvailable) {
-    filters.push(['==', ['get', 'available'], true]);
-  }
-
   // Proximity Filter
   if (selectedLandmark) {
     const center = selectedLandmark.coordinates;
@@ -618,7 +612,7 @@ function applyMapFilters() {
     
     const filteredNearby = nearby.filter(feat => {
       const matchCat = activeCategoryFilter === 'all' || feat.properties.category.includes(activeCategoryFilter);
-      const matchAvail = !showOnlyAvailable || feat.properties.available === true;
+      const matchAvail = true;
       return matchCat && matchAvail;
     });
 
@@ -683,7 +677,7 @@ function updateActiveSidebarView(landmark: any, nearbyBillboards: any[]) {
 
   carousel.innerHTML = nearbyBillboards.map(b => {
     const props = b.properties || {};
-    const isAvailable = typeof props.available === 'string' ? props.available === 'true' : props.available;
+    const isAvailable = true;
     const catClass = props.category.toLowerCase().includes('digital') ? 'pantalla' : 'muro';
     const distText = props.distance ? `${props.distance} km de distancia` : '';
     
@@ -832,7 +826,7 @@ function updateStats() {
   if (!billboardsData) return;
   
   const total = billboardsData.features.length;
-  const available = billboardsData.features.filter((f: any) => f.properties.available).length;
+  const available = total;
   
   const totalEl = document.getElementById('total-billboards-count');
   const availEl = document.getElementById('available-billboards-count');
@@ -868,15 +862,7 @@ function setupEvents() {
     });
   });
 
-  // Availability checkbox
-  const checkbox = document.getElementById('availability-checkbox') as HTMLInputElement;
-  if (checkbox) {
-    checkbox.addEventListener('change', () => {
-      showOnlyAvailable = checkbox.checked;
-      applyMapFilters();
-      closeSidebarOnMobile();
-    });
-  }
+
 
   // Interactive Format Showcase Cards in Default View
   document.querySelectorAll('.format-card').forEach(card => {
