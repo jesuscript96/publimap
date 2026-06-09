@@ -1,5 +1,9 @@
+import { inject } from '@vercel/analytics';
 import './style.css';
 import mapboxgl from 'mapbox-gl';
+
+// Initialize Vercel Analytics
+inject();
 
 // Configure Mapbox token
 mapboxgl.accessToken = import.meta.env.VITE_MAPBOX_ACCESS_TOKEN || '';
@@ -405,9 +409,6 @@ function showBillboardPopup(feature: any) {
 
   const props = feature.properties || {};
   const coords = feature.geometry.coordinates;
-  const imgHtml = props.images && JSON.parse(props.images).length > 0
-    ? `<img src="${JSON.parse(props.images)[0]}" style="width: 100%; height: 90px; object-fit: cover; border-radius: 0 !important; margin-top: 8px; border: 1px solid #FFFFFF;">`
-    : '';
 
   const popupContent = `
     <div style="font-family: var(--font-primary); color: #FFFFFF; padding: 4px; max-width: 200px;">
@@ -417,7 +418,6 @@ function showBillboardPopup(feature: any) {
       <div style="font-size: 0.85rem; font-weight: 800; margin-top: 2px;">${props.address || ''}</div>
       <div style="font-size: 0.7rem; color: var(--text-muted); margin-top: 4px;">Categoría: ${props.category || ''}</div>
       <div style="font-size: 0.7rem; color: var(--text-muted);">Medidas: ${props.size || ''}</div>
-      ${imgHtml}
     </div>
   `;
 
@@ -691,42 +691,17 @@ function updateActiveSidebarView(landmark: any, nearbyBillboards: any[]) {
     const isAvailable = true;
     const catClass = props.category.toLowerCase().includes('digital') ? 'pantalla' : 'muro';
     const distText = props.distance ? `${props.distance} km de distancia` : '';
-    
-    // Images parsing
-    let imageUrl = '';
-    try {
-      const parsedImages = typeof props.images === 'string' ? JSON.parse(props.images) : props.images;
-      if (parsedImages && parsedImages.length > 0) {
-        imageUrl = parsedImages[0];
-      }
-    } catch (e) {
-      if (Array.isArray(props.images) && props.images.length > 0) {
-        imageUrl = props.images[0];
-      }
-    }
-
-    const imageHtml = imageUrl
-      ? `<img src="${imageUrl}" class="card-img" alt="${props.address}">`
-      : `<div class="card-img-placeholder">
-          <svg viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="currentColor" stroke-width="1.5">
-            <rect x="3" y="3" width="18" height="18" rx="0" ry="0"></rect>
-            <circle cx="8.5" cy="8.5" r="1.5"></circle>
-            <polyline points="21 15 16 10 5 21"></polyline>
-          </svg>
-          <span>Sin imagen disponible</span>
-        </div>`;
 
     return `
       <div class="billboard-card" id="card-${props.id}">
-        <div class="card-img-container">
-          ${imageHtml}
-          <div class="card-badge ${catClass}">${props.category}</div>
-          <div class="availability-tag ${isAvailable ? '' : 'reserved'}">
-            ${isAvailable ? 'Disponible' : 'Reservado'}
-          </div>
-        </div>
-        
         <div class="card-details">
+          <div class="card-badge-row">
+            <div class="card-badge ${catClass}">${props.category}</div>
+            <div class="availability-tag ${isAvailable ? '' : 'reserved'}">
+              ${isAvailable ? 'Disponible' : 'Reservado'}
+            </div>
+          </div>
+          
           <div class="card-address-block">
             <h3 class="card-address">${props.address}</h3>
             <p style="font-size: 0.7rem; color: #FFFFFF; font-weight: 700;">${distText}</p>
