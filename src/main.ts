@@ -942,4 +942,52 @@ document.addEventListener('DOMContentLoaded', () => {
     if (sidebar) sidebar.classList.add('hidden');
     if (showBtn) showBtn.classList.remove('hidden');
   }
+
+  // CTA button scroll and focus behavior
+  const ctaContactBtn = document.getElementById('cta-contact');
+  const ctaInfoBtn = document.getElementById('cta-info');
+  const contactSection = document.querySelector('.sidebar-contact-section');
+  
+  const scrollToForm = () => {
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      // Focus on Nombre input
+      setTimeout(() => {
+        (document.getElementById('form-nombre') as HTMLInputElement | null)?.focus();
+      }, 500);
+    }
+  };
+
+  if (ctaContactBtn) ctaContactBtn.addEventListener('click', scrollToForm);
+  if (ctaInfoBtn) ctaInfoBtn.addEventListener('click', scrollToForm);
+
+  // Form submission handling (within the same window)
+  const form = document.getElementById('contact-form') as HTMLFormElement | null;
+  const successMsg = document.getElementById('contact-success');
+  const resetFormBtn = document.getElementById('btn-reset-form');
+
+  if (form && successMsg) {
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      
+      const nombre = (document.getElementById('form-nombre') as HTMLInputElement).value;
+      const empresa = (document.getElementById('form-empresa') as HTMLInputElement).value;
+      const correo = (document.getElementById('form-correo') as HTMLInputElement).value;
+      const comentario = (document.getElementById('form-comentario') as HTMLTextAreaElement).value;
+
+      console.log('Contacto Recibido:', { nombre, empresa, correo, comentario });
+
+      // Hide the form and show the success message in the same container
+      form.classList.add('hidden');
+      successMsg.classList.remove('hidden');
+    });
+  }
+
+  if (resetFormBtn && form && successMsg) {
+    resetFormBtn.addEventListener('click', () => {
+      form.reset();
+      form.classList.remove('hidden');
+      successMsg.classList.add('hidden');
+    });
+  }
 });
