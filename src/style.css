@@ -1,0 +1,955 @@
+/* SYSTEM DESIGN SYSTEM */
+:root {
+  --font-primary: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  
+  /* Publimex Corporate Color Palette (Red, White & Black) */
+  --publimex-red: #E30613;       /* Corporate Solid Red */
+  --publimex-red-dark: #E30613;  /* Uniform red for containers to match references */
+  --publimex-red-light: #FF2E3A; /* Active red */
+  --publimex-black: #000000;     /* High Contrast Accent Black */
+  --publimex-glow: rgba(227, 6, 19, 0.45);
+  
+  --bg-dark: #FFFFFF;            /* Light theme page background */
+  --bg-glass: #E30613;          /* Solid corporate red UI */
+  --bg-card: #E30613;           /* Uniform red background for cards */
+  
+  --border-light: #FFFFFF;       /* Strong solid white borders */
+  
+  --text-main: #FFFFFF;         /* Solid White Text */
+  --text-muted: #FFFFFF;        /* Pure white for clean secondary text */
+  --text-dimmed: #FFFFFF;       /* Pure white text */
+  
+  --transition-smooth: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+  --shadow-premium: 0 16px 40px rgba(0, 0, 0, 0.4);
+  --shadow-glow: 0 0 25px rgba(255, 255, 255, 0.3);
+}
+
+/* RESET & CORE STYLES (No rounded corners!) */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  border-radius: 0 !important; /* Force rectitas globally */
+}
+
+body {
+  font-family: var(--font-primary);
+  background-color: var(--bg-dark);
+  color: var(--text-main);
+  height: 100vh;
+  height: 100dvh;
+  overflow: hidden;
+  position: relative;
+}
+
+/* MAP STYLING */
+#map {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+/* Mapbox specific style overrides */
+.mapboxgl-ctrl-bottom-right, .mapboxgl-ctrl-bottom-left {
+  z-index: 5 !important;
+}
+.mapboxgl-ctrl-logo, .mapboxgl-ctrl-attrib {
+  opacity: 0.3;
+  transition: opacity 0.3s;
+}
+.mapboxgl-ctrl-logo:hover, .mapboxgl-ctrl-attrib:hover {
+  opacity: 0.8;
+}
+
+/* Mapbox Popups (Red background, white text, white border) */
+.mapboxgl-popup-content {
+  background: var(--publimex-red) !important;
+  color: var(--text-main) !important;
+  box-shadow: var(--shadow-premium) !important;
+  padding: 12px !important;
+  border: 1px solid var(--text-main) !important;
+}
+.mapboxgl-popup-anchor-top .mapboxgl-popup-tip { border-bottom-color: var(--text-main) !important; }
+.mapboxgl-popup-anchor-bottom .mapboxgl-popup-tip { border-top-color: var(--text-main) !important; }
+.mapboxgl-popup-anchor-left .mapboxgl-popup-tip { border-right-color: var(--text-main) !important; }
+.mapboxgl-popup-anchor-right .mapboxgl-popup-tip { border-left-color: var(--text-main) !important; }
+
+/* APP WRAPPER LAYOUT */
+.app-container {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  pointer-events: none; /* Let map drag pass through background */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header & Controls need pointer-events auto */
+.main-header, .filters-panel, .sidebar, .btn-reset, .btn-toggle-sidebar {
+  pointer-events: auto;
+}
+
+/* HEADER BRANDING (Solid Red, White Borders) */
+.main-header {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  right: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--publimex-red);
+  border: 2px solid var(--text-main);
+  padding: 14px 20px;
+  box-shadow: var(--shadow-premium);
+  z-index: 30; /* Keep header on top of full-screen sidebar */
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.publimex-logo-img {
+  height: 52px;
+  width: auto;
+  object-fit: contain;
+}
+
+/* FILTER PANEL (Solid Red, Black/White interaction) */
+.filters-panel {
+  position: absolute;
+  top: 108px;
+  left: 16px;
+  right: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.filters-scroll {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding-bottom: 5px;
+  scrollbar-width: none;
+}
+
+.filters-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.filter-btn {
+  background: var(--publimex-red);
+  border: 1px solid var(--border-light);
+  color: var(--text-muted);
+  font-family: var(--font-primary);
+  font-weight: 700;
+  font-size: 0.85rem;
+  padding: 8px 18px;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: var(--transition-smooth);
+}
+
+.filter-btn:hover {
+  color: var(--text-main);
+  border-color: var(--text-main);
+}
+
+.filter-btn.active {
+  background: var(--publimex-black); /* Active in Black */
+  color: var(--text-main);
+  border-color: var(--text-main);
+}
+
+/* Availability Toggle Switch */
+.availability-toggle {
+  align-self: flex-start;
+  background: var(--publimex-red);
+  border: 1px solid var(--border-light);
+  padding: 6px 14px;
+}
+
+.switch-container {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  gap: 10px;
+}
+
+.switch-container input {
+  display: none;
+}
+
+.switch-slider {
+  width: 34px;
+  height: 18px;
+  background-color: var(--publimex-red-dark);
+  border: 1px solid var(--text-main);
+  position: relative;
+  transition: var(--transition-smooth);
+}
+
+.switch-slider::before {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  left: 2px;
+  bottom: 2px;
+  background-color: var(--text-main);
+  transition: var(--transition-smooth);
+}
+
+.switch-container input:checked + .switch-slider {
+  background-color: var(--publimex-black);
+}
+
+.switch-container input:checked + .switch-slider::before {
+  transform: translateX(16px);
+}
+
+.switch-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--text-main);
+}
+
+/* INTERACTIVE SIDEBAR (SOLID RED & WHITE) */
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: var(--publimex-red);
+  padding-top: 110px; /* Offset the absolute header height on mobile */
+  z-index: 20;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Close action button at top */
+.sidebar-header-actions {
+  display: flex;
+  justify-content: flex-end;
+  padding: 12px 20px 0;
+}
+
+.btn-close-sidebar {
+  background: var(--publimex-black);
+  border: 1px solid var(--text-main);
+  color: var(--text-main);
+  font-family: var(--font-primary);
+  font-weight: 700;
+  font-size: 0.75rem;
+  padding: 6px 12px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: var(--transition-smooth);
+}
+
+.btn-close-sidebar:hover {
+  background: var(--text-main);
+  color: var(--publimex-red);
+}
+
+.sidebar-content {
+  overflow-y: auto;
+  padding: 10px 20px 24px;
+  flex: 1;
+}
+
+/* Hidden state for sliding out completely */
+.sidebar.hidden {
+  transform: translateY(100%);
+}
+
+/* SHOW SIDEBAR FLOATING TAB */
+.btn-toggle-sidebar {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--publimex-black);
+  color: var(--text-main);
+  border: 2px solid var(--text-main);
+  font-family: var(--font-primary);
+  font-weight: 700;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  padding: 12px 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  z-index: 30;
+  transition: var(--transition-smooth);
+}
+
+.btn-toggle-sidebar:hover {
+  background: var(--text-main);
+  color: var(--publimex-black);
+}
+
+.btn-toggle-sidebar.hidden {
+  display: none !important;
+}
+
+/* DEFAULT STATE STYLING */
+.welcome-title {
+  font-size: 1.5rem;
+  font-weight: 800;
+  line-height: 1.25;
+  margin-bottom: 8px;
+  color: var(--text-main);
+  text-transform: uppercase;
+}
+
+.welcome-desc {
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: var(--text-muted);
+  margin-bottom: 20px;
+}
+
+/* Statistics Card */
+.stats-row {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.stat-card {
+  flex: 1;
+  background: var(--publimex-red-dark);
+  border: 1px solid var(--border-light);
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.stat-num {
+  font-size: 1.75rem;
+  font-weight: 800;
+  color: var(--text-main);
+}
+
+.stat-label {
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  margin-top: 2px;
+}
+
+/* FORMATS SHOWCASE */
+.formats-showcase {
+  margin-bottom: 24px;
+}
+
+.format-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+.format-card {
+  background: var(--publimex-red-dark);
+  border: 1px solid var(--border-light);
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  cursor: pointer;
+  transition: var(--transition-smooth);
+}
+
+.format-card:hover, .format-card.active {
+  background: var(--publimex-black);
+  border-color: var(--text-main);
+}
+
+.format-badge {
+  align-self: flex-start;
+  font-size: 0.65rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding: 4px 10px;
+  letter-spacing: 0.5px;
+  background: var(--publimex-black);
+  color: var(--text-main);
+  border: 1px solid var(--text-main);
+}
+
+.format-desc {
+  font-size: 0.75rem;
+  line-height: 1.4;
+  color: var(--text-muted);
+}
+
+/* SECTION TITLES */
+.section-title {
+  font-size: 1rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 16px;
+  color: var(--text-main);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.section-title::before {
+  content: "";
+  display: inline-block;
+  width: 4px;
+  height: 14px;
+  background-color: var(--text-main);
+}
+
+/* LANDMARKS LIST */
+.landmarks-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.landmark-card {
+  background: var(--publimex-red-dark);
+  border: 1px solid var(--border-light);
+  padding: 14px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: var(--transition-smooth);
+}
+
+.landmark-card:hover {
+  background: var(--publimex-black);
+  border-color: var(--text-main);
+}
+
+.landmark-card-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.landmark-card-title {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--text-main);
+}
+
+.landmark-arrow {
+  color: var(--text-main);
+  transition: var(--transition-smooth);
+}
+
+.landmark-card:hover .landmark-arrow {
+  transform: translateX(4px);
+}
+
+/* ACTIVE STATE STYLING */
+.back-btn {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  font-family: var(--font-primary);
+  font-weight: 700;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 16px;
+  cursor: pointer;
+  transition: var(--transition-smooth);
+}
+
+.back-btn:hover {
+  color: var(--text-main);
+}
+
+.landmark-detail-header {
+  margin-bottom: 18px;
+}
+
+.landmark-badge {
+  display: inline-block;
+  background: var(--publimex-black);
+  border: 1px solid var(--text-main);
+  color: var(--text-main);
+  font-size: 0.65rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding: 4px 10px;
+  margin-bottom: 8px;
+  letter-spacing: 0.5px;
+}
+
+.landmark-name {
+  font-size: 1.5rem;
+  font-weight: 800;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+/* Landmark Image Container for Generated Images */
+.landmark-image-container {
+  width: 100%;
+  aspect-ratio: 16/10;
+  border: 2px solid var(--text-main);
+  overflow: hidden;
+  margin-bottom: 12px;
+  background: var(--bg-dark);
+}
+
+.landmark-detail-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Coverage metrics */
+.coverage-metrics {
+  display: flex;
+  gap: 12px;
+  background: var(--publimex-red-dark);
+  border: 1px solid var(--border-light);
+  padding: 12px;
+  margin-bottom: 24px;
+}
+
+.metric-box {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.metric-title {
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  color: var(--text-dimmed);
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.metric-value {
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: var(--text-main);
+  margin-top: 4px;
+  display: flex;
+  align-items: baseline;
+  gap: 4px;
+}
+
+.metric-value small {
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--text-muted);
+}
+
+/* HORIZONTAL SCROLL CAROUSEL FOR BILLBOARDS (MOBILE) */
+.billboards-carousel {
+  display: flex;
+  gap: 14px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding: 5px 0 15px;
+  scrollbar-width: thin;
+}
+
+.billboard-card {
+  flex: 0 0 82%;
+  scroll-snap-align: center;
+  background: var(--publimex-red-dark);
+  border: 1px solid var(--border-light);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: var(--transition-smooth);
+}
+
+.billboard-card:hover {
+  border-color: var(--text-main);
+}
+
+.billboard-card.highlighted {
+  border-color: var(--text-main);
+  box-shadow: var(--shadow-glow);
+}
+
+.card-img-container {
+  width: 100%;
+  aspect-ratio: 16/9;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: relative;
+  overflow: hidden;
+  border-bottom: 1px solid var(--border-light);
+}
+
+.card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s;
+}
+
+.billboard-card:hover .card-img {
+  transform: scale(1.05);
+}
+
+.card-img-placeholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--text-dimmed);
+  gap: 8px;
+  background: var(--bg-dark);
+}
+
+.card-badge {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background: var(--publimex-black);
+  border: 1px solid var(--text-main);
+  padding: 4px 10px;
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--text-main);
+}
+
+.availability-tag {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: rgba(0, 230, 118, 0.2);
+  border: 1px solid #00e676;
+  color: #00e676;
+  padding: 4px 10px;
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.availability-tag.reserved {
+  background: rgba(0, 0, 0, 0.4);
+  border-color: var(--text-main);
+  color: var(--text-main);
+}
+
+.card-details {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  flex-grow: 1;
+}
+
+.card-address-block {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.card-address {
+  font-size: 0.95rem;
+  font-weight: 800;
+  color: var(--text-main);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card-ref {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  line-height: 1.4;
+  height: 2.8em;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card-spec-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  border-top: 1px solid var(--border-light);
+  padding-top: 12px;
+}
+
+.spec-item {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.spec-label {
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  color: var(--text-dimmed);
+  font-weight: 700;
+}
+
+.spec-val {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--text-main);
+}
+
+.card-actions {
+  margin-top: 4px;
+}
+
+.btn-locate {
+  width: 100%;
+  background: var(--publimex-black);
+  border: 1px solid var(--text-main);
+  color: var(--text-main);
+  font-family: var(--font-primary);
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  transition: var(--transition-smooth);
+}
+
+.btn-locate:hover {
+  background: var(--text-main);
+  color: var(--publimex-black);
+  box-shadow: var(--shadow-glow);
+}
+
+/* RESET VIEW BUTTON (Black Background) */
+.btn-reset {
+  position: absolute;
+  bottom: 170px;
+  left: 16px;
+  background: var(--publimex-black);
+  border: 2px solid var(--text-main);
+  color: var(--text-main);
+  font-family: var(--font-primary);
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 10px 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  box-shadow: var(--shadow-premium);
+  transition: var(--transition-smooth);
+}
+
+.btn-reset:hover {
+  background: var(--text-main);
+  color: var(--publimex-black);
+}
+
+.btn-reset.hidden {
+  opacity: 0;
+  transform: scale(0.9);
+  pointer-events: none;
+}
+
+/* MAP MARKERS (SQUARE STYLES) */
+.pulse-marker {
+  width: 20px;
+  height: 20px;
+  background-color: var(--publimex-black);
+  border: 2px solid var(--text-main);
+  cursor: pointer;
+  position: relative;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Landmark Marker Wrapper (Icon + Label combo) */
+.landmark-marker-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  pointer-events: auto;
+}
+
+.landmark-marker {
+  width: 52px;
+  height: 52px;
+  background-color: var(--publimex-red);
+  border: 2px solid #FFFFFF; /* High contrast white frame */
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
+  transition: var(--transition-smooth);
+}
+
+.landmark-marker:hover {
+  transform: scale(1.15);
+  border-color: var(--publimex-black);
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.8), 0 4px 12px rgba(0, 0, 0, 0.35);
+}
+
+.landmark-marker-icon {
+  width: 24px;
+  height: 24px;
+  color: #FFFFFF;
+  display: none; /* Hide SVG icon when background image is shown */
+  transition: var(--transition-smooth);
+}
+
+/* Visible Labels on Map (Permanently Visible) */
+.landmark-marker-label {
+  font-size: 0.7rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: #000000;
+  border: 1px solid #FFFFFF;
+  padding: 4px 8px;
+  margin-top: 6px;
+  white-space: nowrap;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+  pointer-events: none;
+}
+
+/* RESPONSIVE DESIGN (DESKTOP LAYOUT OVERRIDES) */
+@media screen and (min-width: 768px) {
+  .app-container {
+    flex-direction: row;
+  }
+  
+  /* Desktop Header Layout */
+  .main-header {
+    top: 24px;
+    left: 24px;
+    right: auto;
+    width: 380px;
+    z-index: 30;
+    pointer-events: auto;
+  }
+  
+  /* Desktop Filter Panel Placement */
+  .filters-panel {
+    top: 24px;
+    right: 24px;
+    left: auto;
+    width: auto;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    background: var(--publimex-red);
+    border: 2px solid var(--text-main);
+    padding: 6px 14px 6px 6px;
+    box-shadow: var(--shadow-premium);
+  }
+  
+  .filters-scroll {
+    padding-bottom: 0;
+  }
+  
+  .filter-btn {
+    padding: 8px 16px;
+  }
+  
+  .availability-toggle {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Desktop Sidebar Layout: Left Aligned Panel */
+  .sidebar {
+    top: 112px; /* Align right under Header */
+    left: 24px;
+    bottom: 24px;
+    width: 380px;
+    height: calc(100% - 136px);
+    max-height: none;
+    border: 2px solid var(--text-main);
+    padding-top: 0; /* Reset mobile padding-top */
+    transform: translateX(0);
+    box-shadow: var(--shadow-premium);
+  }
+  
+  /* Hidden state on desktop */
+  .sidebar.hidden {
+    transform: translateX(-420px);
+  }
+  
+  /* Show Sidebar Floating Tab */
+  .btn-toggle-sidebar {
+    bottom: 24px;
+    left: 24px;
+    transform: none;
+  }
+  
+  .sidebar-content {
+    padding: 24px;
+  }
+  
+  /* Desktop Layout default stats card size adjustment */
+  .welcome-title {
+    font-size: 1.75rem;
+    margin-top: 10px;
+  }
+  
+  /* Desktop active state: list layout instead of horizontal carousel */
+  .billboards-carousel {
+    flex-direction: column;
+    gap: 16px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: auto;
+    flex-grow: 1;
+    padding: 5px 5px 15px 0;
+  }
+  
+  .billboard-card {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+  
+  /* Desktop Reset button position adjustment */
+  .btn-reset {
+    bottom: 24px;
+    left: 420px;
+  }
+  
+  .sidebar.hidden ~ .btn-reset {
+    left: 24px;
+  }
+}

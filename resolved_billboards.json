@@ -1,0 +1,1433 @@
+[
+  {
+    "id": 15,
+    "address": "HORACIO N° 604",
+    "reference": "Muy cerca de la esquina con Aristóteles y a un par de cuadras del Parque Lincoln",
+    "category": "Muro",
+    "size": "12.20 x 17.00 M",
+    "width": 12.2,
+    "height": 17,
+    "area_m2": 207.39999999999998,
+    "price": 650000,
+    "available": true,
+    "images": [
+      "https://v5.airtableusercontent.com/v3/u/54/54/1780970400000/eFq-NvTSkoWyapGxKnmyog/Nvk4eEZpcvkrkPwsS24uG7nOqfRGs5Kk8kjKBW6gEK8MaymMBXpfutGJv1JJ7_5Q4K7tCmDH_owPyR9QolsVMk_-Ti201ZaxRTehFj5iFI5LT6jBibuQ0jQATZFfwbnhh7khuZSfAZ79TxbBDSDcQrwoiEe9HkueoII4N-7uvH4/4ZNDDFLM_WUqvCMI2e9EBb6-WFIQDxt0WBo8B6AlKR0"
+    ],
+    "original_maps_url": "https://www.google.com/maps?q=place_id:ChIJWbbjOAAC0oURlc1XU2YJhoI",
+    "resolved_maps_url": "https://www.google.com/maps?q=place_id:ChIJWbbjOAAC0oURlc1XU2YJhoI",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 68,
+    "address": "PATRICIO SANZ N°1365",
+    "category": "Muro",
+    "size": "7.50 x 18.00 M",
+    "width": 7.5,
+    "height": 18,
+    "area_m2": 135,
+    "price": 300000,
+    "available": true,
+    "images": [
+      "https://v5.airtableusercontent.com/v3/u/54/54/1780970400000/Xfh7o_AGKpQeLhnpgaEmsA/1BFN9jksr3Pq1JeCLep2PZrhpi0PvTeGRjHRerVbXmomxRG-sJbFqfyxBUQBlQU-CpiMivmVH1fa89o7JXVICEng2a6ZM6C5oOuUIjgf44YxxuR-rt60Zfw_dsthjq4LDKzP0iFAIGbF-rRx2E9g6zO22OZGG_R8dOFhulbcDTE/5VgHRNzrlBakYNcTkAWwTGs88b33OM4gw4xPZNNfF2s"
+    ],
+    "original_maps_url": "https://maps.app.goo.gl/5YZUMwLd6PZ79MeY7",
+    "resolved_maps_url": "https://www.google.com/maps/place/Patricio+Sanz+1365,+Tlacoquemecatl+del+Valle,+Benito+Ju%C3%A1rez,+03200+Ciudad+de+M%C3%A9xico,+CDMX/@19.3773023,-99.1764291,17z/data=!3m1!4b1!4m6!3m5!1s0x85d1ff9be661d811:0x70c7d849fe681d26!8m2!3d19.3773023!4d-99.1738542!16s%2Fg%2F11cs6cfnpt?entry=tts&g_ep=EgoyMDI2MDMzMC4wIPu8ASoASAFQAw%3D%3D&skid=1f77e880-af92-4116-98b4-e726df5c64d1",
+    "lat": 19.3773023,
+    "lng": -99.1764291
+  },
+  {
+    "id": 48,
+    "address": "AV. PATRIOTISMO N°483, SAN PEDRO DE LOS PINOS",
+    "category": "Muro + Espectacular",
+    "size": "12.90 x 7.20 M",
+    "width": 12.9,
+    "height": 7.2,
+    "area_m2": 92.88000000000001,
+    "price": 130000,
+    "available": true,
+    "images": [],
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 53,
+    "address": "GUTENBERG N°39, VERÓNICA ANZÚRES",
+    "reference": "Casi esquina con la avenida Ejército Nacional, y muy cerca de la zona comercial de Plaza Galerías",
+    "category": "Muro",
+    "size": "10.00 x 18.00 M",
+    "width": 10,
+    "height": 18,
+    "area_m2": 180,
+    "price": 650000,
+    "available": true,
+    "images": [
+      "https://v5.airtableusercontent.com/v3/u/54/54/1780970400000/AnQy5pkbQXwh3cAV-xu0jw/ISEPtZTa6E6iUQtUsG7xyDAg2dG0c6plRVzS0aIo5NT65nXw0SQhtVJ6Lj9Fn33cuajY9UqsI0tGn-I-mgvzpjBuhhGrElIj9IvAweLGG1ty_PpQ2OJGIveviGlcKvouIEhjtdkCfh-nX5uK_5qimMW7w20kma5EfrNoB7T5EiQ/B_7iKkVQuC90SjvvKlRtOi9ANVO2weNrhfIXXDf8B5U"
+    ],
+    "original_maps_url": "https://maps.app.goo.gl/RcoN4kvweSzdyjQm6",
+    "resolved_maps_url": "https://www.google.com/maps/place/Gutenberg+39,+Ver%C3%B3nica+Anz%C3%BAres,+Miguel+Hidalgo,+11300+Ciudad+de+M%C3%A9xico,+CDMX/@19.433731,-99.1753302,17z/data=!3m1!4b1!4m6!3m5!1s0x85d1f8b48522bc3d:0xd11038414b5d5674!8m2!3d19.433731!4d-99.1727553!16s%2Fg%2F11c4wnknng?entry=tts&g_ep=EgoyMDI2MDQxMi4wIPu8ASoASAFQAw%3D%3D&skid=c05774c8-a448-45cb-a0d9-3cabb1ffd1c8",
+    "lat": 19.433731,
+    "lng": -99.1753302
+  },
+  {
+    "id": 16,
+    "address": "BLVD. ADOLFO LÓPEZ MATEOS N° 1803",
+    "reference": "Ubicación estratégica sobre Blvd. Adolfo López Mateos",
+    "category": "Muro",
+    "size": "14.50 x 10.00 M",
+    "width": 14.5,
+    "height": 10,
+    "area_m2": 145,
+    "price": 500000,
+    "available": true,
+    "images": [
+      "https://v5.airtableusercontent.com/v3/u/54/54/1780970400000/FkrxfgFC-8XAmOgayoceaA/Fi0ayKY9Ety1yBQYZZrr2ERpaFkvoii3LRCVxNq2tBrgAsKbJdgyZPEFr48sAaxFmlT6Hb5c2UYuMiRCHMbIwFjfbpJvPMMei8H5XGcPzfxFOui-c878rhAIB296ljwL0DyUdDoGue1FWT_jZItEScFUX0vASa0_NJkthL-dbBs/zNnAwEawQXgzUtxYuowbXNbqGXFYwUJ6-z28JiXrB80"
+    ],
+    "original_maps_url": "https://www.google.com/maps?q=place_id:ChIJlWOMRicA0oURyShcQ8HudYg",
+    "resolved_maps_url": "https://www.google.com/maps?q=place_id:ChIJlWOMRicA0oURyShcQ8HudYg",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 56,
+    "address": "ANILLO PERIFERICO, ESQ. ESTEPA (PANTALLA)",
+    "reference": "Muy cerca de la Zona Arqueológica de Cuicuilco y del centro comercial Perisur. Resolución: 2304x960 px",
+    "category": "Pantalla Digital",
+    "size": "11.52 x 6.72 M",
+    "width": 11.52,
+    "height": 6.72,
+    "area_m2": 77.4144,
+    "price": 120000,
+    "available": true,
+    "images": [
+      "https://v5.airtableusercontent.com/v3/u/54/54/1780970400000/Mb2y0-JjPrc9Z6kvB_h_FQ/WuKPv5R2LVQbmPFFZRTOAxdX4bDQ5qCZdYOgipuR7B-K4eibsor2KIn9epLZjz1w3XcIxDKMEAg6blpcrbsx0HGSWLGvQx3wzJ_cePtO3P7mNYAKbDWYdomJELP6FGQWKlep0lW7RioAYnCffE6Y2MZH-KTlJd5Ihpe5QRWPxlg/OpQXLdxOs9N1_MgfOPeN_u6SjiA5uifXob582XLc76k"
+    ],
+    "original_maps_url": "https://maps.app.goo.gl/FVnDH2PHxTe256gL7",
+    "resolved_maps_url": "https://www.google.com/maps/search/19.302427,+-99.195568?entry=tts&g_ep=EgoyMDI2MDEwNC4wIPu8ASoASAFQAw%3D%3D&skid=d156e33d-9e9b-47a3-9ba8-a1441925dfcf",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 55,
+    "address": "PERIFÉRICO SUR N°5550, EL CARACOL",
+    "reference": "Sobre el lateral del Anillo Periférico Sur, entre Av. del Imán y Av. Insurgentes Sur",
+    "category": "Pantalla Digital",
+    "size": "12.90 x 7.20 M",
+    "width": 12.9,
+    "height": 7.2,
+    "area_m2": 92.88000000000001,
+    "price": 150000,
+    "available": true,
+    "images": [
+      "https://v5.airtableusercontent.com/v3/u/54/54/1780970400000/B4VPDqQ3Vj4BWV_9ebTGvA/2pMHPdyKEtOYic2G-XPzU0ZKcGogFHGQs0sKmc890oQ1NdZFstBPrqL98kZygep-YKTHdaFsXX_16smEXwalpe1uH2QcIGeDslnvioXi_--0n55wrr7a0m7gCHXJ-Kcq9jjTSIQ5f3QkUrrAzWimsUQoOu2ANOywRTVNj6SmJfA/i5HkyHcmy-5EZqclDdRWmnMlnjbQVzxuToM4914bEfs"
+    ],
+    "original_maps_url": "https://maps.app.goo.gl/i2ge6TMw4x2yBEsC9",
+    "resolved_maps_url": "https://www.google.com/maps/place/Periferico+Sur+5550,+Pedregal+de+Carrasco,+Coyoac%C3%A1n,+04700+Ciudad+de+M%C3%A9xico,+CDMX/@19.3074705,-99.1667838,17z/data=!3m1!4b1!4m6!3m5!1s0x85ce0043dac0709f:0xe0b7ffa1fcb79fdd!8m2!3d19.3074705!4d-99.1642089!16s%2Fg%2F11k46qfd_b?entry=tts&g_ep=EgoyMDI2MDQxMi4wIPu8ASoASAFQAw%3D%3D&skid=e14a3a8f-7b53-4736-809d-11653ae590c9",
+    "lat": 19.3074705,
+    "lng": -99.1667838
+  },
+  {
+    "id": 46,
+    "address": "AV CONSTITUYENTES N°345, DANIEL GARZA",
+    "reference": "A unos pasos de la glorieta de Parque México y casi esquina con Amsterdam",
+    "category": "Muro",
+    "size": "12.00 x 25.00 M",
+    "width": 12,
+    "height": 25,
+    "area_m2": 300,
+    "price": 700000,
+    "available": true,
+    "images": [
+      "https://v5.airtableusercontent.com/v3/u/54/54/1780970400000/6Lc3QdYG6Gr5f3LjtuVZbA/x6EzLMuqIokTh1RRu0jQ_pgVf8vhfLGRLyp74YDQYSeIqQIkvNDZZ-zjOSUZQQLr2EqUwtCPku4utENer4TbsFnoYMArntzxBc-Uek7ayigDmCNxbnrf-Xy5y5MyfE4XSdTHyvERzbD1v8xFnnVLiFSSrOdT79Zxqk28qyrwm-4/OGjMDpCKWX3cbxgaXa2BD75ors6iIgMIDhbFN3uOEgg"
+    ],
+    "original_maps_url": "https://www.google.com/maps?q=place_id:ChIJw7SpoOcB0oURk4RQVOnmyMo",
+    "resolved_maps_url": "https://www.google.com/maps?q=place_id:ChIJw7SpoOcB0oURk4RQVOnmyMo",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 7,
+    "address": "INSURGENTES SUR N° 568 - MURO XOLA",
+    "reference": "Casi esquina con Xola y justo frente a la estación del Metrobús La Piedad",
+    "category": "Muro",
+    "size": "12.60 x 20.00 M",
+    "width": 12.6,
+    "height": 20,
+    "area_m2": 252,
+    "price": 480000,
+    "available": true,
+    "images": [
+      "https://v5.airtableusercontent.com/v3/u/54/54/1780970400000/OY0HBAtbjjRHIpseuoBEzA/2XaDdsUBF_i0Z1BBKJi9gMPunAQmmbEU3-R1drzvS1dPBVanlWaOHeLnQ64IvZpXgh9ZpPaEO0pvVj5lZzGaOTZKuzjvrggGZk8RbxAbTXGQHs3uzTz2NCQjvtSNhU6FsDxzaGpRNw_8wGJJ-SF257QUAfgDVUs0oY-25UFZ99k/ZhJIrr1FhH9H2fbz8EiZ5z0BOSGSOmO3qNsjvGCQgg0"
+    ],
+    "original_maps_url": "https://maps.app.goo.gl/cmSFTUEMA73hj9CC8",
+    "resolved_maps_url": "https://www.google.com/maps/place/Av.+Insurgentes+Sur+568,+Col+del+Valle+Nte,+Benito+Ju%C3%A1rez,+03103+Ciudad+de+M%C3%A9xico,+CDMX/@19.399131,-99.1731159,17z/data=!3m1!4b1!4m6!3m5!1s0x85d1ff6d006e4001:0xa3b3ca39a166cae5!8m2!3d19.399131!4d-99.170541!16s%2Fg%2F11bw508klp?entry=tts&g_ep=EgoyMDI2MDQxMi4wIPu8ASoASAFQAw%3D%3D&skid=2ac3df43-f0ee-4f01-89b6-fd734b781039",
+    "lat": 19.399131,
+    "lng": -99.1731159
+  },
+  {
+    "id": 34,
+    "address": "PERIFERICO SUR N°5185",
+    "reference": "Muy cerca del cruce de Periférico Sur con la Avenida Insurgentes Sur",
+    "category": "Muro + Espectacular",
+    "size": "12.90 x 7.20 M",
+    "width": 12.9,
+    "height": 7.2,
+    "area_m2": 92.88000000000001,
+    "price": 150000,
+    "available": true,
+    "images": [
+      "https://v5.airtableusercontent.com/v3/u/54/54/1780970400000/rrdFYrkLACZIntzuHWUMNw/lLlYV_WbnuqhWbqckEYX4lNJJ0O_Tes_Z16jVyK3YrPN-CVh9Vf-3yr3Lp8ePuO_NU0wOCGeBFbcs6CBOH7ZIxP6pUNJ4r-fL129og_eMyAjG4i-hnpGjlNd_qdy9O8-xXYTU8z6qqO-HgTnpCRvkzCKWNx5z3itUL5DOE3Eo7g/UHTsSirf4gJS6XgrCnzQXzwxf0uq4aFfZQigCyyvhns"
+    ],
+    "original_maps_url": "https://maps.app.goo.gl/BiRjWZtzDsdK1efr9",
+    "resolved_maps_url": "https://www.google.com/maps/place/Periferico+Sur+5185,+Isidro+Fabela,+Tlalpan,+14030+Ciudad+de+M%C3%A9xico,+CDMX/@19.3029508,-99.1788158,17z/data=!3m1!4b1!4m5!3m4!1s0x85ce006f9efea8bd:0xaf17de90383b4b7e!8m2!3d19.3029508!4d-99.1762409?entry=tts&g_ep=EgoyMDI2MDQxMi4wIPu8ASoASAFQAw%3D%3D&skid=5ec75e41-c264-48ec-889d-15283143494d",
+    "lat": 19.3029508,
+    "lng": -99.1788158
+  },
+  {
+    "id": 8,
+    "address": "INSURGENTES SUR N° 568 - MURO VIADUCTO",
+    "reference": "Ubicada entre Luz Savín y Filadelfia, casi frente a la estación del Metrobús La Piedad",
+    "category": "Muro",
+    "size": "15.10 x 13.60 M",
+    "width": 15.1,
+    "height": 13.6,
+    "area_m2": 205.35999999999999,
+    "price": 350000,
+    "available": true,
+    "images": [
+      "https://v5.airtableusercontent.com/v3/u/54/54/1780970400000/27UjcJQD2dVfINVU4231Zw/9o5vz8GVzsiL-lMRazkLnZ5cFjKQIaO6A4FqMODb46sknVhN3KYWqykxXiETo1ekTw3JWUptZ5eMsPTlPEo3Xo57j6eGoTwMUIgh5Ju8SxmC21Tn_Irkkgpq_wvIIKPVLXXYMVJJdmCaWYa5Ob6T-NyaN5TAYPxPA8evt6nS3PA/-_mHZIi7vuh2RRZmEVuzzeTOPxu-6RIkkpL39KTB5qM"
+    ],
+    "original_maps_url": "https://maps.app.goo.gl/cmSFTUEMA73hj9CC8",
+    "resolved_maps_url": "https://www.google.com/maps/place/Av.+Insurgentes+Sur+568,+Col+del+Valle+Nte,+Benito+Ju%C3%A1rez,+03103+Ciudad+de+M%C3%A9xico,+CDMX/@19.399131,-99.1731159,17z/data=!3m1!4b1!4m6!3m5!1s0x85d1ff6d006e4001:0xa3b3ca39a166cae5!8m2!3d19.399131!4d-99.170541!16s%2Fg%2F11bw508klp?entry=tts&g_ep=EgoyMDI2MDQxMi4wIPu8ASoASAFQAw%3D%3D&skid=2ac3df43-f0ee-4f01-89b6-fd734b781039",
+    "lat": 19.399131,
+    "lng": -99.1731159
+  },
+  {
+    "id": 32,
+    "address": "BLVD. ADOLFO LÓPEZ MATEOS 1817 (TORREO NEO)",
+    "reference": "Ubicación estratégica sobre Blvd. Adolfo López Mateos, una de las principales arterias de la ciudad",
+    "category": "Muro",
+    "size": "19.00 x 29.00 M",
+    "width": 19,
+    "height": 29,
+    "area_m2": 551,
+    "price": 1600000,
+    "available": true,
+    "images": [
+      "https://v5.airtableusercontent.com/v3/u/54/54/1780970400000/LOqRLtrf2Hf7mUCJSNh9TQ/7wEo3vgDbvxLJSOIdFhQMsivPUw6N6OPau53Pcg9sGHgGO3haKLY3QljC3YvUn0MkAVGzCQnZR_HVDTLb2Kar827qNL2Ql_eqt4aLL3MIk4ZD5Z-x03Ty1iL4vc9-jpMis8WxDITjQlkh_4QhQebpzkeH4x8T1ZqAiHe94413tc/dTGABtG1R1SKJseqb4HAbtMXYz1z_OxUjGYn1VT5frM"
+    ],
+    "original_maps_url": "https://www.google.com/maps?q=place_id:ChIJ44cEtSAA0oURBd42ZpJHnPI",
+    "resolved_maps_url": "https://www.google.com/maps?q=place_id:ChIJ44cEtSAA0oURBd42ZpJHnPI",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 27,
+    "address": "PERIFERICO MANUEL AVILA CAMACHO N° 131 (VISTA PALMAS)",
+    "reference": "Casi esquina con Prado Norte y muy cerca del edificio de Distrito Polanco",
+    "category": "Muro",
+    "size": "9.90 x 11.00 M",
+    "width": 9.9,
+    "height": 11,
+    "area_m2": 108.9,
+    "price": 485000,
+    "available": true,
+    "images": [
+      "https://v5.airtableusercontent.com/v3/u/54/54/1780970400000/Per3relnCBoOyjyGtSyF1g/WG2U7gmPp9O54cLfDnQ-S6BGaL6Pck3xReeK_S3Pl0bsATmnqVtJJXJx6wrY2-kydIpbUpwTbuxm1t0seoPzsFnk6om0syosOB3Gr8jQHI6t3wjI7xAeYLhJynVC37hC4PO6yg5Ys7zkjMIgNLF8AcK_j_w660y0X4z0mqh2fjc/EocfLB-K6us_Qd4vwYHyFo7t8hZLdsQwW5mRIQANWC8"
+    ],
+    "original_maps_url": "https://maps.app.goo.gl/LLYoxkTGQbTPH6t88",
+    "resolved_maps_url": "https://www.google.com/maps/place/Periferico+Sur+131,+San+Jer%C3%B3nimo+L%C3%ADdice,+La+Magdalena+Contreras,+10200+Ciudad+de+M%C3%A9xico,+CDMX/@19.3273554,-99.2152369,17z/data=!3m1!4b1!4m5!3m4!1s0x85cdff8cc9eeb015:0xfeee31551c29b8ca!8m2!3d19.3273554!4d-99.212662?entry=tts&g_ep=EgoyMDI2MDQxMi4wIPu8ASoASAFQAw%3D%3D&skid=dfcc81cc-e8cb-443a-9cf6-b03bb14a5e42",
+    "lat": 19.3273554,
+    "lng": -99.2152369
+  },
+  {
+    "id": 31,
+    "address": "AV. REVOLUCIÓN N°1348, GUADALUPE INN",
+    "reference": "Casi esquina con Barranca del Muerto y a solo dos cuadras de la estación del Metro Barranca del Muerto",
+    "category": "Muro",
+    "size": "15.00 x 25.00 M",
+    "width": 15,
+    "height": 25,
+    "area_m2": 375,
+    "price": 600000,
+    "available": true,
+    "images": [
+      "https://v5.airtableusercontent.com/v3/u/54/54/1780970400000/6HCLJups8HQHPx9nXyGr4A/cBcvkxeZ29_2Sg0kQgTaEH2UDatQGAlhsHOuxESingHiSEfTNRCGQIpQOYNE8N4xPy6e1S_-zQZLQVQJocloqJy30vrSWbiKAETMOv4OkFjmxjpyg87dBQemKCGu21pI7cU68KWtaBvS5RVufa4kN34vof23_UyacONvrAmWP6w/FG6yv9pSMvfb9FTpfLNjRMPGChMrtJ4oTqKTUB8Br6A"
+    ],
+    "original_maps_url": "https://maps.app.goo.gl/jNxbPryJkF6GGKUu6",
+    "resolved_maps_url": "https://www.google.com/maps/place/Av.+Revoluci%C3%B3n+1348,+Guadalupe+Inn,+%C3%81lvaro+Obreg%C3%B3n,+01020+Ciudad+de+M%C3%A9xico,+CDMX/@19.35792,-99.1942353,17z/data=!3m1!4b1!4m6!3m5!1s0x85d1fff565b61be3:0x32ec52ca3bcb4463!8m2!3d19.3579201!4d-99.1893644!16s%2Fg%2F11cpf6wlrc?entry=tts&g_ep=EgoyMDI2MDQxMi4wIPu8ASoASAFQAw%3D%3D&skid=393576ef-0698-45df-bd69-eed571f5d2b1",
+    "lat": 19.35792,
+    "lng": -99.1942353
+  },
+  {
+    "id": 18,
+    "address": "AV. UNIVERSIDAD N° 1883, COYOACÁN",
+    "reference": "Casi esquina con Copilco, y justo frente a la Unidad Habitacional Integración Latinoamericana",
+    "category": "Muro",
+    "size": "20.00 x 12.00 M",
+    "width": 20,
+    "height": 12,
+    "area_m2": 240,
+    "price": 350000,
+    "available": true,
+    "images": [
+      "https://v5.airtableusercontent.com/v3/u/54/54/1780970400000/LtS28FcXZdHXv9w2l1-2dg/7xg6YyZBXu_1Qn2kVUATl0qqhQTui3lhzzYYm1bM9sR-emPF12yRAMw1iYigidwIhXSkAVTgvCVgfMXV3PxkOjcWnJjBty7eL4ngnYurQZ7K-_CiLDCv-HF5cwvCPZMP6ghcM8fMDP5anL2ejM6h5ikd_XGE0qyWVZOtZnnE6hQ/mKOM8NmogAPJakWlGLn0yywpLAKlAmGZ2O8VYTGulFg"
+    ],
+    "original_maps_url": "https://maps.app.goo.gl/ZxTLTXskFy5Taghz7",
+    "resolved_maps_url": "https://www.google.com/maps/place/Av.+Universidad+1883,+Copilco+Universidad,+Coyoac%C3%A1n,+04318+Ciudad+de+M%C3%A9xico,+CDMX/@19.3422988,-99.1843125,17z/data=!3m1!4b1!4m6!3m5!1s0x85d1fffc7e6653b3:0xd9a0a62725d6cef9!8m2!3d19.3422988!4d-99.1817376!16s%2Fg%2F11snpx__r9?entry=tts&g_ep=EgoyMDI2MDQxMi4wIPu8ASoASAFQAw%3D%3D&skid=027bcf5e-c9de-41bd-9611-48a002e87e58",
+    "lat": 19.3422988,
+    "lng": -99.1843125
+  },
+  {
+    "id": 36,
+    "address": "VIADUCTO MIGUEL ALEMÁN NO. 35 ESQ. HÉROES DE CHURUBUSCO",
+    "reference": "A solo unos metros de la Avenida Revolución",
+    "category": "Muro + Espectacular",
+    "size": "12.90 x 7.20 M",
+    "width": 12.9,
+    "height": 7.2,
+    "area_m2": 92.88000000000001,
+    "price": 145000,
+    "available": true,
+    "images": [
+      "https://v5.airtableusercontent.com/v3/u/54/54/1780970400000/E5pM5Ld8JwucQzbDts2nCA/JB5GDQKujlqzcvoXKBbKj-yX5hwHjtwnG4JGpMMoCUVJmgrhe6KjfmAXt77wzceX7yq-88sO_sE5LY5F9FjhvVb54-dvooqmvwRHwssQ6oM35TzvF57NctvHbvVWNa7TdN-mRCTThsvByI5fzo1-fdmcFQosaYfE2STaQyPQO9w/LTSmn0Dn2Z-wdlccHxQNLsg_l5Cq_lPpLV_54k3xIYM"
+    ],
+    "original_maps_url": "https://maps.app.goo.gl/1djv5WYk56PMWKvf7",
+    "resolved_maps_url": "https://www.google.com/maps/place/Viad.+Pdte.+Miguel+Alem%C3%A1n+Vald%C3%A9s+35,+Roma+Sur,+Cuauht%C3%A9moc,+06760+Ciudad+de+M%C3%A9xico,+CDMX/@19.4042091,-99.1601547,17z/data=!3m1!4b1!4m6!3m5!1s0x85d1ff17420a06b3:0xfe8e3254590ba063!8m2!3d19.4042091!4d-99.1575798!16s%2Fg%2F11c2czny6q?entry=tts&g_ep=EgoyMDI2MDQxMi4wIPu8ASoASAFQAw%3D%3D&skid=63c9bbcc-7de4-471d-a36b-16968cfe7f6c",
+    "lat": 19.4042091,
+    "lng": -99.1601547
+  },
+  {
+    "id": 75,
+    "address": "VIA MORELOS N° 252, COL. SANTA MARÍA TULPETLAC, ECATEPEC",
+    "category": "Muro + Espectacular",
+    "size": "12.90 x 10.80 M",
+    "width": 12.9,
+    "height": 10.8,
+    "area_m2": 139.32000000000002,
+    "price": 40000,
+    "available": true,
+    "images": [],
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 3,
+    "address": "CARR. MEXICO - CUERNAVACA N° 51",
+    "reference": "Salida de México a Cuernavaca, cerca del monumento Caminero",
+    "category": "Muro + Espectacular",
+    "size": "12.90 x 7.20 M",
+    "width": 12.9,
+    "height": 7.2,
+    "area_m2": 92.88000000000001,
+    "price": 130000,
+    "available": true,
+    "images": [
+      "https://v5.airtableusercontent.com/v3/u/54/54/1780970400000/NrgUgEi1tU4Ab69xrwSCiA/MMoHud8xDsGp9BZmxYj9UT32YHJWUT7MpkYT9cTi6uJRpoHCpNrUOKPLIFis1AdEacrhNffuy92Te6AnQCoNIqZHDHuzA_Kcakn5_N7Jl9S0Rp05K2MCnoPrDnX3Ie0QBuM19y6bE-nD3KRk3r_CBxygKqQw4bscrbRZphb9cnE/n3mpFkhKvAWMW1PiW4wMSpV9nSW2PaAu5pwlq9pALNY"
+    ],
+    "original_maps_url": "https://maps.app.goo.gl/4Aog9syfTQbeQJW96",
+    "resolved_maps_url": "https://www.google.com/maps/place/M%C3%A9xico-cuernavaca+51,+Tecorral,+Tlalpan,+14409+Ciudad+de+M%C3%A9xico,+CDMX/@19.261694,-99.1687428,17z/data=!3m1!4b1!4m6!3m5!1s0x85ce00c0c635b55b:0x3b535aa0dd826945!8m2!3d19.261694!4d-99.1661679!16s%2Fg%2F11c4n00xr9?entry=tts&g_ep=EgoyMDI2MDQxMi4wIPu8ASoASAFQAw%3D%3D&skid=02fe2fd8-1ef3-418c-8553-a88c84db8b64",
+    "lat": 19.261694,
+    "lng": -99.1687428
+  },
+  {
+    "id": 67,
+    "address": "PERIFERICO N°1795",
+    "category": "Muro",
+    "size": "—",
+    "available": true,
+    "images": [],
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 60,
+    "address": "AEROPUERTO - AICM T2 - PANTALLA",
+    "category": "Pantalla Digital",
+    "size": "13.00 x 7.00 M",
+    "width": 13,
+    "height": 7,
+    "area_m2": 91,
+    "price": 250000,
+    "available": true,
+    "images": [],
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 82,
+    "address": "BLD.DE LAS NACIONES KM.14.5 (PUERTO AL APTO.)",
+    "category": "Muro + Espectacular",
+    "size": "12.90 x 7.20 M",
+    "width": 12.9,
+    "height": 7.2,
+    "area_m2": 92.88000000000001,
+    "price": 40000,
+    "available": true,
+    "images": [],
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 78,
+    "address": "BLVD. MIGUEL ALEMAN. ESQ. CAMINO AL CERRILLO",
+    "category": "Muro + Espectacular",
+    "size": "25.00 x 7.20 M",
+    "width": 25,
+    "height": 7.2,
+    "area_m2": 180,
+    "price": 55000,
+    "available": true,
+    "images": [],
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 25,
+    "address": "PERIFERICO MANUEL AVILA CAMACHO N° 131 (ESPECTACULAR)",
+    "reference": "Av. Paseo de las Palmas y Periférico",
+    "category": "Muro + Espectacular",
+    "size": "12.90 x 7.20 M",
+    "width": 12.9,
+    "height": 7.2,
+    "area_m2": 92.88000000000001,
+    "price": 150000,
+    "available": true,
+    "images": [
+      "https://v5.airtableusercontent.com/v3/u/54/54/1780970400000/QW9GrFLC9uuJQka_nE4GqA/2T2_1BY1sq4UoOvbTyZf0jyBz-dPhtxGDxrkbyqjUY9sx8gNUeXCRZjDlRsMAtFqGracDBcRO-97tMdVYhHXHSC6xM9PQiStkLEYmUFBtcEn_H0lioKQzeT53vMGXpFfEzlSLDYxT6sTl1WjV3M7qwiy2qJJ_-Oufh9VdAWyW4g/AKRRaSKj-jjeTwP_j7LaZKMSlElL0d4ig6s774jJqto"
+    ],
+    "original_maps_url": "https://maps.app.goo.gl/HTvwFMzz9CF121K27",
+    "resolved_maps_url": "https://www.google.com/maps/place/Periferico+Sur+133,+San+Jer%C3%B3nimo+L%C3%ADdice,+La+Magdalena+Contreras,+10200+Ciudad+de+M%C3%A9xico,+CDMX/@19.3273593,-99.2152343,17z/data=!3m1!4b1!4m5!3m4!1s0x85cdff8cc9eeb015:0xc28a8a1e79452fb7!8m2!3d19.3273593!4d-99.2126594?entry=tts&g_ep=EgoyMDI2MDQyMS4wIPu8ASoASAFQAw%3D%3D&skid=c11ecd33-772b-404a-85ee-26268366aaad",
+    "lat": 19.3273593,
+    "lng": -99.2152343
+  },
+  {
+    "id": 13,
+    "address": "SUPER VIA PONIENTE, DIRECCION SAN JERONIMO",
+    "reference": "Dirección San Jerónimo",
+    "category": "Muro + Espectacular",
+    "size": "12.90 x 7.20 M",
+    "width": 12.9,
+    "height": 7.2,
+    "area_m2": 92.88000000000001,
+    "price": 145000,
+    "available": true,
+    "images": [
+      "https://v5.airtableusercontent.com/v3/u/54/54/1780970400000/54Dg8k-7lnhorb0F9t2hnQ/n7GKqTASVB1_Olh5JDSdkClgrVNy5iq_iE3KRyxzvh7wSsC8JGE5GzdcMvmpmw0XcCTbCHrPaGhnlKwSHyKYm32BSgfrJi0_-CIp0NMPG1r8QEfhAVeVseXYUWeHiNqbueXG3nVX5h5BW3hgjrQQ27WPsra-23f_vAetLRDn-Ts/4iFBm4wnjhbnlmgCdxbj9CyIwUbjdT20Z0Lf0LwKS-0"
+    ],
+    "original_maps_url": "https://maps.app.goo.gl/LFUMEsz6pZsnBRwE9",
+    "resolved_maps_url": "https://www.google.com/maps/place/19%C2%B020'43.6%22N+99%C2%B014'49.7%22W/@19.345434,-99.247131,17z/data=!3m1!4b1!4m4!3m3!8m2!3d19.345434!4d-99.247131?entry=tts&g_ep=EgoyMDI2MDEwNy4wIPu8ASoASAFQAw%3D%3D&skid=786847f2-0446-43ea-8fff-1efc6c089709",
+    "lat": 19.345434,
+    "lng": -99.247131
+  },
+  {
+    "id": 24,
+    "address": "PERIFERICO SUR N°3380, COL. JARDINES DEL PEDREGAL",
+    "reference": "Justo frente al Hospital Ángeles del Pedregal y muy cerca del centro comercial Artz Pedregal",
+    "category": "Muro + Espectacular",
+    "size": "12.90 x 7.20 M",
+    "width": 12.9,
+    "height": 7.2,
+    "area_m2": 92.88000000000001,
+    "price": 150000,
+    "available": true,
+    "images": [
+      "https://v5.airtableusercontent.com/v3/u/54/54/1780970400000/RsNkQJVWMPZkXWdYa27lXQ/zM1PSkalwknBEQfC6NqxsRhscgKZOIg81ZTPqxnq1jkhS6cOG-i8XDpSBhWoSdcilAx6NOM56P_X34e6Gm470qYoZIFGPywCSdA9E24eoQizLXod2P1ParpP8uKfBP2neFo-DZQBPf4J27sDZo2vO6UdbwfU4wxW2BoZeLJDpEw/P5oqykBG6n1D6ipOw1ibjHMJNcvv2GYilK70x5dgpjU"
+    ],
+    "original_maps_url": "https://maps.app.goo.gl/HuvJxhxoFzSCqyv16",
+    "resolved_maps_url": "https://www.google.com/maps/place/Periferico+Sur+3380,+Conjunto+Residencial+del+Pedregal,+%C3%81lvaro+Obreg%C3%B3n,+14130+Ciudad+de+M%C3%A9xico,+CDMX/@19.3221788,-99.22036,17z/data=!3m1!4b1!4m6!3m5!1s0x85cdff91f7a3fad3:0x5c232d74d4a018c9!8m2!3d19.3221788!4d-99.2177851!16s%2Fg%2F11bw4ptpcs?entry=tts&g_ep=EgoyMDI2MDQxMi4wIPu8ASoASAFQAw%3D%3D&skid=7acb36b6-e570-45c5-9c4e-2d4e8ed316f2",
+    "lat": 19.3221788,
+    "lng": -99.22036
+  },
+  {
+    "id": 45,
+    "address": "ALFONSO REYES N° 152, HIPÓDROMO CONDESA",
+    "reference": "Ubicación estratégica en el corazón de una zona altamente transitada de la CDMX",
+    "category": "Muro",
+    "size": "8.00 x 13.00 M",
+    "width": 8,
+    "height": 13,
+    "area_m2": 104,
+    "price": 1900000,
+    "available": true,
+    "images": [
+      "https://v5.airtableusercontent.com/v3/u/54/54/1780970400000/C3OOYRIZ5IT-xBPJrXSOAQ/Oo2VQ90V5qoFcDnnY8ridDXhW9frPlCBeM_YGKMBrUwaDoqBYrOoheEz4dfDOgF3I8VhMY3sOiQng16k6BHWk6alk17BkBTpJWCyF70VzMzUBHt8h9cYA8kn2Re7j_DcfyTZqmUMstAsCAk-yYk4hC4_H4fpZFB6sc96j7RROZM/Ie8u4H-YqkNi8u8WK96KxE5NZxmRJiQlK8FD2BMAvu0"
+    ],
+    "original_maps_url": "https://maps.app.goo.gl/FtJXUzsQyv88ftnr8",
+    "resolved_maps_url": "https://www.google.com/maps/place/Alfonso+Reyes+152,+Hip%C3%B3dromo,+Cuauht%C3%A9moc,+06100+Ciudad+de+M%C3%A9xico,+CDMX/@19.4086214,-99.178537,17z/data=!3m1!4b1!4m6!3m5!1s0x85d1ff42625907ed:0x431e282cceb8bf3e!8m2!3d19.4086214!4d-99.1759621!16s%2Fg%2F11cphvwzfv?entry=tts&g_ep=EgoyMDI2MDEwNC4wIPu8ASoASAFQAw%3D%3D&skid=f134a9ea-4ec0-438e-a3a3-1609ce0f1408",
+    "lat": 19.4086214,
+    "lng": -99.178537
+  },
+  {
+    "id": 10,
+    "address": "PERIFERICO BLD. A.LOPEZ MATEOS N° 2799",
+    "reference": "Justo a una cuadra de Av. Altavista. Muy cerca de la Glorieta de San Jerónimo",
+    "category": "Muro + Espectacular",
+    "size": "12.90 x 7.20 M",
+    "width": 12.9,
+    "height": 7.2,
+    "area_m2": 92.88000000000001,
+    "price": 150000,
+    "available": true,
+    "images": [
+      "https://v5.airtableusercontent.com/v3/u/54/54/1780970400000/QyPYmSHse5sI__mzFAc_1w/H_NK2_frh9_lz0ZcQ_9OrW_WRk2XmxSfII5c1-9kw3Y0GTF-OZkUxkJQx1mKU1bw0NgfhnFP4bVDjga8QWNKJ0oMM2eeIB9u8CB0f2dcaMgeS9zfkC54nq8fYixlrbFb76GBeKJQzi4gdKagPkUwMQvxf7SyinRiYPxXVUWm9ls/3aE_TlUdQDkHz0NdFvvP1yh6CRrv_tzNZqb2zoBBVGo"
+    ],
+    "original_maps_url": "https://maps.app.goo.gl/MAFM8U3osVZFWdt19",
+    "resolved_maps_url": "https://www.google.com/maps/place/Periferico+Sur+2799,+San+Jer%C3%B3nimo+L%C3%ADdice,+La+Magdalena+Contreras,+10200+Ciudad+de+M%C3%A9xico,+CDMX/@19.3254517,-99.2173026,17z/data=!3m1!4b1!4m6!3m5!1s0x85cdff8d08758e0d:0x96ba037432eaa1a9!8m2!3d19.3254517!4d-99.2147277!16s%2Fg%2F11rtdb97n5?entry=tts&g_ep=EgoyMDI2MDQxMi4wIPu8ASoASAFQAw%3D%3D&skid=66a93d43-94f2-427f-9eab-7ad95a099df6",
+    "lat": 19.3254517,
+    "lng": -99.2173026
+  },
+  {
+    "id": 1,
+    "address": "VIAD. RIO PIEDAD N° 108",
+    "reference": "Dirección Av. Río Churubusco y Aeropuerto. Frente al Autódromo Hermanos Rodríguez",
+    "category": "Muro",
+    "size": "10.50 x 7.20 M",
+    "width": 10.5,
+    "height": 7.2,
+    "area_m2": 75.60000000000001,
+    "price": 85000,
+    "available": true,
+    "images": [
+      "https://v5.airtableusercontent.com/v3/u/54/54/1780970400000/5INzRYs17Tk1dd3kCw2LPA/RBs-SgWO4mEw6WdCXH_ZTLG3nVAxXbQBOpoZ07GkMT5vp_B7zX4W92_83bD4MW1LgVF2CC-9vZbZUTj5MLvuvjsCXRU0KplmMVoB5EX3yc0ELInd6gD88TOGaiZJO1hRA02-T78cSNudqT3T_DGjpoNputURE17TtAZTEg2X9qw/hmL8EJORCnsAm2_LszrRYXH6g4iXCuhpEJG7mOxHsLk"
+    ],
+    "original_maps_url": "https://maps.app.goo.gl/iH5NqH1xH84iQM48A",
+    "resolved_maps_url": "https://www.google.com/maps/place/Viad.+R%C3%ADo+de+la+Piedad+108,+Asturias,+Cuauht%C3%A9moc,+08200+Ciudad+de+M%C3%A9xico,+CDMX/@19.4029652,-99.1323786,17z/data=!3m1!4b1!4m5!3m4!1s0x85d1feef3b5cb461:0xf8b3a8967d1ce16f!8m2!3d19.4029652!4d-99.1323786?entry=tts&g_ep=EgoyMDI2MDEyOC4wIPu8ASoASAFQAw%3D%3D&skid=2cfd9549-0fe5-4037-89f1-60fb111d6666",
+    "lat": 19.4029652,
+    "lng": -99.1323786
+  },
+  {
+    "id": 33,
+    "address": "BLVD. ADOLFO LÓPEZ MATEOS 1817 (TORREO NEO)",
+    "reference": "Ubicación estratégica sobre Blvd. Adolfo López Mateos",
+    "category": "Muro",
+    "size": "19.00 x 29.00 M",
+    "width": 19,
+    "height": 29,
+    "area_m2": 551,
+    "price": 1500000,
+    "available": true,
+    "images": [
+      "https://v5.airtableusercontent.com/v3/u/54/54/1780970400000/Djysu9QXHyocQDHrTyKLLg/VTz4UWFdq05GQaKkryxJdPMxCJtHpHv2xYwEGeQlRlpQjtfsdG3BDMJNEXOjXJzBR5NTLWZWE28q--VZ99tncSJhyOI12HKorPYXPlihoFzbfwuoQgeBQ6k-_2A09UoZPXg6G7uKbAuXP2ZVAj3kheqPwJa9n3rAYhhp4rynVHo/deLwU9158CM6ky5r4F_eGki7A9R27GDtlUpLXD1In-0"
+    ],
+    "original_maps_url": "https://www.google.com/maps?q=place_id:ChIJ44cEtSAA0oURBd42ZpJHnPI",
+    "resolved_maps_url": "https://www.google.com/maps?q=place_id:ChIJ44cEtSAA0oURBd42ZpJHnPI",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 65,
+    "address": "VALLAS MELCHOR OCAMPO - VALLA A",
+    "reference": "A solo una cuadra del Parque México",
+    "category": "Valla",
+    "size": "—",
+    "available": true,
+    "images": [
+      "https://v5.airtableusercontent.com/v3/u/54/54/1780970400000/G2Zs7-TJyAu2UwHP0Hr9pA/-vPT45l3c2nf2lZZpHqr8lkppxdszGZ-anynhZuNYJzgaR-gtGZJDrFxUgdHCsAkglCAg5QeyC7qGNnxYkobImje6VA4d8VqbwGUg_iCsSimapt5F_mfqqXz5bkGGSINv6XWM_ydwwT7X35P_E7q_dSrfs9o7olbzDrzN-VVUIY/zweorBIbWa43vRjfg2fjDeugFZ27LLGOn8FGARy4VXc"
+    ],
+    "original_maps_url": "https://maps.app.goo.gl/tbv5Xx6baxrcNnye6",
+    "resolved_maps_url": "https://www.google.com/maps/place/Av+Melchor+Ocampo+379,+Romero+de+Terreros,+Coyoac%C3%A1n,+04310+Ciudad+de+M%C3%A9xico,+CDMX/@19.342882,-99.1716476,17z/data=!3m1!4b1!4m6!3m5!1s0x85d1ffe13465b8ab:0x2779c9cc63428eff!8m2!3d19.342882!4d-99.1716476!16s%2Fg%2F11c17tpzkz?entry=tts&g_ep=EgoyMDI2MDMxMC4wIPu8ASoASAFQAw%3D%3D&skid=1183e68c-e41f-4450-829c-5c46730462d9",
+    "lat": 19.342882,
+    "lng": -99.1716476
+  },
+  {
+    "id": 51,
+    "address": "AV CONSTITUYENTES N°643, COL.16 DE SEPT",
+    "reference": "Av. Constituyentes N647",
+    "category": "Muro",
+    "size": "10.00 x 17.00 M",
+    "width": 10,
+    "height": 17,
+    "area_m2": 170,
+    "price": 380000,
+    "available": true,
+    "images": [
+      "https://v5.airtableusercontent.com/v3/u/54/54/1780970400000/f1oHDRpA8TRfokPQ0n2Agg/KNy4BvTxMen0VNOMxCI_559B-j2jPQQYDY4Tg0FD7w3P8GArECZq6uSNzm1Q5igwqBdUqxJzrt4EOsa30ExZu1_g-qE_3wVYVihH9UiVagzQQzuK3pmps0OF8mDCNg5C21ezZFmANOZtM3WK6z-490CGonWdshKO9U96CVt-Y8M/Q9cvuubssE5Ham-QC8MRCdP39YGNzLNZg3yIoRABbQY"
+    ],
+    "original_maps_url": "https://www.google.com/maps?q=place_id:ChIJZRjy3cAB0oURLpwpX-0DQaI",
+    "resolved_maps_url": "https://www.google.com/maps?q=place_id:ChIJZRjy3cAB0oURLpwpX-0DQaI",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 35,
+    "address": "PERIFERICO SUR N°5185",
+    "category": "Muro + Espectacular",
+    "size": "12.90 x 7.20 M",
+    "width": 12.9,
+    "height": 7.2,
+    "area_m2": 92.88000000000001,
+    "available": true,
+    "images": [],
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 4,
+    "address": "CARR. MEXICO - CUERNAVACA N° 51",
+    "reference": "Entrada de Cuernavaca a México, cerca del monumento Caminero",
+    "category": "Muro + Espectacular",
+    "size": "12.90 x 7.20 M",
+    "width": 12.9,
+    "height": 7.2,
+    "area_m2": 92.88000000000001,
+    "price": 130000,
+    "available": true,
+    "images": [
+      "https://v5.airtableusercontent.com/v3/u/54/54/1780970400000/TPQMlvbF0X4UmI2q9cLwbg/HvygW8rvv9xNYLEYZ9zE37QcFRv06IVeeBtQyyTkOC1K3-8K5kOMhhQMclY8_LTCoqEhPEcj-2tCEvqKdW63O3cYWxrElO2LkRR5MA8GcaKzPUZVvzZY_MvAAdj75x4CQOh64xxYdcu5KdrRzcI6oXeo7C2PNV7stneOjdHlSOM/r8WKlzm3cbVg9w0w2B2bpOLJICGf1i51oT4kuoJl1HM"
+    ],
+    "original_maps_url": "https://maps.app.goo.gl/4Aog9syfTQbeQJW96",
+    "resolved_maps_url": "https://www.google.com/maps/place/M%C3%A9xico-cuernavaca+51,+Tecorral,+Tlalpan,+14409+Ciudad+de+M%C3%A9xico,+CDMX/@19.261694,-99.1687428,17z/data=!3m1!4b1!4m6!3m5!1s0x85ce00c0c635b55b:0x3b535aa0dd826945!8m2!3d19.261694!4d-99.1661679!16s%2Fg%2F11c4n00xr9?entry=tts&g_ep=EgoyMDI2MDQxMi4wIPu8ASoASAFQAw%3D%3D&skid=02fe2fd8-1ef3-418c-8553-a88c84db8b64",
+    "lat": 19.261694,
+    "lng": -99.1687428
+  },
+  {
+    "id": 76,
+    "address": "VIA MORELOS N° 252, COL. SANTA MARÍA TULPETLAC, ECATEPEC",
+    "category": "Muro + Espectacular",
+    "size": "12.90 x 10.80 M",
+    "width": 12.9,
+    "height": 10.8,
+    "area_m2": 139.32000000000002,
+    "price": 35000,
+    "available": true,
+    "images": [],
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 40,
+    "address": "AV. ALVARO OBREGÓN N°52, COL. ROMA NORTE",
+    "reference": "Av. Álvaro Obregón N44",
+    "category": "Muro",
+    "size": "9.00 x 13.00 M",
+    "width": 9,
+    "height": 13,
+    "area_m2": 117,
+    "price": 250000,
+    "available": true,
+    "images": [
+      "https://v5.airtableusercontent.com/v3/u/54/54/1780970400000/s5howZbDZfE9iKGVuldWiQ/bW8V8YYpbqyIAEZ-23mSJfXWrTJr13oLSb8gvqg9vvIdRMCvm7npaJXqewtMbB0Z7kjSLdYqnntLbpUQDu753GypNKkTWAi_jOo0LsAjwEVaYPmvZIYKsoGNT0lmVRCDZAdWmNVNXp-zCTYnQ1B9IP3K3yOEJaXnOFPp98n1PZE/y4yZfZ9hq05C8AmwCa_TZEq7aUa1trw7_YeLIUbnop0"
+    ],
+    "original_maps_url": "https://maps.app.goo.gl/E22XRwrVfommCmGe9",
+    "resolved_maps_url": "https://www.google.com/maps/place/Av.+%C3%81lvaro+Obreg%C3%B3n+44,+La+Cruz,+La+Magdalena+Contreras,+10800+Ciudad+de+M%C3%A9xico,+CDMX/@19.3055743,-99.239766,17z/data=!3m1!4b1!4m7!3m6!1s0x85cdff0a0e1c0213:0xcbb526c02f19c719!8m2!3d19.3055744!4d-99.2348951!15sChVhdi4gYWx2YXJvIG9icmVnb24gNDSSARFjb21wb3VuZF9idWlsZGluZ-ABAA!16s%2Fg%2F11bzz6238v?entry=tts&g_ep=EgoyMDI2MDQxMi4wIPu8ASoASAFQAw%3D%3D&skid=9ee52e21-eaa9-4697-b1a7-9494113d2b4d",
+    "lat": 19.3055743,
+    "lng": -99.239766
+  },
+  {
+    "id": 12,
+    "address": "SUPER VIA PONIENTE, DIRECCION SANTA FE",
+    "reference": "Dirección Santa Fe",
+    "category": "Muro + Espectacular",
+    "size": "12.90 x 7.20 M",
+    "width": 12.9,
+    "height": 7.2,
+    "area_m2": 92.88000000000001,
+    "price": 145000,
+    "available": true,
+    "images": [
+      "https://v5.airtableusercontent.com/v3/u/54/54/1780970400000/j0Li5toqKC76Y_Tkc6DvDg/8_DBv6MogflOhn_WagtcbdI0aRwMnxaTW6rJ8Md_A1LXGWV8YpeXo1EucF8MLvyV29ETdVrU6zUp-WeW3xNG7PYScA7hBZLuqF393cKDVRozvMr3yZ2IZVuHH7eAbZx7yt-tcc_ZNPHjiipnM_okEJ-3jSJgO_ZEQIQ1iKla3P0/0rt9V4PCHxri3ZrHKsSGPeePyDPYGxuIxEnFA4w-sHg"
+    ],
+    "original_maps_url": "https://maps.app.goo.gl/kQwUYDgS5gUnW5Zt6",
+    "resolved_maps_url": "https://www.google.com/maps/place/19%C2%B020'43.6%22N+99%C2%B014'49.7%22W/@19.345434,-99.247131,17z/data=!3m1!4b1!4m4!3m3!8m2!3d19.345434!4d-99.247131?entry=tts&g_ep=EgoyMDI2MDEwNy4wIPu8ASoASAFQAw%3D%3D&skid=7b7f176b-7410-4375-9253-9dfb34f4ec55",
+    "lat": 19.345434,
+    "lng": -99.247131
+  },
+  {
+    "id": 9,
+    "address": "MONTERREY N° 172",
+    "reference": "A solo un par de cuadras del Mercado Roma",
+    "category": "Muro",
+    "size": "12.90 x 7.20 M",
+    "width": 12.9,
+    "height": 7.2,
+    "area_m2": 92.88000000000001,
+    "price": 90000,
+    "available": true,
+    "images": [
+      "https://v5.airtableusercontent.com/v3/u/54/54/1780970400000/DGOEVX7KTr0P5qXgptWiWQ/xOlhVvue-eESn9w_qoRmXEkoU0iPo8r4dt0emmmRCnnZQsMemlufO-E6argCt572PZ1AnefQD7gCirlyNPXfOPw6WgUNsZXuHIeB4sRxVYmVvTdm1U9Ub5fPVMCfActRtvl598yGgkAqIgxsr2Ju24PXVziVR1KqhR-g65xU7Hg/hdetNB8T48IIk5opU86x50n7qc3yZnpQ9d6O4CuRGDU"
+    ],
+    "original_maps_url": "https://maps.app.goo.gl/ydGa2hYUNP8aMFt77",
+    "resolved_maps_url": "https://www.google.com/maps/place/Monterrey+172,+Roma+Nte.,+Cuauht%C3%A9moc,+06700+Ciudad+de+M%C3%A9xico,+CDMX/@19.414668,-99.1657259,17z/data=!3m1!4b1!4m6!3m5!1s0x85d1ff394ebc4071:0xafd7ecf9c35a0e6f!8m2!3d19.414668!4d-99.163151!16s%2Fg%2F11bw3xw56_?entry=tts&g_ep=EgoyMDI2MDQxMi4wIPu8ASoASAFQAw%3D%3D&skid=a834235d-f32e-4cd2-b4f5-b8118f1ae41e",
+    "lat": 19.414668,
+    "lng": -99.1657259
+  },
+  {
+    "id": 43,
+    "address": "PERIFÉRICO, ESQ. GUITIERREZ DE MENDOZA N° 13",
+    "reference": "Dirección a Polanco, a 500m de Hipódromo de las Américas",
+    "category": "Muro + Espectacular",
+    "size": "12.90 x 7.20 M",
+    "width": 12.9,
+    "height": 7.2,
+    "area_m2": 92.88000000000001,
+    "price": 150000,
+    "available": true,
+    "images": [
+      "https://v5.airtableusercontent.com/v3/u/54/54/1780970400000/FYK-I9lTd5T5i0IAZ3Vupg/gW9V54KAT0LZSoAGfyJ6Np2Sz2fGd_5Y1-pEinxz0SWN6co5KOtXXldk4hwD04zY55IU14qdEH8T6jkTP05elGCa_7-q_eWrJsIDjCd7YznxP-wxZnWSbhu-vfn3MFLCncQjU_G2pqI-SqxMu0SKDRZok8WaVVkmlE8_dU_hKlk/S0raYYeQ73Ex8jZsbzgFLXn-gZHlRYQTbstEbsAoQtc"
+    ],
+    "original_maps_url": "https://maps.app.goo.gl/dY8NycoRWxaRkJc17",
+    "resolved_maps_url": "https://www.google.com/maps/place/Periferico+Sur+13,+Belisario+Dom%C3%ADnguez+Secc+16,+Tlalpan,+14080+Ciudad+de+M%C3%A9xico,+CDMX/@19.2942563,-99.1570115,17z/data=!3m1!4b1!4m5!3m4!1s0x85ce00570f77c963:0x71a470c1e5adfa02!8m2!3d19.2942563!4d-99.1544366?entry=tts&g_ep=EgoyMDI2MDQxMi4wIPu8ASoASAFQAw%3D%3D&skid=6e1c7294-1244-4e65-9b45-b0de3865ee91",
+    "lat": 19.2942563,
+    "lng": -99.1570115
+  },
+  {
+    "id": 39,
+    "address": "JALAPA 15, ROMA NTE., CUAUH. GLORIETA DE INSURGENTES",
+    "category": "Muro",
+    "size": "25.00 x 19.00 M",
+    "width": 25,
+    "height": 19,
+    "area_m2": 475,
+    "price": 1800000,
+    "available": true,
+    "images": [],
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 66,
+    "address": "PERIFERICO N°1795",
+    "category": "Muro",
+    "size": "—",
+    "available": true,
+    "images": [],
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 22,
+    "address": "PERIFERICO SUR N°3380, COL. JARDINES DEL PEDREGAL",
+    "reference": "Justo frente al Hospital Ángeles del Pedregal y a muy corta distancia de la plaza comercial Artz Pedregal",
+    "category": "Muro",
+    "size": "9.40 x 15.20 M",
+    "width": 9.4,
+    "height": 15.2,
+    "area_m2": 142.88,
+    "price": 800000,
+    "available": true,
+    "images": [
+      "https://v5.airtableusercontent.com/v3/u/54/54/1780970400000/OhSM1R-5xxMv5-dsRV0E_Q/o2g-H2GWHX1dIwpZ43j1KdtASXG94_MtLFa8Npbaz_NthpdnmdEpEPCOQE0GOYmNJbRk3jcsSl-Ma1vLmzs4xCdyBo5zqj0zUwwg7pDLx-Jx5LW-FdzS5es_2_UbGYmkesyVH5mwmUOzMAyocjXYiwVDeT0W9Lp3BjXYpIjR3X8/1LMVNTWRm-S5kdYNQ4idou9wLG-jluVhgzOcev7ohyI"
+    ],
+    "original_maps_url": "https://maps.app.goo.gl/ZQ8982Nejo4Fva1j8",
+    "resolved_maps_url": "https://www.google.com/maps/place/Periferico+Sur+3380,+Conjunto+Residencial+del+Pedregal,+%C3%81lvaro+Obreg%C3%B3n,+14130+Ciudad+de+M%C3%A9xico,+CDMX/@19.3104199,-99.2229458,17z/data=!3m1!4b1!4m6!3m5!1s0x85cdffbde48d64d7:0x18457fa04094cccd!8m2!3d19.31042!4d-99.2180749!16s%2Fg%2F11c1950ckw?entry=tts&g_ep=EgoyMDI2MDQxMi4wIPu8ASoASAFQAw%3D%3D&skid=ce18cd61-4916-463a-bf11-3454b01db4dd",
+    "lat": 19.3104199,
+    "lng": -99.2229458
+  },
+  {
+    "id": 41,
+    "address": "AV. INSURGENTES N° 377, COL. ROMA",
+    "reference": "Entre Campeche y Chilpancingo, justo a unos metros de la estación del Metrobús Campeche",
+    "category": "Muro",
+    "size": "24.00 x 10.00 M",
+    "width": 24,
+    "height": 10,
+    "area_m2": 240,
+    "price": 370000,
+    "available": true,
+    "images": [
+      "https://v5.airtableusercontent.com/v3/u/54/54/1780970400000/_2RJl8x22HmWkdoKOWhljA/CFb_4xqSg6iAngXI7QoVB6zKhXbYNcqhEt-xrUILgxkYrRr9DHqxq9j2hG0RAJRSbNC7bzPmYV3rScYT-x6eptloNHD3YwECODKIf0NzR2ytyPYTbvHIwzg_SqfuQPfOwTsDT6Qii9kRkUAak5cJKIq5tx9hqRdNquwF5Yp0IDs/LaS2Ah8IflOecJBDiuGgCuGs6YGK9SX8M8pmz8go84o"
+    ],
+    "original_maps_url": "https://maps.app.goo.gl/7rkBxZCMRUZmHfWJA",
+    "resolved_maps_url": "https://www.google.com/maps/place/Av.+Insurgentes+Sur+377,+Hip%C3%B3dromo,+Cuauht%C3%A9moc,+06140+Ciudad+de+M%C3%A9xico,+CDMX/@19.4101571,-99.1698914,17z/data=!3m1!4b1!4m6!3m5!1s0x85d1ff39dec9e8d5:0x814d0d49050b424a!8m2!3d19.4101571!4d-99.1673165!16s%2Fg%2F11p12vgk34?entry=tts&g_ep=EgoyMDI2MDQxMi4wIPu8ASoASAFQAw%3D%3D&skid=b6031d99-be14-44f8-890e-b86247f9d7df",
+    "lat": 19.4101571,
+    "lng": -99.1698914
+  },
+  {
+    "id": 80,
+    "address": "BLD. A. LÓPEZ MATEOS N° 302, COL. SAN PEDRO TOTOLTEPEC",
+    "category": "Muro + Espectacular",
+    "size": "12.90 x 7.20 M",
+    "width": 12.9,
+    "height": 7.2,
+    "area_m2": 92.88000000000001,
+    "price": 35000,
+    "available": true,
+    "images": [],
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 14,
+    "address": "INSURGENTES, ESQ. POPOCATEPETL N° 14",
+    "reference": "A espaldas de la Secretaría de Energía (SENER), a dos cuadras de la Glorieta de los Insurgentes",
+    "category": "Muro",
+    "size": "14.00 x 25.00 M",
+    "width": 14,
+    "height": 25,
+    "area_m2": 350,
+    "price": 1300000,
+    "available": true,
+    "images": [
+      "https://v5.airtableusercontent.com/v3/u/54/54/1780970400000/5Gnx3FA31DLA6egMVu6fdA/rD03n6OxW1ZzTolcxoNCW9gVcVm74sdhE6QrBVoK_KtIxb6uuMS1BpqX9jeklEGA2isVBUPD_RultVkNFLQ1g7EvpuKSREq3FCDhYhCfKPR4ojqH8O5cTfK3TVTLFn6dw8rzwn-u3-A0oQOK6syl8Ci3ldkszpnUqJf733HWHa8/3xtGIIFB4DK_-fJuovnT-ZlS46QTtpKGIBn8ail3unQ"
+    ],
+    "original_maps_url": "https://www.google.com/maps?q=place_id:ChIJvSfNwDj_0YURDOUCCq251mU",
+    "resolved_maps_url": "https://www.google.com/maps?q=place_id:ChIJvSfNwDj_0YURDOUCCq251mU",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 73,
+    "address": "BLD. A. LÓPEZ PORTILLO, ESQ. CALLE TREINTA TREINTA",
+    "category": "Muro + Espectacular",
+    "size": "12.90 x 10.80 M",
+    "width": 12.9,
+    "height": 10.8,
+    "area_m2": 139.32000000000002,
+    "price": 45000,
+    "available": true,
+    "images": [],
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 26,
+    "address": "PERIFERICO MANUEL AVILA CAMACHO N° 131 (PANTALLA DIGITAL)",
+    "category": "Pantalla Digital",
+    "size": "—",
+    "available": true,
+    "images": [],
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 81,
+    "address": "BLD.DE LAS NACIONES KM.14.5 (APTO.AL PUERTO)",
+    "category": "Muro + Espectacular",
+    "size": "12.90 x 7.20 M",
+    "width": 12.9,
+    "height": 7.2,
+    "area_m2": 92.88000000000001,
+    "price": 45000,
+    "available": true,
+    "images": [],
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 28,
+    "address": "PERIFERICO MANUEL AVILA CAMACHO N° 131 (VISTA PERIFERICO)",
+    "reference": "Casi esquina con Prado Norte y muy cerca del edificio de Distrito Polanco",
+    "category": "Muro",
+    "size": "14.50 x 19.50 M",
+    "width": 14.5,
+    "height": 19.5,
+    "area_m2": 282.75,
+    "price": 600000,
+    "available": true,
+    "images": [
+      "https://v5.airtableusercontent.com/v3/u/54/54/1780970400000/BIOqmSWiDyQtbLa8ivE7dg/G7OBUzO-M0HWTlSJWSdRvXrBbv0FDKO6razaG3QF2N1RT3WrhCtl3WrrxeSNFEWlQfAyTik7VJ4ccWVzK3HHcq96tod0bLbRyk0zS78kJSyB22MBIGPZAWcbsRZ2rt0wXSsQ37HNmt1Ak5byDAYEtVoaGx3L8cnT7vLwFBNcxV0/oWSLV5WLZilwwozDfCN11g-sWnU8mOwOZ47LmeEv04k"
+    ],
+    "original_maps_url": "https://maps.app.goo.gl/LLYoxkTGQbTPH6t88",
+    "resolved_maps_url": "https://www.google.com/maps/place/Periferico+Sur+131,+San+Jer%C3%B3nimo+L%C3%ADdice,+La+Magdalena+Contreras,+10200+Ciudad+de+M%C3%A9xico,+CDMX/@19.3273554,-99.2152369,17z/data=!3m1!4b1!4m5!3m4!1s0x85cdff8cc9eeb015:0xfeee31551c29b8ca!8m2!3d19.3273554!4d-99.212662?entry=tts&g_ep=EgoyMDI2MDQxMi4wIPu8ASoASAFQAw%3D%3D&skid=dfcc81cc-e8cb-443a-9cf6-b03bb14a5e42",
+    "lat": 19.3273554,
+    "lng": -99.2152369
+  },
+  {
+    "id": 62,
+    "address": "VALLAS AMSTERDAM N°116 - VALLA A",
+    "reference": "A solo una cuadra del Parque México",
+    "category": "Valla",
+    "size": "5.00 x 3.00 M",
+    "width": 5,
+    "height": 3,
+    "area_m2": 15,
+    "price": 6500,
+    "available": true,
+    "images": [
+      "https://v5.airtableusercontent.com/v3/u/54/54/1780970400000/w8_rMppxBTjgU-wxeEk1cQ/B8xwCJR1X-zRjd1LphX0_ueBryrGacYQgXe1SI6wvEKsVBjUJUjxnDNW0S2gOz52S4oMm-hhi-dPbol8ln0V65ljLutfW1RoDD3Vk-SBtS5YhhwuJHfMlVl7o_VTAUAhGvRS-u9H7MtdHlfBag5i83feQNeVugdRGBqhDFokiaI/ezZV8UZ33cKhRwl5KG13-hsV3_wrmcL8cTGVjijeCUY"
+    ],
+    "original_maps_url": "https://maps.app.goo.gl/ord2LZPN1CtCbjDa7",
+    "resolved_maps_url": "https://www.google.com/maps/place/%C3%81msterdam+116,+Hip%C3%B3dromo,+Cuauht%C3%A9moc,+06100+Ciudad+de+M%C3%A9xico,+CDMX/@19.412456,-99.1732919,17z/data=!3m1!4b1!4m6!3m5!1s0x85d1ff412204aeb3:0x9f495905a0ad84d3!8m2!3d19.412456!4d-99.170717!16s%2Fg%2F11c5jkhc2h?entry=tts&g_ep=EgoyMDI2MDIxOC4wIPu8ASoASAFQAw%3D%3D&skid=41f79851-96bd-4486-a176-6357dd44c19f",
+    "lat": 19.412456,
+    "lng": -99.1732919
+  },
+  {
+    "id": 72,
+    "address": "JOSÉ VASCONCELOS",
+    "reference": "Condesa",
+    "category": "Muro",
+    "size": "—",
+    "price": 700000,
+    "available": true,
+    "images": [
+      "https://v5.airtableusercontent.com/v3/u/54/54/1780970400000/8_tp7USQWtThKUJQhTpppQ/9Mc7YDH5tmGbRWoh8Z7y7RCv2VJFsXjcjMkcnmrw9y9Ou8gY2p0qYr6D9IhQxtE3yD7r9HBWOzuX9SR8yyc33EG1XFUS6XqtWrZMD-uVtC0NzgiUlura4SEaG1R8caI4trwWQ-3b8ZGwkEN-3G4ImXSB01BdSH_eqJAZrUuHdJA/sJ3KU3kCZ4f77UYICZ1k9mB3hlH3KFXZxp4jkxiP-lY"
+    ],
+    "original_maps_url": "https://maps.app.goo.gl/t59czR4HQeR7sX4a7",
+    "resolved_maps_url": "https://www.google.com/maps/place/Av.+Jos%C3%A9+Vasconcelos+82,+Colonia+Condesa,+Cuauht%C3%A9moc,+06140+Ciudad+de+M%C3%A9xico,+CDMX/@19.4174039,-99.180861,17z/data=!3m1!4b1!4m6!3m5!1s0x85d1ff45316a1485:0xd05847d5fa40af9b!8m2!3d19.4174039!4d-99.1782861!16s%2Fg%2F11c4f8x920?entry=tts&g_ep=EgoyMDI2MDQyMS4wIPu8ASoASAFQAw%3D%3D&skid=d449a472-f7e0-437c-b700-aa84595c20f4",
+    "lat": 19.4174039,
+    "lng": -99.180861
+  },
+  {
+    "id": 54,
+    "address": "PERIFÉRICO SUR N°5550, EL CARACOL",
+    "reference": "Sobre el lateral del Anillo Periférico Sur, entre Av. del Imán y Av. Insurgentes Sur",
+    "category": "Muro + Espectacular",
+    "size": "12.90 x 7.20 M",
+    "width": 12.9,
+    "height": 7.2,
+    "area_m2": 92.88000000000001,
+    "price": 150000,
+    "available": true,
+    "images": [
+      "https://v5.airtableusercontent.com/v3/u/54/54/1780970400000/KiI_pTGvb4g_ob6SAYDENg/9DLF1yUapbn17beGfaGBcisg2IZ2oV-m1Aoswz2elBWNHMmXAsKW-dkOSQgHquZbnR56Ha_eYG29Lm-rkLvcVpgvC0cUj0MP3V2Oqmvqw4xsNgcpjnlQeyK6dnxYhrAwtQFgxIzrc0-53hnnTtIdqktVjKLBqbgYEU7yvuWOp7s/nj54oaj7wwNlWyziUnZBBMwUqn_WHTX-AKJjLF2LnZQ"
+    ],
+    "original_maps_url": "https://maps.app.goo.gl/i2ge6TMw4x2yBEsC9",
+    "resolved_maps_url": "https://www.google.com/maps/place/Periferico+Sur+5550,+Pedregal+de+Carrasco,+Coyoac%C3%A1n,+04700+Ciudad+de+M%C3%A9xico,+CDMX/@19.3074705,-99.1667838,17z/data=!3m1!4b1!4m6!3m5!1s0x85ce0043dac0709f:0xe0b7ffa1fcb79fdd!8m2!3d19.3074705!4d-99.1642089!16s%2Fg%2F11k46qfd_b?entry=tts&g_ep=EgoyMDI2MDQxMi4wIPu8ASoASAFQAw%3D%3D&skid=e14a3a8f-7b53-4736-809d-11653ae590c9",
+    "lat": 19.3074705,
+    "lng": -99.1667838
+  },
+  {
+    "id": 59,
+    "address": "AEROPUERTO - AICM T1 (EXTERIOR CALLE P6)",
+    "category": "Pantalla Digital",
+    "size": "12.00 x 8.00 M",
+    "width": 12,
+    "height": 8,
+    "area_m2": 96,
+    "price": 220000,
+    "available": true,
+    "images": [],
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 79,
+    "address": "BLD. A. LÓPEZ MATEOS N° 302, COL. SAN PEDRO TOTOLTEPEC",
+    "category": "Muro + Espectacular",
+    "size": "12.90 x 7.20 M",
+    "width": 12.9,
+    "height": 7.2,
+    "area_m2": 92.88000000000001,
+    "price": 45000,
+    "available": true,
+    "images": [],
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 61,
+    "address": "VALLAS AEROPUERTO - VALLA A",
+    "reference": "Periférico Sur N5550",
+    "category": "Valla",
+    "size": "4.70 x 3.30 M",
+    "width": 4.7,
+    "height": 3.3,
+    "area_m2": 15.51,
+    "price": 600000,
+    "available": true,
+    "images": [
+      "https://v5.airtableusercontent.com/v3/u/54/54/1780970400000/Ho9xG8BWYTAPHOTP01-T6Q/iSgnGPPQdPL76bJv6qP3rpiJR0wFINyJHqaB5SKWI0Tz7tXfymuGyz8fGCAR_xQNHet120rR2w9cw_jI_rvwlugtlJq-OT8VkMzNhqhQcNiSc6ovMf7gyVGI_xkY7hJzh5WNkp2rJhw_DeIbFJuKEMxa0S_ySIN3rq-J2WqgCrU/dygfJc6cPeM_xp2Yg3pH8ApAh2ucla9kaOKTt6wQypw"
+    ],
+    "original_maps_url": "https://maps.app.goo.gl/i2ge6TMw4x2yBEsC9",
+    "resolved_maps_url": "https://www.google.com/maps/place/Periferico+Sur+5550,+Pedregal+de+Carrasco,+Coyoac%C3%A1n,+04700+Ciudad+de+M%C3%A9xico,+CDMX/@19.3074705,-99.1667838,17z/data=!3m1!4b1!4m6!3m5!1s0x85ce0043dac0709f:0xe0b7ffa1fcb79fdd!8m2!3d19.3074705!4d-99.1642089!16s%2Fg%2F11k46qfd_b?entry=tts&g_ep=EgoyMDI2MDQxMi4wIPu8ASoASAFQAw%3D%3D&skid=e14a3a8f-7b53-4736-809d-11653ae590c9",
+    "lat": 19.3074705,
+    "lng": -99.1667838
+  },
+  {
+    "id": 2,
+    "address": "AV. RÍO CHURUBUSCO, ESQ. BIÓGRAFOS NO. 1",
+    "reference": "A solo un par de cuadras del Mercado Roma",
+    "category": "Muro + Espectacular",
+    "size": "12.90 x 7.20 M",
+    "width": 12.9,
+    "height": 7.2,
+    "area_m2": 92.88000000000001,
+    "price": 110000,
+    "available": true,
+    "images": [
+      "https://v5.airtableusercontent.com/v3/u/54/54/1780970400000/XLJ8kPLtP9RJWAof-slq2Q/MZgCV0LcTWCQns51ogs0xt26r3nfeLpY_PCF9wvMW7v0zHSI9VrRfo2qfECRG7dyQJoJXTMdwi66nypM_rFxK4q-3nTGh2mDUX5jTdQBEDXhGT_moPe58iHD_o8iyvPXxUiWMYkImboL1Wl43eM2NqiPlI4SBe5Es1HHViLn1mE/ZitXSBG9R9FlMN6TR2vxSik1mgC0QCRuosAiGULrmVQ"
+    ],
+    "original_maps_url": "https://maps.app.goo.gl/7FDQ68qqFehexsWb9",
+    "resolved_maps_url": "https://www.google.com/maps/place/Avenida+R%C3%ADo+Churubusco+%26+Bi%C3%B3grafos,+El+Sif%C3%B3n,+09400+Ciudad+de+M%C3%A9xico,+CDMX/@19.3703013,-99.114256,17z/data=!3m1!4b1!4m6!3m5!1s0x85d1fe7179168e9f:0x46154bf8afdfe232!8m2!3d19.3703014!4d-99.1093851!16s%2Fg%2F11f34vjh1j?entry=tts&g_ep=EgoyMDI2MDQxMi4wIPu8ASoASAFQAw%3D%3D&skid=84cacb4e-95e0-426c-9ec5-050d43d4072c",
+    "lat": 19.3703013,
+    "lng": -99.114256
+  },
+  {
+    "id": 20,
+    "address": "VIADUCTO N°936, COL. NAPOLES",
+    "reference": "Casi esquina con Dakota, y a un par de cuadras del centro comercial Metrópoli Patriotismo",
+    "category": "Muro",
+    "size": "5.40 x 14.00 M",
+    "width": 5.4,
+    "height": 14,
+    "area_m2": 75.60000000000001,
+    "price": 350000,
+    "available": true,
+    "images": [
+      "https://v5.airtableusercontent.com/v3/u/54/54/1780970400000/UEnvUuiL4vZNG-8FiV6K0Q/3un7AAvm7y4RrPAji35MyECyOytjcV18EQLkVWOByta-Wemt-HFWNnaCoYPvrvXwhrHebXGTFiUuuAE-aLQtpunrwXITF9tfJ5CuUp3UFQoIAMrqzoZpquLBqM2HEl8vNSGps6VzfRc3M_FXmpWkqnQXT76dmRk12PZCAP2UbHI/cl1IcA6NLRl6tkylDCT2Ru3QHLxamgv4_T1ciQcEOEc"
+    ],
+    "original_maps_url": "https://maps.app.goo.gl/Ad3eUzigfM1HtQEWA",
+    "resolved_maps_url": "https://www.google.com/maps/place/Viad.+Pdte.+Miguel+Alem%C3%A1n+Vald%C3%A9s+936,+N%C3%A1poles,+Benito+Ju%C3%A1rez,+03810+Ciudad+de+M%C3%A9xico,+CDMX/@19.3977634,-99.1783315,17z/data=!3m1!4b1!4m6!3m5!1s0x85d1ff6e458327d9:0xdcb2a77a3d0d65d9!8m2!3d19.3977634!4d-99.1757566!16s%2Fg%2F11f3jfml26?entry=tts&g_ep=EgoyMDI2MDQxMi4wIPu8ASoASAFQAw%3D%3D&skid=eac3ace9-af7c-4a4a-98ae-c67805c76d0d",
+    "lat": 19.3977634,
+    "lng": -99.1783315
+  },
+  {
+    "id": 58,
+    "address": "AEROPUERTO - AICM T1 (EXTERIOR RETORNO P4)",
+    "category": "Pantalla Digital",
+    "size": "12.00 x 5.00 M",
+    "width": 12,
+    "height": 5,
+    "area_m2": 60,
+    "price": 220000,
+    "available": true,
+    "images": [],
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 30,
+    "address": "AV. MONTERREY N°150, COL. ROMA",
+    "reference": "Casi esquina con Tonalá, y justo a media cuadra del Mercado Roma",
+    "category": "Muro",
+    "size": "33.50 x 13.50 M",
+    "width": 33.5,
+    "height": 13.5,
+    "area_m2": 452.25,
+    "price": 600000,
+    "available": true,
+    "images": [
+      "https://v5.airtableusercontent.com/v3/u/54/54/1780970400000/RBtOLt8mfMB6yqFg-qm_2Q/w1AXNr3gV6Gl9wg_Xbavs_3ce1erDmvxn3X9QTY6E_5_tSncukuoctBkEILk2KaI9PXrNr2B18mMRwNUTP4mUXi9ib6UOYKf-9A30IAZGXZ6zXPxpzbxVi3o3Upngadxv85EfOhdGKm12-FO5iedi3HPYmaudTIBPqhcyisDzP0/DUmlkXEhKzLYkMxF7-WxaiG5crz6WGbSo4xbmUhqqPg"
+    ],
+    "original_maps_url": "https://maps.app.goo.gl/6Bm279mbjKbG34CX8",
+    "resolved_maps_url": "https://www.google.com/maps/place/Monterrey+150,+Roma+Nte.,+Cuauht%C3%A9moc,+06700+Ciudad+de+M%C3%A9xico,+CDMX/@19.4156675,-99.1682814,17z/data=!3m1!4b1!4m7!3m6!1s0x85d1ff3941cf6c65:0x72bfb0b69e12789c!8m2!3d19.4156676!4d-99.1634105!15sChVhdmVuaWRhIG1vbnRlcnJleSAxNTCSARFjb21wb3VuZF9idWlsZGluZ-ABAA!16s%2Fg%2F11bw3y2t95?entry=tts&g_ep=EgoyMDI2MDQxMi4wIPu8ASoASAFQAw%3D%3D&skid=3a1d2d82-2345-4946-8a00-ec973d6a6c25",
+    "lat": 19.4156675,
+    "lng": -99.1682814
+  },
+  {
+    "id": 49,
+    "address": "QUERÉTARO 147, ROMA NTE.",
+    "reference": "Casi esquina con Frontera y a solo una cuadra de la Plaza Río de Janeiro",
+    "category": "Muro",
+    "size": "27.00 x 11.00 M",
+    "width": 27,
+    "height": 11,
+    "area_m2": 297,
+    "price": 450000,
+    "available": true,
+    "images": [
+      "https://v5.airtableusercontent.com/v3/u/54/54/1780970400000/_xYvcV6O_M_jXgBUCl_viA/LdrxPg3DBrTLEcfStYeDeTDXFAJHerMMxS0tnp8LiaxDAx2rT_poi9lEobJCeR4BZopKOfeTwtOyoAy9leRu-VoeZiziK4wGeAS5nvst_-Hc7XFII4MXO0gmM5MmokY85maQVGtk5NLUudcHRWtDjPsXi1VUF-x3jCqn-wt93lA/u75lq39pg2JkDvQ0ZICcnxBF8vvzYtZ_bwymqSQQHUk"
+    ],
+    "original_maps_url": "https://maps.app.goo.gl/yNwiJJVGXi7mNARW7",
+    "resolved_maps_url": "https://www.google.com/maps/place/C.+Quer%C3%A9taro+147,+Roma+Nte.,+Cuauht%C3%A9moc,+06700+Ciudad+de+M%C3%A9xico,+CDMX/@19.414922,-99.1638878,17z/data=!3m1!4b1!4m6!3m5!1s0x85d1ff3bf10c02a9:0x9652569a860e749c!8m2!3d19.414922!4d-99.1613129!16s%2Fg%2F11bw3y6qgy?entry=tts&g_ep=EgoyMDI2MDQxMi4wIPu8ASoASAFQAw%3D%3D&skid=433dd160-2da1-4f96-94e3-b8e14bea4e7f",
+    "lat": 19.414922,
+    "lng": -99.1638878
+  },
+  {
+    "id": 64,
+    "address": "VALLAS CIRCUITO AZTECA - VALLA A",
+    "reference": "Glorieta de Circuito Azteca. Precio mensual por las 4 vallas.",
+    "category": "Valla",
+    "size": "4.55 x 2.40 M",
+    "width": 4.55,
+    "height": 2.4,
+    "area_m2": 10.92,
+    "price": 150000,
+    "available": true,
+    "images": [
+      "https://v5.airtableusercontent.com/v3/u/54/54/1780970400000/J-csGsBzKWy1ufXfDSizVg/Yx6KEZFZVLBGvYHhwP3fl_ml-rx57ENiJWOZWh3lsDtQiiEXmpr04Pyj_rkdPBI2XnyNZjlNlvJJRGhNmz-8765LQuflsPGm39pbVXkmyZ6LwqM7PRAdEsTi_mrBIMDnanz8GBFc1XgNTxvpzYWErnRViouRPgzV-7uarL4JhqQ/nT7na7cKoWJt5rmoRykGF7_Z2vGJ4ZWJ7vQz7xIbIsQ"
+    ],
+    "original_maps_url": "https://maps.app.goo.gl/ECxt3eTm5eJ3o1XCA",
+    "resolved_maps_url": "https://www.google.com/maps/place/19%C2%B018'01.3%22N+99%C2%B009'42.3%22W/@19.3001771,-99.1627352,18.24z/data=!4m4!3m3!8m2!3d19.300364!4d-99.161744?entry=tts&g_ep=EgoyMDI2MDIxOC4wIPu8ASoASAFQAw%3D%3D&skid=539b545b-fb88-47e9-a87f-f15d8599ffea",
+    "lat": 19.3001771,
+    "lng": -99.1627352
+  },
+  {
+    "id": 17,
+    "address": "RIO CHURUBUSCO N° 342, ESQ. AV. UNIVERSIDAD",
+    "reference": "Entre las avenidas Horacio y Homero, y a solo dos cuadras de la estación Metro Polanco",
+    "category": "Muro",
+    "size": "30.00 x 14.00 M",
+    "width": 30,
+    "height": 14,
+    "area_m2": 420,
+    "price": 650000,
+    "available": true,
+    "images": [
+      "https://v5.airtableusercontent.com/v3/u/54/54/1780970400000/NxDPhMIeeujt9Ojs988Nzg/KEMoWbuvFuj7tXy1xsOTHLHp6ayO6OKsunuL6Sppsv5ypfn1-xYWHCXFYYYdKgfFvMNPS2r41SKHbeeEaPmZ_5SCVfzakWN9slBwJOfitWlv_mzeu_qONsijOsRY-YLFlclL3lbTDnT-g6s3BAgQqfvvQ8mltkSllR4Rs3HQTzg/cKfx2vWFS4KgMnhvkdE40IEjoHWxgeWSd2yy3CzXz_c"
+    ],
+    "original_maps_url": "https://maps.app.goo.gl/VsiNSCdguRUn1Tfe7",
+    "resolved_maps_url": "https://www.google.com/maps/place/Cto+Interior+Avenida+R%C3%ADo+Churubusco+342,+Acacias,+Benito+Ju%C3%A1rez,+03240+Ciudad+de+M%C3%A9xico,+CDMX/@19.3601722,-99.1770866,17z/data=!3m1!4b1!4m6!3m5!1s0x85d1ffeb48d7439d:0x71e1502377592aec!8m2!3d19.3601723!4d-99.1722157!16s%2Fg%2F11nnkp_gly?entry=tts&g_ep=EgoyMDI2MDQxMi4wIPu8ASoASAFQAw%3D%3D&skid=b3d37d42-6ad3-4872-971f-14e258601b48",
+    "lat": 19.3601722,
+    "lng": -99.1770866
+  },
+  {
+    "id": 83,
+    "address": "COSTERA M. ALEMAN - MERCADO DALIA",
+    "category": "Muro + Espectacular",
+    "size": "12.90 x 7.20 M",
+    "width": 12.9,
+    "height": 7.2,
+    "area_m2": 92.88000000000001,
+    "price": 45000,
+    "available": true,
+    "images": [],
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 21,
+    "address": "NUEVO LEON N°202, ESQ. BAJA CALIFORNIA",
+    "reference": "Casi esquina con Tlaxcala y a solo dos cuadras del Parque México",
+    "category": "Muro",
+    "size": "9.65 x 22.30 M",
+    "width": 9.65,
+    "height": 22.3,
+    "area_m2": 215.19500000000002,
+    "price": 550000,
+    "available": true,
+    "images": [
+      "https://v5.airtableusercontent.com/v3/u/54/54/1780970400000/HCoO6ea0rCd7X1DklrwTLQ/C3WelnWyWqPq2VtAOlUDffEGvvj8IMEjVlxs3GBaijNmCBdzhwHoIxQEaSiK6nm2tmlzeL9bAjfuTwKHPUagbqcQ5yEvE5y5pY3jD7bBTF8ke8IxUpchfkKrqGpdC2NUoqtTPBOo9V-gF4Wd_q5xAcPLaAJ4ILlQmLM910r7y9Q/U-wo6xMUMA7zWcDYR8dXM3cgEXFyXHWvm9ugZOmKNCs"
+    ],
+    "original_maps_url": "https://maps.app.goo.gl/aYti7LDAFEtQHvNA6",
+    "resolved_maps_url": "https://www.google.com/maps/place/Av.+Nuevo+Le%C3%B3n+202,+Hip%C3%B3dromo,+Cuauht%C3%A9moc,+06100+Ciudad+de+M%C3%A9xico,+CDMX/@19.4054595,-99.1762397,17z/data=!3m1!4b1!4m6!3m5!1s0x85d1ff6a4e5db8d3:0x3f9248f9e11b5b52!8m2!3d19.4054596!4d-99.1713688!16s%2Fg%2F11bw40wcql?entry=tts&g_ep=EgoyMDI2MDQxMi4wIPu8ASoASAFQAw%3D%3D&skid=346ae0af-e893-49bf-a7c3-e133190ae0c6",
+    "lat": 19.4054595,
+    "lng": -99.1762397
+  },
+  {
+    "id": 52,
+    "address": "AV. INSURGENTES SUR N° 586, DEL VALLE",
+    "category": "Muro",
+    "size": "12.00 x 7.00 M",
+    "width": 12,
+    "height": 7,
+    "area_m2": 84,
+    "price": 200000,
+    "available": true,
+    "images": [],
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 23,
+    "address": "PERIFERICO SUR N°3380, COL. JARDINES DEL PEDREGAL",
+    "reference": "Justo frente al Hospital Ángeles del Pedregal y muy cerca del centro comercial Artz Pedregal",
+    "category": "Muro + Espectacular",
+    "size": "12.90 x 7.20 M",
+    "width": 12.9,
+    "height": 7.2,
+    "area_m2": 92.88000000000001,
+    "price": 150000,
+    "available": true,
+    "images": [
+      "https://v5.airtableusercontent.com/v3/u/54/54/1780970400000/kJTpUyzT0vL8Z-4vRjkj-w/yGUvb_m2007CqmAhqCWrFg1XmHMomKeOsGSWosbaapRyO8nFb6YGrs2cTZofhlvc5cTP7D9KtXdoClPpOQqeF0PMjg60WLc4PCYzBCPOqAV9ww1JwUyBaMJS2ebGZ9w1MJFZBp4DjK9jaamUrjTfbVOTg5B4PEt7Z_cGmN1WD0s/yaJzeKbZ2KDW7VFIHdhkXUh4GxREjGTcdslKKms_-w8"
+    ],
+    "original_maps_url": "https://maps.app.goo.gl/HuvJxhxoFzSCqyv16",
+    "resolved_maps_url": "https://www.google.com/maps/place/Periferico+Sur+3380,+Conjunto+Residencial+del+Pedregal,+%C3%81lvaro+Obreg%C3%B3n,+14130+Ciudad+de+M%C3%A9xico,+CDMX/@19.3221788,-99.22036,17z/data=!3m1!4b1!4m6!3m5!1s0x85cdff91f7a3fad3:0x5c232d74d4a018c9!8m2!3d19.3221788!4d-99.2177851!16s%2Fg%2F11bw4ptpcs?entry=tts&g_ep=EgoyMDI2MDQxMi4wIPu8ASoASAFQAw%3D%3D&skid=7acb36b6-e570-45c5-9c4e-2d4e8ed316f2",
+    "lat": 19.3221788,
+    "lng": -99.22036
+  },
+  {
+    "id": 44,
+    "address": "AV. P.º DE LA REFORMA 80, JUÁREZ, CUAUHTÉMOC",
+    "reference": "Av. Paseo de la Reforma",
+    "category": "Muro",
+    "size": "19.00 x 35.00 M",
+    "width": 19,
+    "height": 35,
+    "area_m2": 665,
+    "price": 800000,
+    "available": true,
+    "images": [
+      "https://v5.airtableusercontent.com/v3/u/54/54/1780970400000/gwiofaFvImiyLPVMTkYM1A/sImdmeu5LZVT3aBNFcDzhLoa6spQsok0yyy2ck25BktL_J7DeKzy2K-lIvNMOuS_5sv3sf1OzOoFOjeRKETXNxYINT04yKpqEOFz2p3DzqeYUxk9mgCBJT3ts-dZa_D3fW9jbFBp9-ULqOGzZGmVSVOod9zViMFSubp9mGewR6w/XKNbZHIhbe7_O9aVBYGumA661dNm0Jw8upgTthjD4Q8"
+    ],
+    "original_maps_url": "https://www.google.com/maps?q=place_id:ChIJg_7qGiX50YURrlKhBb_V7gE",
+    "resolved_maps_url": "https://www.google.com/maps?q=place_id:ChIJg_7qGiX50YURrlKhBb_V7gE",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 74,
+    "address": "BLD. A. LÓPEZ PORTILLO, ESQ. CALLE TREINTA TREINTA",
+    "category": "Muro + Espectacular",
+    "size": "12.90 x 10.80 M",
+    "width": 12.9,
+    "height": 10.8,
+    "area_m2": 139.32000000000002,
+    "price": 35000,
+    "available": true,
+    "images": [],
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 29,
+    "address": "AV. UNIVERSIDAD N° 1770",
+    "reference": "A un costado de Oasis Coyoacán",
+    "category": "Muro",
+    "size": "12.90 x 10.80 M",
+    "width": 12.9,
+    "height": 10.8,
+    "area_m2": 139.32000000000002,
+    "price": 115000,
+    "available": true,
+    "images": [
+      "https://v5.airtableusercontent.com/v3/u/54/54/1780970400000/eUFzRyJHuDW0MQkQhyqGJA/UK8d1OaU7NTiIlv69vKgMcwEWQoukzqBVKCWfvDfaddai2cpO35SvD7ZBxNF3NEBoWsnGjxJ4QLycWuzIEknAb1EbG7MKMLqzkDZTNhZXHBDIU2vUR5AdxxtXJkBuE6ieFqFoIhZhvZkGozievjLBfmYnINe-iZCOj0KK05m1-E/lMdemWuFNS5tb1qFccS15vw0ZPZUNH2ZsqKxptVI01c"
+    ],
+    "original_maps_url": "https://maps.app.goo.gl/Kcksw4xd5NXLGNhB7",
+    "resolved_maps_url": "https://www.google.com/maps/place/Av.+Universidad+1770,+Romero+de+Terreros,+Coyoac%C3%A1n,+04310+Ciudad+de+M%C3%A9xico,+CDMX/@19.3455222,-99.180732,17z/data=!3m1!4b1!4m6!3m5!1s0x85d1fffb1d9f0ce3:0xbf4ad79af35aa3ba!8m2!3d19.3455222!4d-99.180732!16s%2Fg%2F11j3pnbn_h?entry=tts&g_ep=EgoyMDI2MDEyNi4wIPu8ASoASAFQAw%3D%3D&skid=ccb1daf2-cff5-4d63-ae1f-c2d4e5632879",
+    "lat": 19.3455222,
+    "lng": -99.180732
+  },
+  {
+    "id": 19,
+    "address": "EJERCITO NACIONAL N° 436",
+    "reference": "Casi esquina con Hegel, y justo frente al centro comercial Miyana y el Hospital Español",
+    "category": "Muro",
+    "size": "11.00 x 17.00 M",
+    "width": 11,
+    "height": 17,
+    "area_m2": 187,
+    "price": 480000,
+    "available": true,
+    "images": [
+      "https://v5.airtableusercontent.com/v3/u/54/54/1780970400000/2D31_3E_lWVl8xZ7C0nzvA/ZEaHrxxLTLAtW6xlXwaW116wf-0yiL14KubCFD5FWDQJfQyIcw4Y4LO2ONe86j46hlI3U-09zeMa1LimzZ8juDQ1N3MJygeIBNo8uvc7rx6dqiZWnc_0oGOvBeyyT7oS_Fpg3RU5ENR6lsPJjx0bZ8h7H1_f76PrqPLKSd7gFXs/Zu0KCNRF7ORyPXPj5kETOKnX4qFFMn77ZlBp3ZQ3k6o"
+    ],
+    "original_maps_url": "https://maps.app.goo.gl/DE4nEnZo4bx6E4nF7",
+    "resolved_maps_url": "https://www.google.com/maps/place/Av.+Ej%C3%A9rcito+Nacional+Mexicano+436,+Polanco,+Polanco+V+Secc,+Miguel+Hidalgo,+11560+Ciudad+de+M%C3%A9xico,+CDMX/@19.4375175,-99.1932684,17z/data=!3m1!4b1!4m6!3m5!1s0x85d1f8a993342829:0xd25c4c6ea4160cf0!8m2!3d19.4375176!4d-99.1883975!16s%2Fg%2F11bw3hjxb9?entry=tts&g_ep=EgoyMDI2MDQxMi4wIPu8ASoASAFQAw%3D%3D&skid=1e2125d8-129d-45ec-9218-afb73b09de63",
+    "lat": 19.4375175,
+    "lng": -99.1932684
+  },
+  {
+    "id": 71,
+    "address": "ARQUIMIDES 184",
+    "reference": "Polanco",
+    "category": "Muro",
+    "size": "—",
+    "price": 650000,
+    "available": true,
+    "images": [
+      "https://v5.airtableusercontent.com/v3/u/54/54/1780970400000/F5Xh-H59GtigNZLQzFXl7A/WQcK_tminL5mL52hSLHxJDKtFgtHbVlu3SIWaOitnVHF5RYLpSWlebU4OPAziszuw2DkZa6TrNNxpCOlclC2Sc3gmBFsN4yIc81Omwa0Dw90PYGjrUPIM0J1rzHYIAwYt4ZeO-iMuH0C3COQ2wKV-LO1duG-Nd-m7uH5reAV2gI/LMjowzu-emE0lTgzjmICuahOqmDwnX1HYXz1kJqqdI8"
+    ],
+    "original_maps_url": "https://maps.app.goo.gl/2s6T4DGGMcKidEXW8",
+    "resolved_maps_url": "https://www.google.com/maps/place/C.+Arqu%C3%ADmedes+184,+Polanco,+Polanco+IV+Secc,+Miguel+Hidalgo,+11550+Ciudad+de+M%C3%A9xico,+CDMX/@19.4359351,-99.1933645,17z/data=!3m1!4b1!4m6!3m5!1s0x85d20200b1f5c449:0xac55df1bc7907c50!8m2!3d19.4359351!4d-99.1907896!16s%2Fg%2F11c2f6g9xy?entry=tts&g_ep=EgoyMDI2MDUxMC4wIPu8ASoASAFQAw%3D%3D&skid=80ef985b-b6fa-49a0-b3fe-c6ef624bb50d",
+    "lat": 19.4359351,
+    "lng": -99.1933645
+  },
+  {
+    "id": 70,
+    "address": "JOSÉ MARÍA RICO 230",
+    "reference": "A unas cuadras de Plaza Universidad",
+    "category": "Muro",
+    "size": "—",
+    "available": true,
+    "images": [
+      "https://v5.airtableusercontent.com/v3/u/54/54/1780970400000/VxHdBmODpZxX_H1MU696IA/L5AUXAyIxVkFoSWjj6JstSNRPrYcnqjQKwrM6q49ol8fJV-JlkPwy92hAnEEuzxTjT6IA8OteY3mzv5fAyMIF85HNAjfUXPRINacANC25S1tBlb3dxGeXI61TIUzm1Db0643t7dMlsQiF334BsJF0pnyd-XuTgE6fqXUXBrNOUw/As7VEyE4z_2cAzaSRv_tUW9-tlMZjnAfxTzdB7NmgK0"
+    ],
+    "original_maps_url": "https://maps.app.goo.gl/j8QgaPCZFXorMESk9",
+    "resolved_maps_url": "https://www.google.com/maps/place/Jos%C3%A9+Mar%C3%ADa+Rico+230,+Col+del+Valle,+Benito+Ju%C3%A1rez,+03100+Ciudad+de+M%C3%A9xico,+CDMX/@19.3682503,-99.1780628,17z/data=!3m1!4b1!4m6!3m5!1s0x85d1ff910dc44d8b:0x8c3077c4ef5f6e6e!8m2!3d19.3682503!4d-99.1754879!16s%2Fg%2F11t4k0zhs2?entry=tts&g_ep=EgoyMDI2MDIxOC4wIPu8ASoASAFQAw%3D%3D&skid=ec55e782-41ef-4413-9b53-1d32d9363dea",
+    "lat": 19.3682503,
+    "lng": -99.1780628
+  },
+  {
+    "id": 6,
+    "address": "VIADUCTO - COYUYA N° 149",
+    "reference": "A espaldas de la zona de Ciudad Deportiva y el Autódromo Hermanos Rodríguez",
+    "category": "Muro + Espectacular",
+    "size": "12.90 x 7.20 M",
+    "width": 12.9,
+    "height": 7.2,
+    "area_m2": 92.88000000000001,
+    "price": 75000,
+    "available": true,
+    "images": [
+      "https://v5.airtableusercontent.com/v3/u/54/54/1780970400000/XfgITjffxw5DmpfYnIc2hA/o-fWzhUaNnxQobBJtDYbO8kYfFkXYWXUzJs5_IC8_xi1Tpl0Lj7l-CZWnCZuqzDaEya3kJvBq-naXGvTtDy3umOn6xmBGp795PyoOo8zUuyQdHzwJzTMcB1PDyJCoEWratMPDA8LWNN9aRd2cmSbkIPC1M80Q627W7TpmTmn_Ug/wJGI2nI15UXdeJdhrqxMA4v2Tvgp_0Ij53_kol8JyCU"
+    ],
+    "original_maps_url": "https://maps.app.goo.gl/vFUbDwHkizYjfuKg7",
+    "resolved_maps_url": "https://www.google.com/maps/place/Coyuya+149,+Magdalena+Mixihuca,+Venustiano+Carranza,+15850+Ciudad+de+M%C3%A9xico,+CDMX/@19.4055715,-99.1206917,17z/data=!3m1!4b1!4m6!3m5!1s0x85d1fe94620ccecd:0xcce71d0e5557d57e!8m2!3d19.4055715!4d-99.1206917!16s%2Fg%2F11cpnw3yyj?entry=tts&g_ep=EgoyMDI2MDEyOC4wIPu8ASoASAFQAw%3D%3D&skid=2bd86586-8ce1-47a8-9873-6910e37a8f23",
+    "lat": 19.4055715,
+    "lng": -99.1206917
+  },
+  {
+    "id": 50,
+    "address": "VIADUCTO RÍO BECERRA N°451, NÁPOLES",
+    "category": "Muro",
+    "size": "4.60 x 11.00 M",
+    "width": 4.6,
+    "height": 11,
+    "area_m2": 50.599999999999994,
+    "price": 350000,
+    "available": true,
+    "images": [],
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 11,
+    "address": "PERIFERICO N° 30",
+    "reference": "Cruce de Molinos. Resolución: 1920x1080 px",
+    "category": "Pantalla Digital",
+    "size": "12.90 x 7.20 M",
+    "width": 12.9,
+    "height": 7.2,
+    "area_m2": 92.88000000000001,
+    "price": 120000,
+    "available": true,
+    "images": [
+      "https://v5.airtableusercontent.com/v3/u/54/54/1780970400000/nP9mVtG8T8JLGYcPvrtarw/ViPDPDivpbj2teu-vMsU-f0ts8QC__RdoeMwupSbKF0rhGNeXgf4J2TLcfZvVd9tsS_WwIzXtMXNGDuJUKT-20bqrAAIbEr-5F9SlrvsP3FYyxQ4PD5EWFQdHNAftgYJb7gXANsGM4i-iVeAQDbGfL6ZaruKM6-f5R6Pgu_OOyc/CpEQwJchCwQAhkufVoB05Mv6ApzRdhW_5EGOk72IIic"
+    ],
+    "original_maps_url": "https://maps.app.goo.gl/hZFGjN3AAkXUKV9s6",
+    "resolved_maps_url": "https://www.google.com/maps/place/Periferico+Sur+30,+San+Jer%C3%B3nimo+L%C3%ADdice,+La+Magdalena+Contreras,+10200+Ciudad+de+M%C3%A9xico,+CDMX/@19.3272017,-99.2153384,17z/data=!3m1!4b1!4m5!3m4!1s0x85cdff8cc901cba1:0xa6e9f58351332889!8m2!3d19.3272017!4d-99.2127635?entry=tts&g_ep=EgoyMDI2MDQxMi4wIPu8ASoASAFQAw%3D%3D&skid=3e6108ab-96cf-4eac-928e-9f2ebb444361",
+    "lat": 19.3272017,
+    "lng": -99.2153384
+  },
+  {
+    "id": 77,
+    "address": "BLVD. MIGUEL ALEMAN. ESQ. CAMINO AL CERRILLO",
+    "category": "Muro + Espectacular",
+    "size": "25.00 x 7.20 M",
+    "width": 25,
+    "height": 7.2,
+    "area_m2": 180,
+    "price": 60000,
+    "available": true,
+    "images": [],
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 47,
+    "address": "AV. PATRIOTISMO N°483, SAN PEDRO DE LOS PINOS",
+    "reference": "Se encuentra muy cerca del centro comercial Metrópoli Patriotismo",
+    "category": "Muro + Espectacular",
+    "size": "12.90 x 7.20 M",
+    "width": 12.9,
+    "height": 7.2,
+    "area_m2": 92.88000000000001,
+    "price": 130000,
+    "available": true,
+    "images": [
+      "https://v5.airtableusercontent.com/v3/u/54/54/1780970400000/YP5Or6yFwe828Jl4b2f_0A/hmTSLH__l5Z84ZGnq32LiNoUtcxQ0_ecB0Ili4XGdg5H00k78etgGWDxBWnGd5_LanDyVjwdV1kb0PqTrJYRJhou-D4ZZL0PKuhGiXWxrh4IowQti93jUYxIWLlQe86spiHcvaiEOYY1dmXmaHVkghivanSsNXyNnkTjjIr9LlE/ZTpXcxL_0Z8xtXsgiQrdpdJ34Dg3uRmyD8MIkFtn6yc"
+    ],
+    "original_maps_url": "https://maps.app.goo.gl/BqdremE3NEMnGY8z8",
+    "resolved_maps_url": "https://www.google.com/maps/place/Av.+Patriotismo+483,+San+Pedro+de+los+Pinos,+Benito+Ju%C3%A1rez,+03800+Ciudad+de+M%C3%A9xico,+CDMX/@19.3869915,-99.1848619,17z/data=!3m1!4b1!4m6!3m5!1s0x85d1ff79033318ad:0x512499e99b1bf668!8m2!3d19.3869915!4d-99.182287!16s%2Fg%2F11crrxszhg?entry=tts&g_ep=EgoyMDI2MDIxOC4wIPu8ASoASAFQAw%3D%3D&skid=33d243fe-0fb7-4c14-b815-f26f6c76ce92",
+    "lat": 19.3869915,
+    "lng": -99.1848619
+  },
+  {
+    "id": 69,
+    "address": "BAJIO",
+    "category": "Muro",
+    "size": "—",
+    "price": 300000,
+    "available": true,
+    "images": [],
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 38,
+    "address": "HEGEL N°228",
+    "reference": "Casi esquina con Zacatecas y a unas tres cuadras de la Plaza Río de Janeiro",
+    "category": "Muro",
+    "size": "12.10 x 16.50 M",
+    "width": 12.1,
+    "height": 16.5,
+    "area_m2": 199.65,
+    "price": 550000,
+    "available": true,
+    "images": [
+      "https://v5.airtableusercontent.com/v3/u/54/54/1780970400000/SietB0IRcyaLLPX0g23jPw/oojfOCUsH-jPc3aM_29ViNYfET4JJmUObPvY0mxycb3mPsW8tNuG_qTyBnt1Y46diKYtnYj12snM5foUWzagw6L-TgxhRalXqIRTudNgQQsKZsMQAql88pE3rP88-LguLcv6yMDwGGO-vpSkQchapzk3ZfDeXJOsU2JB95qRTTE/wUTNHQFY-WhVzq7cDB6JnvJAg0NqfBADMLDXLrBErGA"
+    ],
+    "original_maps_url": "https://maps.app.goo.gl/CqMteAWQnWWb697C8",
+    "resolved_maps_url": "https://www.google.com/maps/place/Hegel+228,+Polanco,+Polanco+V+Secc,+Miguel+Hidalgo,+11560+Ciudad+de+M%C3%A9xico,+CDMX/@19.4345562,-99.1904717,17z/data=!3m1!4b1!4m6!3m5!1s0x85d1f8aa4590016d:0x97b487242bff95bc!8m2!3d19.4345562!4d-99.1878968!16s%2Fg%2F11b8vfybxb?entry=tts&g_ep=EgoyMDI2MDQxMi4wIPu8ASoASAFQAw%3D%3D&skid=59748319-ed86-4345-9818-14cc5b8987f4",
+    "lat": 19.4345562,
+    "lng": -99.1904717
+  },
+  {
+    "id": 63,
+    "address": "VALLAS COYUYA - VALLA A",
+    "reference": "A una cuadra del cruce con el Eje 3 Oriente",
+    "category": "Valla",
+    "size": "2.80 x 4.80 M",
+    "width": 2.8,
+    "height": 4.8,
+    "area_m2": 13.44,
+    "price": 6500,
+    "available": true,
+    "images": [
+      "https://v5.airtableusercontent.com/v3/u/54/54/1780970400000/gi2H6TEzkJ1O1lg7D_8Okw/6qz2rq4-Fs_u2wPo9I4ro7hJR5L6p2e2sd_JXVba9y4__cfDAaF9k-IVZCd5urE1D6vgSaoSYHbCv1Ipmkl7YgIKghD5IvJJvakRfDUgZ0bK1ZHZ78Tlrw4PXctgPsloTyEzZnWGmIb9pXxAdCnvX7nGVdz3fxI6bFMJzpbDOdY/Vy7Q2lGiEOmYCeLx50woEGspFtqSnXTRNnbUdQAM5uk"
+    ],
+    "original_maps_url": "https://maps.app.goo.gl/diPbR5Gi2AbkYvbT8",
+    "resolved_maps_url": "https://www.google.com/maps/place/Coyuya+149,+Magdalena+Mixihuca,+Venustiano+Carranza,+15850+Ciudad+de+M%C3%A9xico,+CDMX/@19.4055715,-99.1232666,17z/data=!3m1!4b1!4m6!3m5!1s0x85d1fe94620ccecd:0xcce71d0e5557d57e!8m2!3d19.4055715!4d-99.1206917!16s%2Fg%2F11cpnw3yyj?entry=tts&g_ep=EgoyMDI2MDIxOC4wIPu8ASoASAFQAw%3D%3D&skid=4a432f20-e498-43d4-afcd-fe4f9d57d2bc",
+    "lat": 19.4055715,
+    "lng": -99.1232666
+  },
+  {
+    "id": 5,
+    "address": "VIADUCTO - COYUYA N° 149",
+    "reference": "Casi esquina con Azúcar y a unas tres cuadras del Eje 3 Sur (Avenida Morelos)",
+    "category": "Muro + Espectacular",
+    "size": "12.90 x 16.50 M",
+    "width": 12.9,
+    "height": 16.5,
+    "area_m2": 212.85,
+    "price": 300000,
+    "available": true,
+    "images": [
+      "https://v5.airtableusercontent.com/v3/u/54/54/1780970400000/YpAv0Z3RsH16O3hIgnCSyQ/dnKxawewgLK216bQ7Cc69Hm3kv9pTDTmodCZSko1URrpO4JyrNiVSos0CRigzCNnnxv7rDu5WSswbAIX3dw1MNH5BtxdYryXBcIOV_a7-caS_JcfM29bjpO2F0Uxz3FF5Rfoa5tCSKUDECa4URt0Z_l1GqaNaZFICdTy0YO5fHE/NA7XZoRKNL4PZ4Ow5MaFeFDCOJ498StgbD1WMXFiFvA"
+    ],
+    "original_maps_url": "https://maps.app.goo.gl/FW4fjs1YUXE2yJJe8",
+    "resolved_maps_url": "https://www.google.com/maps/place/Coyuya+149,+Magdalena+Mixihuca,+Venustiano+Carranza,+15850+Ciudad+de+M%C3%A9xico,+CDMX/@19.4055715,-99.1232666,17z/data=!3m1!4b1!4m6!3m5!1s0x85d1fe94620ccecd:0xcce71d0e5557d57e!8m2!3d19.4055715!4d-99.1206917!16s%2Fg%2F11cpnw3yyj?entry=tts&g_ep=EgoyMDI2MDQxMi4wIPu8ASoASAFQAw%3D%3D&skid=66b3bab6-de3b-4015-91ef-97bf398ff6f5",
+    "lat": 19.4055715,
+    "lng": -99.1232666
+  },
+  {
+    "id": 42,
+    "address": "PERIFÉRICO, ESQ. GUITIERREZ DE MENDOZA N° 13",
+    "reference": "Dirección a Toreo, a 200m de Walmart Toreo y a 500m de Toreo Parque Central",
+    "category": "Muro + Espectacular",
+    "size": "12.90 x 7.20 M",
+    "width": 12.9,
+    "height": 7.2,
+    "area_m2": 92.88000000000001,
+    "price": 150000,
+    "available": true,
+    "images": [
+      "https://v5.airtableusercontent.com/v3/u/54/54/1780970400000/eCzZO_11MgNF8WBe-OS_Ig/c9_Y08nFihVpRaWY1YGLeO0aRUTc8KBGPHDguljblF4PgVef51NGe_9nhpqo6JhnKAZSIYW_JZj5YfNvmRCZrjSDxNw5RrukruzWxAmVoW-OMMTKJHtG4sqzaZad0qjB4VuJhC2Qa2eQ_hsUACSd7MrYqNuj44KPf3L3eXqJpXo/PviahBPj6nibMnVOt2T1IiYBvW60Cg40RIkEhMsKT6Y"
+    ],
+    "original_maps_url": "https://maps.app.goo.gl/dY8NycoRWxaRkJc17",
+    "resolved_maps_url": "https://www.google.com/maps/place/Periferico+Sur+13,+Belisario+Dom%C3%ADnguez+Secc+16,+Tlalpan,+14080+Ciudad+de+M%C3%A9xico,+CDMX/@19.2942563,-99.1570115,17z/data=!3m1!4b1!4m5!3m4!1s0x85ce00570f77c963:0x71a470c1e5adfa02!8m2!3d19.2942563!4d-99.1544366?entry=tts&g_ep=EgoyMDI2MDQxMi4wIPu8ASoASAFQAw%3D%3D&skid=6e1c7294-1244-4e65-9b45-b0de3865ee91",
+    "lat": 19.2942563,
+    "lng": -99.1570115
+  },
+  {
+    "id": 37,
+    "address": "VIADUCTO MIGUEL ALEMÁN NO. 35 ESQ. HÉROES DE CHURUBUSCO",
+    "reference": "A solo unos metros de la Avenida Revolución",
+    "category": "Muro + Espectacular",
+    "size": "12.90 x 7.20 M",
+    "width": 12.9,
+    "height": 7.2,
+    "area_m2": 92.88000000000001,
+    "price": 145000,
+    "available": true,
+    "images": [
+      "https://v5.airtableusercontent.com/v3/u/54/54/1780970400000/S7Z4Zlil99uGdIe5zeIcxA/kpwMeC6ZyVgaCEFHmNWf9OUniirSpx1vXrd5QiyG4up0i2rOWxFCyI94ogA8_GpcKjyZAV0Pi4MaS8eFPNck-0RcivDPTPRyck2C3CEU1S_BZCZ72r84Hbq_mnBNH3DTi_H519Me5lqL2gGxbsCqynbZbO_YtPwKkLSziNgszCU/fVyRhWwE0Bgu79dhSGOO1tniYpYLFCIxmbdejzbbUZ8"
+    ],
+    "original_maps_url": "https://maps.app.goo.gl/1djv5WYk56PMWKvf7",
+    "resolved_maps_url": "https://www.google.com/maps/place/Viad.+Pdte.+Miguel+Alem%C3%A1n+Vald%C3%A9s+35,+Roma+Sur,+Cuauht%C3%A9moc,+06760+Ciudad+de+M%C3%A9xico,+CDMX/@19.4042091,-99.1601547,17z/data=!3m1!4b1!4m6!3m5!1s0x85d1ff17420a06b3:0xfe8e3254590ba063!8m2!3d19.4042091!4d-99.1575798!16s%2Fg%2F11c2czny6q?entry=tts&g_ep=EgoyMDI2MDQxMi4wIPu8ASoASAFQAw%3D%3D&skid=63c9bbcc-7de4-471d-a36b-16968cfe7f6c",
+    "lat": 19.4042091,
+    "lng": -99.1601547
+  },
+  {
+    "id": 57,
+    "address": "ANILLO PERIFERICO, ESQ. ESTEPA (PANTALLA)",
+    "reference": "Muy cerca de la Zona Arqueológica de Cuicuilco y del centro comercial Perisur. Resolución: 2304x960 px",
+    "category": "Pantalla Digital",
+    "size": "11.52 x 6.72 M",
+    "width": 11.52,
+    "height": 6.72,
+    "area_m2": 77.4144,
+    "price": 120000,
+    "available": true,
+    "images": [
+      "https://v5.airtableusercontent.com/v3/u/54/54/1780970400000/tGegGSZGY1WDsj6FmuihIA/WvrfC4PLItYX_5Dfok3nf2yM9DAYgBUCFzx5F0CeDUNlPERJ5mJHLmca34hoSI-i0FH7p8_lQENc3L8nkYst3t7Mkg10jqkiePmE1zlp1WP2P5-uZOIzX-xobaBgIFxANYKuNFCOS8eHIPAF0T_UTt0RScZuKntjwTnDKh1SxM0/tbhQ-g-GSgr2qixiM438HvJC40XCQPcW0ROdbN33p_M"
+    ],
+    "original_maps_url": "https://maps.app.goo.gl/FVnDH2PHxTe256gL7",
+    "resolved_maps_url": "https://www.google.com/maps/search/19.302427,+-99.195568?entry=tts&g_ep=EgoyMDI2MDEwNC4wIPu8ASoASAFQAw%3D%3D&skid=d156e33d-9e9b-47a3-9ba8-a1441925dfcf",
+    "lat": null,
+    "lng": null
+  }
+]

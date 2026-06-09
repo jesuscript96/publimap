@@ -1,0 +1,1127 @@
+[
+  {
+    "id": "rec3ZSgUMMB5y3hTP",
+    "createdTime": "2026-05-31T22:31:22.000Z",
+    "fields": {
+      "Notas": "Migración desde script SQL.",
+      "Resumen_Campaña": {
+        "state": "error",
+        "errorType": "emptyDependency",
+        "value": null,
+        "isStale": false
+      },
+      "Fecha_Inicio": "2026-01-01",
+      "Fecha_Fin": "2026-12-31",
+      "Espacio (Nuevo)": [
+        "recr2xdPeMe1m5rEG"
+      ],
+      "Cliente": [
+        "rec78uKsOly7dVPLg"
+      ],
+      "ID_Reservacion": 34,
+      "Duración_Días": 364,
+      "Fecha_Creacion": "2026-05-31T22:31:22.000Z",
+      "Estado": "Confirmada"
+    }
+  },
+  {
+    "id": "rec3aVZ6SoJGGtXKf",
+    "createdTime": "2026-05-31T22:31:23.000Z",
+    "fields": {
+      "Notas": "Migración desde script SQL.",
+      "Resumen_Campaña": {
+        "state": "error",
+        "errorType": "emptyDependency",
+        "value": null,
+        "isStale": false
+      },
+      "Fecha_Inicio": "2026-01-01",
+      "Fecha_Fin": "2026-12-31",
+      "Espacio (Nuevo)": [
+        "recAPz1QaMsJMU9eW"
+      ],
+      "Cliente": [
+        "recn1Tz89LsjG8ati"
+      ],
+      "ID_Reservacion": 53,
+      "Duración_Días": 364,
+      "Fecha_Creacion": "2026-05-31T22:31:23.000Z",
+      "Estado": "Confirmada"
+    }
+  },
+  {
+    "id": "rec5NwvUOPVkAwFGR",
+    "createdTime": "2026-05-31T22:31:22.000Z",
+    "fields": {
+      "Notas": "Migración desde script SQL.",
+      "Resumen_Campaña": {
+        "state": "error",
+        "errorType": "emptyDependency",
+        "value": null,
+        "isStale": false
+      },
+      "Fecha_Inicio": "2026-01-01",
+      "Fecha_Fin": "2026-12-31",
+      "Espacio (Nuevo)": [
+        "recDGP5GutwCbUnu1"
+      ],
+      "Cliente": [
+        "recEh7xvZa7ioxPwE"
+      ],
+      "ID_Reservacion": 30,
+      "Duración_Días": 364,
+      "Fecha_Creacion": "2026-05-31T22:31:22.000Z",
+      "Estado": "Confirmada"
+    }
+  },
+  {
+    "id": "rec8iDZrPZwqoMfyn",
+    "createdTime": "2026-05-31T22:31:22.000Z",
+    "fields": {
+      "Notas": "Migración desde script SQL.",
+      "Resumen_Campaña": {
+        "state": "error",
+        "errorType": "emptyDependency",
+        "value": null,
+        "isStale": false
+      },
+      "Fecha_Inicio": "2026-01-01",
+      "Fecha_Fin": "2026-12-31",
+      "Espacio (Nuevo)": [
+        "recfCHLaviMUzkaEu"
+      ],
+      "Cliente": [
+        "rec78uKsOly7dVPLg"
+      ],
+      "ID_Reservacion": 38,
+      "Duración_Días": 364,
+      "Fecha_Creacion": "2026-05-31T22:31:22.000Z",
+      "Estado": "Confirmada"
+    }
+  },
+  {
+    "id": "rec9hgUmi4t2kbeaP",
+    "createdTime": "2026-05-31T22:31:22.000Z",
+    "fields": {
+      "Notas": "Migración desde script SQL.",
+      "Resumen_Campaña": {
+        "state": "error",
+        "errorType": "emptyDependency",
+        "value": null,
+        "isStale": false
+      },
+      "Fecha_Inicio": "2026-07-01",
+      "Fecha_Fin": "2026-07-31",
+      "Espacio (Nuevo)": [
+        "recJQ9eW3UBYn13mo"
+      ],
+      "Cliente": [
+        "rech94BgsxZX6BJka"
+      ],
+      "ID_Reservacion": 40,
+      "Duración_Días": 30,
+      "Fecha_Creacion": "2026-05-31T22:31:22.000Z",
+      "Estado": "Confirmada"
+    }
+  },
+  {
+    "id": "recA047uIjlD4ngDh",
+    "createdTime": "2026-05-31T22:31:21.000Z",
+    "fields": {
+      "Notas": "Migración desde script SQL.",
+      "Resumen_Campaña": {
+        "state": "error",
+        "errorType": "emptyDependency",
+        "value": null,
+        "isStale": false
+      },
+      "Fecha_Inicio": "2025-12-01",
+      "Fecha_Fin": "2026-07-31",
+      "Espacio (Nuevo)": [
+        "recqTm75FvkIOfMMj"
+      ],
+      "Cliente": [
+        "rec4A3wttIcUZNAi2"
+      ],
+      "ID_Reservacion": 18,
+      "Duración_Días": 242,
+      "Fecha_Creacion": "2026-05-31T22:31:21.000Z",
+      "Estado": "Confirmada"
+    }
+  },
+  {
+    "id": "recAdHlEhvx2DtGdO",
+    "createdTime": "2026-05-31T22:31:21.000Z",
+    "fields": {
+      "Notas": "Migración desde script SQL.",
+      "Resumen_Campaña": {
+        "state": "error",
+        "errorType": "emptyDependency",
+        "value": null,
+        "isStale": false
+      },
+      "Fecha_Inicio": "2026-01-01",
+      "Fecha_Fin": "2026-12-31",
+      "Espacio (Nuevo)": [
+        "recJpN2qtFOWRstxX"
+      ],
+      "Cliente": [
+        "recG1ZWjSYSZPOBzR"
+      ],
+      "ID_Reservacion": 22,
+      "Duración_Días": 364,
+      "Fecha_Creacion": "2026-05-31T22:31:21.000Z",
+      "Estado": "Confirmada"
+    }
+  },
+  {
+    "id": "recBfZn6MYQMZHHMI",
+    "createdTime": "2026-05-31T22:31:21.000Z",
+    "fields": {
+      "Notas": "Migración desde script SQL.",
+      "Resumen_Campaña": {
+        "state": "error",
+        "errorType": "emptyDependency",
+        "value": null,
+        "isStale": false
+      },
+      "Fecha_Inicio": "2026-04-30",
+      "Fecha_Fin": "2026-06-29",
+      "Espacio (Nuevo)": [
+        "rechiD2S9u447AHH1"
+      ],
+      "Cliente": [
+        "rec0Ieggmx1bsVPYZ"
+      ],
+      "ID_Reservacion": 16,
+      "Duración_Días": 60,
+      "Fecha_Creacion": "2026-05-31T22:31:21.000Z",
+      "Estado": "Confirmada"
+    }
+  },
+  {
+    "id": "recBsDJenrx0SaMHE",
+    "createdTime": "2026-05-31T22:31:23.000Z",
+    "fields": {
+      "Notas": "Migración desde script SQL.",
+      "Resumen_Campaña": {
+        "state": "error",
+        "errorType": "emptyDependency",
+        "value": null,
+        "isStale": false
+      },
+      "Fecha_Inicio": "2026-06-01",
+      "Fecha_Fin": "2026-06-30",
+      "Espacio (Nuevo)": [
+        "recF6kyVFWtQdMf6W"
+      ],
+      "Cliente": [
+        "reczfoohx3mWdTLhc"
+      ],
+      "ID_Reservacion": 52,
+      "Duración_Días": 29,
+      "Fecha_Creacion": "2026-05-31T22:31:23.000Z",
+      "Estado": "Confirmada"
+    }
+  },
+  {
+    "id": "recED3XlFx1uVxJ2v",
+    "createdTime": "2026-05-31T22:31:24.000Z",
+    "fields": {
+      "Notas": "Migración desde script SQL.",
+      "Resumen_Campaña": {
+        "state": "error",
+        "errorType": "emptyDependency",
+        "value": null,
+        "isStale": false
+      },
+      "Fecha_Inicio": "2026-03-01",
+      "Fecha_Fin": "2026-04-30",
+      "Espacio (Nuevo)": [
+        "recSYev0UDx4KrHSd"
+      ],
+      "Cliente": [
+        "recX4JuyOwu9V495Y"
+      ],
+      "ID_Reservacion": 59,
+      "Duración_Días": 60,
+      "Fecha_Creacion": "2026-05-31T22:31:24.000Z",
+      "Estado": "Confirmada"
+    }
+  },
+  {
+    "id": "recFwfMQ7SPM7lbX4",
+    "createdTime": "2026-05-31T22:31:22.000Z",
+    "fields": {
+      "Notas": "Migración desde script SQL.",
+      "Resumen_Campaña": {
+        "state": "error",
+        "errorType": "emptyDependency",
+        "value": null,
+        "isStale": false
+      },
+      "Fecha_Inicio": "2026-01-01",
+      "Fecha_Fin": "2026-12-31",
+      "Espacio (Nuevo)": [
+        "rec7GLjsEJayy87UK"
+      ],
+      "Cliente": [
+        "rec78uKsOly7dVPLg"
+      ],
+      "ID_Reservacion": 35,
+      "Duración_Días": 364,
+      "Fecha_Creacion": "2026-05-31T22:31:22.000Z",
+      "Estado": "Confirmada"
+    }
+  },
+  {
+    "id": "recH0middBxPW387F",
+    "createdTime": "2026-05-31T22:31:23.000Z",
+    "fields": {
+      "Notas": "Migración desde script SQL.",
+      "Resumen_Campaña": {
+        "state": "error",
+        "errorType": "emptyDependency",
+        "value": null,
+        "isStale": false
+      },
+      "Fecha_Inicio": "2026-01-01",
+      "Fecha_Fin": "2026-12-31",
+      "Espacio (Nuevo)": [
+        "recNmQqpNcwtdrJ28"
+      ],
+      "Cliente": [
+        "recn1Tz89LsjG8ati"
+      ],
+      "ID_Reservacion": 54,
+      "Duración_Días": 364,
+      "Fecha_Creacion": "2026-05-31T22:31:23.000Z",
+      "Estado": "Confirmada"
+    }
+  },
+  {
+    "id": "recHBKExHh35SZIYT",
+    "createdTime": "2026-05-31T22:31:21.000Z",
+    "fields": {
+      "Notas": "Migración desde script SQL.",
+      "Resumen_Campaña": {
+        "state": "error",
+        "errorType": "emptyDependency",
+        "value": null,
+        "isStale": false
+      },
+      "Fecha_Inicio": "2025-12-01",
+      "Fecha_Fin": "2026-07-31",
+      "Espacio (Nuevo)": [
+        "recx93PX1UTg2CinY"
+      ],
+      "Cliente": [
+        "rec4A3wttIcUZNAi2"
+      ],
+      "ID_Reservacion": 17,
+      "Duración_Días": 242,
+      "Fecha_Creacion": "2026-05-31T22:31:21.000Z",
+      "Estado": "Confirmada"
+    }
+  },
+  {
+    "id": "recICvPvnvB9ZYA7d",
+    "createdTime": "2026-05-31T22:31:22.000Z",
+    "fields": {
+      "Notas": "Migración desde script SQL.",
+      "Resumen_Campaña": {
+        "state": "error",
+        "errorType": "emptyDependency",
+        "value": null,
+        "isStale": false
+      },
+      "Fecha_Inicio": "2026-01-15",
+      "Fecha_Fin": "2026-04-14",
+      "Espacio (Nuevo)": [
+        "recDZM7l46fUhGM1s"
+      ],
+      "Cliente": [
+        "recZpIUgsDPSEekon"
+      ],
+      "ID_Reservacion": 26,
+      "Duración_Días": 89,
+      "Fecha_Creacion": "2026-05-31T22:31:22.000Z",
+      "Estado": "Confirmada"
+    }
+  },
+  {
+    "id": "recMyXLlQ9uVJt5QL",
+    "createdTime": "2026-05-31T22:31:23.000Z",
+    "fields": {
+      "Notas": "Migración desde script SQL.",
+      "Resumen_Campaña": {
+        "state": "error",
+        "errorType": "emptyDependency",
+        "value": null,
+        "isStale": false
+      },
+      "Fecha_Inicio": "2026-06-01",
+      "Fecha_Fin": "2026-06-30",
+      "Espacio (Nuevo)": [
+        "recp71mwYmkcUBdVa"
+      ],
+      "Cliente": [
+        "reczfoohx3mWdTLhc"
+      ],
+      "ID_Reservacion": 51,
+      "Duración_Días": 29,
+      "Fecha_Creacion": "2026-05-31T22:31:23.000Z",
+      "Estado": "Confirmada"
+    }
+  },
+  {
+    "id": "recNxKwh2C8Fja4Sr",
+    "createdTime": "2026-05-31T22:31:22.000Z",
+    "fields": {
+      "Notas": "Migración desde script SQL.",
+      "Resumen_Campaña": {
+        "state": "error",
+        "errorType": "emptyDependency",
+        "value": null,
+        "isStale": false
+      },
+      "Fecha_Inicio": "2026-01-01",
+      "Fecha_Fin": "2026-12-31",
+      "Espacio (Nuevo)": [
+        "reczqYAtXMauuLOzM"
+      ],
+      "Cliente": [
+        "rec78uKsOly7dVPLg"
+      ],
+      "ID_Reservacion": 36,
+      "Duración_Días": 364,
+      "Fecha_Creacion": "2026-05-31T22:31:22.000Z",
+      "Estado": "Confirmada"
+    }
+  },
+  {
+    "id": "recO8dTqycHtYXb9R",
+    "createdTime": "2026-05-31T22:31:21.000Z",
+    "fields": {
+      "Notas": "Migración desde script SQL.",
+      "Resumen_Campaña": {
+        "state": "error",
+        "errorType": "emptyDependency",
+        "value": null,
+        "isStale": false
+      },
+      "Fecha_Inicio": "2026-01-01",
+      "Fecha_Fin": "2026-12-31",
+      "Espacio (Nuevo)": [
+        "recLAaBOstmxRpzon"
+      ],
+      "Cliente": [
+        "recG1ZWjSYSZPOBzR"
+      ],
+      "ID_Reservacion": 23,
+      "Duración_Días": 364,
+      "Fecha_Creacion": "2026-05-31T22:31:21.000Z",
+      "Estado": "Confirmada"
+    }
+  },
+  {
+    "id": "recQUQsUJLD8P9qgp",
+    "createdTime": "2026-05-31T22:31:21.000Z",
+    "fields": {
+      "Notas": "Migración desde script SQL.",
+      "Resumen_Campaña": {
+        "state": "error",
+        "errorType": "emptyDependency",
+        "value": null,
+        "isStale": false
+      },
+      "Fecha_Inicio": "2026-01-15",
+      "Fecha_Fin": "2026-04-14",
+      "Espacio (Nuevo)": [
+        "recAdGa1A8jYEeBM7"
+      ],
+      "Cliente": [
+        "recZpIUgsDPSEekon"
+      ],
+      "ID_Reservacion": 25,
+      "Duración_Días": 89,
+      "Fecha_Creacion": "2026-05-31T22:31:21.000Z",
+      "Estado": "Confirmada"
+    }
+  },
+  {
+    "id": "recQssHVvJMc7cHB8",
+    "createdTime": "2026-05-31T22:31:21.000Z",
+    "fields": {
+      "Notas": "Migración desde script SQL.",
+      "Resumen_Campaña": {
+        "state": "error",
+        "errorType": "emptyDependency",
+        "value": null,
+        "isStale": false
+      },
+      "Fecha_Inicio": "2026-02-01",
+      "Fecha_Fin": "2026-12-31",
+      "Espacio (Nuevo)": [
+        "recqY7sXqeoU0LpoV"
+      ],
+      "Cliente": [
+        "recG1ZWjSYSZPOBzR"
+      ],
+      "ID_Reservacion": 24,
+      "Duración_Días": 333,
+      "Fecha_Creacion": "2026-05-31T22:31:21.000Z",
+      "Estado": "Confirmada"
+    }
+  },
+  {
+    "id": "recSPh6wQAsV5djLW",
+    "createdTime": "2026-05-31T22:31:24.000Z",
+    "fields": {
+      "Notas": "Migración desde script SQL.",
+      "Resumen_Campaña": {
+        "state": "error",
+        "errorType": "emptyDependency",
+        "value": null,
+        "isStale": false
+      },
+      "Fecha_Inicio": "2026-03-01",
+      "Fecha_Fin": "2026-04-30",
+      "Espacio (Nuevo)": [
+        "rec7hVhsoZzCLt0Ch"
+      ],
+      "Cliente": [
+        "recX4JuyOwu9V495Y"
+      ],
+      "ID_Reservacion": 60,
+      "Duración_Días": 60,
+      "Fecha_Creacion": "2026-05-31T22:31:24.000Z",
+      "Estado": "Confirmada"
+    }
+  },
+  {
+    "id": "recTvqYjWUgmgYC3n",
+    "createdTime": "2026-05-31T22:31:21.000Z",
+    "fields": {
+      "Notas": "Migración desde script SQL.",
+      "Resumen_Campaña": {
+        "state": "error",
+        "errorType": "emptyDependency",
+        "value": null,
+        "isStale": false
+      },
+      "Fecha_Inicio": "2025-12-01",
+      "Fecha_Fin": "2026-07-31",
+      "Espacio (Nuevo)": [
+        "recwlMOIVp9cRgbdU"
+      ],
+      "Cliente": [
+        "rec4A3wttIcUZNAi2"
+      ],
+      "ID_Reservacion": 19,
+      "Duración_Días": 242,
+      "Fecha_Creacion": "2026-05-31T22:31:21.000Z",
+      "Estado": "Confirmada"
+    }
+  },
+  {
+    "id": "recUpgmGq75UygDTr",
+    "createdTime": "2026-05-31T22:31:22.000Z",
+    "fields": {
+      "Notas": "Migración desde script SQL.",
+      "Resumen_Campaña": {
+        "state": "error",
+        "errorType": "emptyDependency",
+        "value": null,
+        "isStale": false
+      },
+      "Fecha_Inicio": "2026-01-01",
+      "Fecha_Fin": "2026-12-31",
+      "Espacio (Nuevo)": [
+        "reciFfcFSEL7ApslG"
+      ],
+      "Cliente": [
+        "rec78uKsOly7dVPLg"
+      ],
+      "ID_Reservacion": 37,
+      "Duración_Días": 364,
+      "Fecha_Creacion": "2026-05-31T22:31:22.000Z",
+      "Estado": "Confirmada"
+    }
+  },
+  {
+    "id": "recVH6xKinIQK3STK",
+    "createdTime": "2026-05-31T22:31:22.000Z",
+    "fields": {
+      "Notas": "Migración desde script SQL.",
+      "Resumen_Campaña": {
+        "state": "error",
+        "errorType": "emptyDependency",
+        "value": null,
+        "isStale": false
+      },
+      "Fecha_Inicio": "2026-01-01",
+      "Fecha_Fin": "2026-12-31",
+      "Espacio (Nuevo)": [
+        "recHPjsc6aDtgcwWd"
+      ],
+      "Cliente": [
+        "rec78uKsOly7dVPLg"
+      ],
+      "ID_Reservacion": 39,
+      "Duración_Días": 364,
+      "Fecha_Creacion": "2026-05-31T22:31:22.000Z",
+      "Estado": "Confirmada"
+    }
+  },
+  {
+    "id": "recVPA2w9DYgvpdwD",
+    "createdTime": "2026-05-31T22:31:22.000Z",
+    "fields": {
+      "Notas": "Migración desde script SQL.",
+      "Resumen_Campaña": {
+        "state": "error",
+        "errorType": "emptyDependency",
+        "value": null,
+        "isStale": false
+      },
+      "Fecha_Inicio": "2026-05-01",
+      "Fecha_Fin": "2027-04-30",
+      "Espacio (Nuevo)": [
+        "recd7sJVTHgRKOe9W"
+      ],
+      "Cliente": [
+        "recZpIUgsDPSEekon"
+      ],
+      "ID_Reservacion": 28,
+      "Duración_Días": 364,
+      "Fecha_Creacion": "2026-05-31T22:31:22.000Z",
+      "Estado": "Confirmada"
+    }
+  },
+  {
+    "id": "recWmewxYCTk2b6oh",
+    "createdTime": "2026-05-31T22:31:21.000Z",
+    "fields": {
+      "Notas": "Migración desde script SQL.",
+      "Resumen_Campaña": {
+        "state": "error",
+        "errorType": "emptyDependency",
+        "value": null,
+        "isStale": false
+      },
+      "Fecha_Inicio": "2026-03-01",
+      "Fecha_Fin": "2026-12-31",
+      "Espacio (Nuevo)": [
+        "rec8a0IZtZOdhB9XY"
+      ],
+      "Cliente": [
+        "recG1ZWjSYSZPOBzR"
+      ],
+      "ID_Reservacion": 20,
+      "Duración_Días": 305,
+      "Fecha_Creacion": "2026-05-31T22:31:21.000Z",
+      "Estado": "Confirmada"
+    }
+  },
+  {
+    "id": "recXywTjhvWJBQvjw",
+    "createdTime": "2026-05-31T22:31:23.000Z",
+    "fields": {
+      "Notas": "Migración desde script SQL.",
+      "Resumen_Campaña": {
+        "state": "error",
+        "errorType": "emptyDependency",
+        "value": null,
+        "isStale": false
+      },
+      "Fecha_Inicio": "2026-04-01",
+      "Fecha_Fin": "2026-05-31",
+      "Espacio (Nuevo)": [
+        "recQ9w7GgmtzklPYs"
+      ],
+      "Cliente": [
+        "rec5VrMs5Y1g1JCJA"
+      ],
+      "ID_Reservacion": 48,
+      "Duración_Días": 60,
+      "Fecha_Creacion": "2026-05-31T22:31:23.000Z",
+      "Estado": "Confirmada"
+    }
+  },
+  {
+    "id": "recZJ9DeB6Gs8y0bY",
+    "createdTime": "2026-05-31T22:31:22.000Z",
+    "fields": {
+      "Notas": "Migración desde script SQL.",
+      "Resumen_Campaña": {
+        "state": "error",
+        "errorType": "emptyDependency",
+        "value": null,
+        "isStale": false
+      },
+      "Fecha_Inicio": "2026-01-01",
+      "Fecha_Fin": "2026-07-31",
+      "Espacio (Nuevo)": [
+        "recjzNQMLHqEdWm4Y"
+      ],
+      "Cliente": [
+        "recA1lhiKrDZw0qN6"
+      ],
+      "ID_Reservacion": 44,
+      "Duración_Días": 211,
+      "Fecha_Creacion": "2026-05-31T22:31:22.000Z",
+      "Estado": "Confirmada"
+    }
+  },
+  {
+    "id": "recZTMF4q8bgoWglI",
+    "createdTime": "2026-05-31T22:31:22.000Z",
+    "fields": {
+      "Notas": "Migración desde script SQL.",
+      "Resumen_Campaña": {
+        "state": "error",
+        "errorType": "emptyDependency",
+        "value": null,
+        "isStale": false
+      },
+      "Fecha_Inicio": "2026-01-15",
+      "Fecha_Fin": "2026-04-14",
+      "Espacio (Nuevo)": [
+        "recp2DAZB0C8FteEV"
+      ],
+      "Cliente": [
+        "recZpIUgsDPSEekon"
+      ],
+      "ID_Reservacion": 27,
+      "Duración_Días": 89,
+      "Fecha_Creacion": "2026-05-31T22:31:22.000Z",
+      "Estado": "Confirmada"
+    }
+  },
+  {
+    "id": "recb2JYpDqlnlppkK",
+    "createdTime": "2026-05-31T22:31:22.000Z",
+    "fields": {
+      "Notas": "Migración desde script SQL.",
+      "Resumen_Campaña": {
+        "state": "error",
+        "errorType": "emptyDependency",
+        "value": null,
+        "isStale": false
+      },
+      "Fecha_Inicio": "2026-01-01",
+      "Fecha_Fin": "2026-12-31",
+      "Espacio (Nuevo)": [
+        "recBkhJCMaLUvJKq2"
+      ],
+      "Cliente": [
+        "recA1lhiKrDZw0qN6"
+      ],
+      "ID_Reservacion": 45,
+      "Duración_Días": 364,
+      "Fecha_Creacion": "2026-05-31T22:31:22.000Z",
+      "Estado": "Confirmada"
+    }
+  },
+  {
+    "id": "recb8Z5yDHd4V8f6v",
+    "createdTime": "2026-05-31T22:31:22.000Z",
+    "fields": {
+      "Notas": "Migración desde script SQL.",
+      "Resumen_Campaña": {
+        "state": "error",
+        "errorType": "emptyDependency",
+        "value": null,
+        "isStale": false
+      },
+      "Fecha_Inicio": "2026-01-01",
+      "Fecha_Fin": "2026-12-31",
+      "Espacio (Nuevo)": [
+        "reccHBev2YZUShAz0"
+      ],
+      "Cliente": [
+        "recEh7xvZa7ioxPwE"
+      ],
+      "ID_Reservacion": 31,
+      "Duración_Días": 364,
+      "Fecha_Creacion": "2026-05-31T22:31:22.000Z",
+      "Estado": "Confirmada"
+    }
+  },
+  {
+    "id": "recd7fBOt5tQx6xvM",
+    "createdTime": "2026-05-31T22:31:21.000Z",
+    "fields": {
+      "Notas": "Migración desde script SQL.",
+      "Resumen_Campaña": {
+        "state": "error",
+        "errorType": "emptyDependency",
+        "value": null,
+        "isStale": false
+      },
+      "Fecha_Inicio": "2026-01-01",
+      "Fecha_Fin": "2026-12-31",
+      "Espacio (Nuevo)": [
+        "recUVfvUYU6MzuCPW"
+      ],
+      "Cliente": [
+        "recG1ZWjSYSZPOBzR"
+      ],
+      "ID_Reservacion": 21,
+      "Duración_Días": 364,
+      "Fecha_Creacion": "2026-05-31T22:31:21.000Z",
+      "Estado": "Confirmada"
+    }
+  },
+  {
+    "id": "recep34GCIUTvxPvM",
+    "createdTime": "2026-05-31T22:31:23.000Z",
+    "fields": {
+      "Notas": "Migración desde script SQL.",
+      "Resumen_Campaña": {
+        "state": "error",
+        "errorType": "emptyDependency",
+        "value": null,
+        "isStale": false
+      },
+      "Fecha_Inicio": "2026-04-01",
+      "Fecha_Fin": "2026-05-31",
+      "Espacio (Nuevo)": [
+        "recl6iUmundPKOanf"
+      ],
+      "Cliente": [
+        "rec5VrMs5Y1g1JCJA"
+      ],
+      "ID_Reservacion": 47,
+      "Duración_Días": 60,
+      "Fecha_Creacion": "2026-05-31T22:31:23.000Z",
+      "Estado": "Confirmada"
+    }
+  },
+  {
+    "id": "reciPJqnCsnIWFRWQ",
+    "createdTime": "2026-05-31T22:31:22.000Z",
+    "fields": {
+      "Notas": "Migración desde script SQL.",
+      "Resumen_Campaña": {
+        "state": "error",
+        "errorType": "emptyDependency",
+        "value": null,
+        "isStale": false
+      },
+      "Fecha_Inicio": "2026-01-01",
+      "Fecha_Fin": "2026-12-31",
+      "Espacio (Nuevo)": [
+        "recZ7I91rxF7JjoHQ"
+      ],
+      "Cliente": [
+        "recA1lhiKrDZw0qN6"
+      ],
+      "ID_Reservacion": 42,
+      "Duración_Días": 364,
+      "Fecha_Creacion": "2026-05-31T22:31:22.000Z",
+      "Estado": "Confirmada"
+    }
+  },
+  {
+    "id": "recjkFwUjZYBuncqJ",
+    "createdTime": "2026-05-31T22:31:22.000Z",
+    "fields": {
+      "Notas": "Migración desde script SQL.",
+      "Resumen_Campaña": {
+        "state": "error",
+        "errorType": "emptyDependency",
+        "value": null,
+        "isStale": false
+      },
+      "Fecha_Inicio": "2026-01-01",
+      "Fecha_Fin": "2026-12-31",
+      "Espacio (Nuevo)": [
+        "recRARpinDysIunvs"
+      ],
+      "Cliente": [
+        "recEh7xvZa7ioxPwE"
+      ],
+      "ID_Reservacion": 29,
+      "Duración_Días": 364,
+      "Fecha_Creacion": "2026-05-31T22:31:22.000Z",
+      "Estado": "Confirmada"
+    }
+  },
+  {
+    "id": "recnAVLQFlaFyCHgA",
+    "createdTime": "2026-05-31T22:31:23.000Z",
+    "fields": {
+      "Notas": "Migración desde script SQL.",
+      "Resumen_Campaña": {
+        "state": "error",
+        "errorType": "emptyDependency",
+        "value": null,
+        "isStale": false
+      },
+      "Fecha_Inicio": "2026-01-01",
+      "Fecha_Fin": "2026-12-31",
+      "Espacio (Nuevo)": [
+        "recStRLIY6nufDFnl"
+      ],
+      "Cliente": [
+        "rec2zjGONNUUfKu5C"
+      ],
+      "ID_Reservacion": 55,
+      "Duración_Días": 364,
+      "Fecha_Creacion": "2026-05-31T22:31:23.000Z",
+      "Estado": "Confirmada"
+    }
+  },
+  {
+    "id": "recoPx40eWnfuBcXc",
+    "createdTime": "2026-05-31T22:31:23.000Z",
+    "fields": {
+      "Notas": "Migración desde script SQL.",
+      "Resumen_Campaña": {
+        "state": "error",
+        "errorType": "emptyDependency",
+        "value": null,
+        "isStale": false
+      },
+      "Fecha_Inicio": "2026-02-01",
+      "Fecha_Fin": "2026-04-30",
+      "Espacio (Nuevo)": [
+        "recl6iUmundPKOanf"
+      ],
+      "Cliente": [
+        "recshpeVder2pylHj"
+      ],
+      "ID_Reservacion": 46,
+      "Duración_Días": 88,
+      "Fecha_Creacion": "2026-05-31T22:31:23.000Z",
+      "Estado": "Confirmada"
+    }
+  },
+  {
+    "id": "recr67LCobvS0yrC8",
+    "createdTime": "2026-05-31T22:31:24.000Z",
+    "fields": {
+      "Notas": "Migración desde script SQL.",
+      "Resumen_Campaña": {
+        "state": "error",
+        "errorType": "emptyDependency",
+        "value": null,
+        "isStale": false
+      },
+      "Fecha_Inicio": "2026-05-26",
+      "Fecha_Fin": "2026-06-16",
+      "Espacio (Nuevo)": [
+        "recjcv0mTxVB5xlXT"
+      ],
+      "Cliente": [
+        "recSrv5F7sXsqSxL6"
+      ],
+      "ID_Reservacion": 56,
+      "Duración_Días": 21,
+      "Fecha_Creacion": "2026-05-31T22:31:24.000Z",
+      "Estado": "Confirmada"
+    }
+  },
+  {
+    "id": "recrcAqX3EqEXcNIC",
+    "createdTime": "2026-05-31T22:31:22.000Z",
+    "fields": {
+      "Notas": "Migración desde script SQL.",
+      "Resumen_Campaña": {
+        "state": "error",
+        "errorType": "emptyDependency",
+        "value": null,
+        "isStale": false
+      },
+      "Fecha_Inicio": "2026-07-01",
+      "Fecha_Fin": "2026-07-31",
+      "Espacio (Nuevo)": [
+        "recJ7MQYpVZHy55lR"
+      ],
+      "Cliente": [
+        "rech94BgsxZX6BJka"
+      ],
+      "ID_Reservacion": 41,
+      "Duración_Días": 30,
+      "Fecha_Creacion": "2026-05-31T22:31:22.000Z",
+      "Estado": "Confirmada"
+    }
+  },
+  {
+    "id": "recsVfPlJQTL4SZV2",
+    "createdTime": "2026-05-31T22:31:22.000Z",
+    "fields": {
+      "Notas": "Migración desde script SQL.",
+      "Resumen_Campaña": {
+        "state": "error",
+        "errorType": "emptyDependency",
+        "value": null,
+        "isStale": false
+      },
+      "Fecha_Inicio": "2026-01-01",
+      "Fecha_Fin": "2026-12-31",
+      "Espacio (Nuevo)": [
+        "rec6iZXGJM2BRsvuZ"
+      ],
+      "Cliente": [
+        "recA1lhiKrDZw0qN6"
+      ],
+      "ID_Reservacion": 43,
+      "Duración_Días": 364,
+      "Fecha_Creacion": "2026-05-31T22:31:22.000Z",
+      "Estado": "Confirmada"
+    }
+  },
+  {
+    "id": "recsuGCD4bNqx4jqe",
+    "createdTime": "2026-05-31T22:31:22.000Z",
+    "fields": {
+      "Notas": "Migración desde script SQL.",
+      "Resumen_Campaña": {
+        "state": "error",
+        "errorType": "emptyDependency",
+        "value": null,
+        "isStale": false
+      },
+      "Fecha_Inicio": "2026-01-01",
+      "Fecha_Fin": "2026-12-31",
+      "Espacio (Nuevo)": [
+        "recjaJBIWNmsvg6RP"
+      ],
+      "Cliente": [
+        "recEh7xvZa7ioxPwE"
+      ],
+      "ID_Reservacion": 32,
+      "Duración_Días": 364,
+      "Fecha_Creacion": "2026-05-31T22:31:22.000Z",
+      "Estado": "Confirmada"
+    }
+  },
+  {
+    "id": "recv9jHVyn4NDCm5q",
+    "createdTime": "2026-05-31T22:31:23.000Z",
+    "fields": {
+      "Notas": "Migración desde script SQL.",
+      "Resumen_Campaña": {
+        "state": "error",
+        "errorType": "emptyDependency",
+        "value": null,
+        "isStale": false
+      },
+      "Fecha_Inicio": "2026-01-01",
+      "Fecha_Fin": "2026-12-31",
+      "Espacio (Nuevo)": [
+        "recp71mwYmkcUBdVa"
+      ],
+      "Cliente": [
+        "recvfHOUBzFjrefVr"
+      ],
+      "ID_Reservacion": 50,
+      "Duración_Días": 364,
+      "Fecha_Creacion": "2026-05-31T22:31:23.000Z",
+      "Estado": "Confirmada"
+    }
+  },
+  {
+    "id": "recvaCmWqo4Rgfqg9",
+    "createdTime": "2026-05-31T22:31:22.000Z",
+    "fields": {
+      "Notas": "Migración desde script SQL.",
+      "Resumen_Campaña": {
+        "state": "error",
+        "errorType": "emptyDependency",
+        "value": null,
+        "isStale": false
+      },
+      "Fecha_Inicio": "2026-01-01",
+      "Fecha_Fin": "2026-12-31",
+      "Espacio (Nuevo)": [
+        "recKJ3EdTynyBKM9j"
+      ],
+      "Cliente": [
+        "recEh7xvZa7ioxPwE"
+      ],
+      "ID_Reservacion": 33,
+      "Duración_Días": 364,
+      "Fecha_Creacion": "2026-05-31T22:31:22.000Z",
+      "Estado": "Confirmada"
+    }
+  },
+  {
+    "id": "recvtpHN5GHDmJgMN",
+    "createdTime": "2026-05-31T22:31:23.000Z",
+    "fields": {
+      "Notas": "Migración desde script SQL.",
+      "Resumen_Campaña": {
+        "state": "error",
+        "errorType": "emptyDependency",
+        "value": null,
+        "isStale": false
+      },
+      "Fecha_Inicio": "2026-03-01",
+      "Fecha_Fin": "2026-12-31",
+      "Espacio (Nuevo)": [
+        "recnV8yPCa9dW9D94"
+      ],
+      "Cliente": [
+        "reccAFi6OryzCybsu"
+      ],
+      "ID_Reservacion": 49,
+      "Duración_Días": 305,
+      "Fecha_Creacion": "2026-05-31T22:31:23.000Z",
+      "Estado": "Confirmada"
+    }
+  },
+  {
+    "id": "recwkUxjv8JDZgVNp",
+    "createdTime": "2026-05-31T22:31:24.000Z",
+    "fields": {
+      "Notas": "Migración desde script SQL.",
+      "Resumen_Campaña": {
+        "state": "error",
+        "errorType": "emptyDependency",
+        "value": null,
+        "isStale": false
+      },
+      "Fecha_Inicio": "2026-05-09",
+      "Fecha_Fin": "2026-06-09",
+      "Espacio (Nuevo)": [
+        "recNdlRySW53X9YW4"
+      ],
+      "Cliente": [
+        "rec2aeARCikO7kajf"
+      ],
+      "ID_Reservacion": 57,
+      "Duración_Días": 31,
+      "Fecha_Creacion": "2026-05-31T22:31:24.000Z",
+      "Estado": "Confirmada"
+    }
+  },
+  {
+    "id": "recxvBEqpqmyDNG0z",
+    "createdTime": "2026-05-31T22:31:24.000Z",
+    "fields": {
+      "Notas": "Migración desde script SQL.",
+      "Resumen_Campaña": {
+        "state": "error",
+        "errorType": "emptyDependency",
+        "value": null,
+        "isStale": false
+      },
+      "Fecha_Inicio": "2026-01-14",
+      "Fecha_Fin": "2026-02-13",
+      "Espacio (Nuevo)": [
+        "recd7sJVTHgRKOe9W"
+      ],
+      "Cliente": [
+        "reca4zWDvLBYsokgc"
+      ],
+      "ID_Reservacion": 58,
+      "Duración_Días": 30,
+      "Fecha_Creacion": "2026-05-31T22:31:24.000Z",
+      "Estado": "Confirmada"
+    }
+  }
+]
