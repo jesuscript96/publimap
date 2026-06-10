@@ -64,6 +64,29 @@ function extractCoords(mapsUrl) {
   if (match) {
     return { lat: parseFloat(match[1]), lng: parseFloat(match[2]) };
   }
+
+  // Pattern 4: /search/lat,lng (sometimes with + sign)
+  match = mapsUrl.match(/\/search\/(-?\d+\.\d+),\+?(-?\d+\.\d+)/);
+  if (match) {
+    return { lat: parseFloat(match[1]), lng: parseFloat(match[2]) };
+  }
+
+  // Pattern 5: /place/lat,lng
+  match = mapsUrl.match(/\/place\/(-?\d+\.\d+),\+?(-?\d+\.\d+)/);
+  if (match) {
+    return { lat: parseFloat(match[1]), lng: parseFloat(match[2]) };
+  }
+
+  // Pattern 6: Any lat,lng pattern inside path like /19.1234,-99.1234
+  match = mapsUrl.match(/\/(-?\d+\.\d+),\+?(-?\d+\.\d+)/);
+  if (match) {
+    const lat = parseFloat(match[1]);
+    const lng = parseFloat(match[2]);
+    // Ensure coordinates are within reasonable Mexico bounds
+    if (lat > 14 && lat < 33 && lng > -122 && lng < -86) {
+      return { lat, lng };
+    }
+  }
   
   return null;
 }

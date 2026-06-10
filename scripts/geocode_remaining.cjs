@@ -1,37 +1,52 @@
 const fs = require('fs');
 const https = require('https');
-const querystring = require('querystring');
+const path = require('path');
 
 const resolved = JSON.parse(fs.readFileSync('resolved_billboards.json', 'utf8'));
 
-// Helper to query Nominatim
-function geocodeNominatim(addressQuery) {
-  return new Promise((resolve) => {
-    const query = querystring.stringify({
-      q: addressQuery,
-      format: 'json',
-      limit: 1
-    });
-    
-    const options = {
-      hostname: 'nominatim.openstreetmap.org',
-      path: `/search?${query}`,
-      headers: {
-        'User-Agent': 'PublimapGeocodingScript/1.0 (contact: test@example.com)'
+// Load Mapbox Token from .env
+let MAPBOX_TOKEN = '';
+try {
+  const envPath = path.join(process.cwd(), '.env');
+  if (fs.existsSync(envPath)) {
+    const envContent = fs.readFileSync(envPath, 'utf-8');
+    envContent.split(/\r?\n/).forEach(line => {
+      const parts = line.split('=');
+      if (parts.length >= 2) {
+        const key = parts[0].trim();
+        const val = parts.slice(1).join('=').trim();
+        if (key === 'VITE_MAPBOX_ACCESS_TOKEN') {
+          MAPBOX_TOKEN = val;
+        }
       }
-    };
+    });
+  }
+} catch (err) {
+  // ignore
+}
+
+// Helper to query Mapbox Places API
+function geocodeMapbox(addressQuery) {
+  return new Promise((resolve) => {
+    if (!MAPBOX_TOKEN) {
+      console.error('Error: VITE_MAPBOX_ACCESS_TOKEN not found in .env');
+      return resolve(null);
+    }
+    const query = encodeURIComponent(addressQuery);
+    const url = `https://api.mapbox.com/geocoding/v5/mapbox.places/${query}.json?access_token=${MAPBOX_TOKEN}&country=mx&limit=1`;
     
-    https.get(options, (res) => {
+    https.get(url, (res) => {
       let data = '';
       res.on('data', (chunk) => { data += chunk; });
       res.on('end', () => {
         if (res.statusCode === 200) {
           try {
             const results = JSON.parse(data);
-            if (results && results.length > 0) {
+            if (results && results.features && results.features.length > 0) {
+              const center = results.features[0].center; // [lng, lat]
               resolve({
-                lat: parseFloat(results[0].lat),
-                lng: parseFloat(results[0].lon)
+                lat: center[1],
+                lng: center[0]
               });
             } else {
               resolve(null);
@@ -102,16 +117,16 @@ async function main() {
     const query = cleanAddress(item.address, item.id);
     console.log(`Geocoding ID ${item.id}: "${item.address}" -> Query: "${query}"`);
     
-    // Respect Nominatim usage policy (1 request/second)
-    await sleep(1000);
+    // Sleep briefly to respect API guidelines
+    await sleep(100);
     
-    let coords = await geocodeNominatim(query);
+    let coords = await geocodeMapbox(query);
     if (!coords) {
       // Try a simpler query if it fails
       const simplerQuery = item.address.split(',')[0] + ", México";
       console.log(`  Failed. Trying simpler query: "${simplerQuery}"`);
-      await sleep(1000);
-      coords = await geocodeNominatim(simplerQuery);
+      await sleep(100);
+      coords = await geocodeMapbox(simplerQuery);
     }
     
     if (coords) {
