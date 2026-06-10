@@ -6,8 +6,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -99.191103,
-          19.433431
+          -99.1911802,
+          19.4333176
         ]
       },
       "properties": {
@@ -56,8 +56,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -98.868267,
-          19.482831
+          -99.1848619,
+          19.3869915
         ]
       },
       "properties": {
@@ -104,8 +104,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -98.437937,
-          18.042308
+          -99.1911649,
+          19.3660022
         ]
       },
       "properties": {
@@ -154,8 +154,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -99.1667838,
-          19.3074705
+          -99.164802,
+          19.3018522
         ]
       },
       "properties": {
@@ -179,8 +179,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -99.18108,
-          19.416479
+          -99.1981674,
+          19.4081772
         ]
       },
       "properties": {
@@ -279,8 +279,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -99.043166,
-          19.537247
+          -99.1911672,
+          19.3655268
         ]
       },
       "properties": {
@@ -429,8 +429,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -99.057055,
-          19.411648
+          -99.1985,
+          19.3585
         ]
       },
       "properties": {
@@ -452,8 +452,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -99.04215,
-          19.313922
+          -99.0854,
+          19.4302
         ]
       },
       "properties": {
@@ -625,8 +625,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -99.043166,
-          19.537247
+          -99.1911672,
+          19.3655268
         ]
       },
       "properties": {
@@ -675,8 +675,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -99.183746,
-          19.415798
+          -99.2097117,
+          19.4013868
         ]
       },
       "properties": {
@@ -700,8 +700,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -99.163864,
-          19.308007
+          -99.1788158,
+          19.3029508
         ]
       },
       "properties": {
@@ -848,8 +848,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -99.16234,
-          19.422771
+          -99.1622036,
+          19.42285
         ]
       },
       "properties": {
@@ -871,8 +871,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -99.057055,
-          19.411648
+          -99.1985,
+          19.3585
         ]
       },
       "properties": {
@@ -944,8 +944,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -99.161723,
-          19.426298
+          -99.1662538,
+          19.4151819
         ]
       },
       "properties": {
@@ -969,8 +969,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -99.226366,
-          19.468618
+          -99.2152369,
+          19.3273554
         ]
       },
       "properties": {
@@ -1067,8 +1067,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -99.1667838,
-          19.3074705
+          -99.164802,
+          19.3018522
         ]
       },
       "properties": {
@@ -1092,8 +1092,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -99.04215,
-          19.313922
+          -99.0719,
+          19.4361
         ]
       },
       "properties": {
@@ -1115,8 +1115,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -99.1667838,
-          19.3074705
+          -99.0719,
+          19.4361
         ]
       },
       "properties": {
@@ -1190,8 +1190,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -99.04215,
-          19.313922
+          -99.0719,
+          19.4361
         ]
       },
       "properties": {
@@ -1338,8 +1338,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -99.171038,
-          19.397629
+          -99.1737233,
+          19.3985737
         ]
       },
       "properties": {
@@ -1386,8 +1386,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -99.136421,
-          19.44696
+          -99.1364935,
+          19.4470441
         ]
       },
       "properties": {
@@ -1536,8 +1536,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -99.181439,
-          19.386589
+          -99.1840854,
+          19.3866364
         ]
       },
       "properties": {
@@ -1775,6 +1775,75 @@
         "images": [
           "https://v5.airtableusercontent.com/v3/u/54/54/1781071200000/Xm2ih_5Dd4Pcl6ktUgwN2g/dBz0_VaOCq8H23wc-tAXQ8gkZ_CSm_2MtRjXWjQSm0qSlsiNW590s6Vx5N23B7l-zEamEVq6rvyOZeKh4fFmCGrTO_Ypsiy2au55gxu-UZkWSyK_tiep9FlQoP-YzaAOw0HmP2MnpmUx7jjcteg0o8K8MHXjShM16vgoTN8N_yk/MNjC_PSrmKRMoNzO_RM1Lo36hIeAzjslCNsUWj18RoQ"
         ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.1751637,
+          19.4063034
+        ]
+      },
+      "properties": {
+        "id": 84,
+        "address": "ALTATA Nº22, CONDESA",
+        "reference": "Muro en Altata 22, Condesa",
+        "category": "Muro",
+        "size": "Por confirmar",
+        "width": 0,
+        "height": 0,
+        "area_m2": 0,
+        "price": 0,
+        "available": true,
+        "images": []
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.2282593,
+          19.4674309
+        ]
+      },
+      "properties": {
+        "id": 85,
+        "address": "PERIFÉRICO NORTE, ESQ. CALLE 5 Nº39",
+        "reference": "Muro en Periférico Norte y Calle 5, Naucalpan (Edomex)",
+        "category": "Muro",
+        "size": "Por confirmar",
+        "width": 0,
+        "height": 0,
+        "area_m2": 0,
+        "price": 0,
+        "available": true,
+        "images": []
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.2094741,
+          19.3062178
+        ]
+      },
+      "properties": {
+        "id": 86,
+        "address": "PERIFÉRICO SUR N°4192",
+        "reference": "Muro en Periférico Sur 4192 near TV Azteca",
+        "category": "Muro",
+        "size": "Por confirmar",
+        "width": 0,
+        "height": 0,
+        "area_m2": 0,
+        "price": 0,
+        "available": true,
+        "images": []
       }
     }
   ]

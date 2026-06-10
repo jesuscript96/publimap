@@ -1,0 +1,515 @@
+[
+  {
+    "category": "Muro",
+    "address": "Alfonso Reyes, Hipódromo Condesa Nº152",
+    "url": "https://maps.app.goo.gl/FtJXUzsQyv88ftnr8",
+    "resolved_url": "https://www.google.com/maps/place/Alfonso+Reyes+152,+Hip%C3%B3dromo,+Cuauht%C3%A9moc,+06100+Ciudad+de+M%C3%A9xico,+CDMX/@19.4086214,-99.178537,17z/data=!3m1!4b1!4m6!3m5!1s0x85d1ff42625907ed:0x431e282cceb8bf3e!8m2!3d19.4086214!4d-99.1759621!16s%2Fg%2F11cphvwzfv?entry=tts&g_ep=EgoyMDI2MDEwNC4wIPu8ASoASAFQAw%3D%3D&skid=f134a9ea-4ec0-438e-a3a3-1609ce0f1408",
+    "lat": 19.4086214,
+    "lng": -99.178537,
+    "resolution_method": "URL_@"
+  },
+  {
+    "category": "Muro",
+    "address": "Blvd. Adolfo López Mateos Nº1817",
+    "url": "https://www.google.com/maps?q=place_id:ChIJ44cEtSAA0oURBd42ZpJHnPI",
+    "resolved_url": "https://www.google.com/maps?q=place_id:ChIJ44cEtSAA0oURBd42ZpJHnPI",
+    "lat": 19.3655268,
+    "lng": -99.1911672,
+    "resolution_method": "BROWSER_PlaceID"
+  },
+  {
+    "category": "Muro",
+    "address": "Blvd. Adolfo López Mateos Nº1803",
+    "url": "https://www.google.com/maps?q=place_id:ChIJlWOMRicA0oURyShcQ8HudYg",
+    "resolved_url": "https://www.google.com/maps?q=place_id:ChIJlWOMRicA0oURyShcQ8HudYg",
+    "lat": 19.3660022,
+    "lng": -99.1911649,
+    "resolution_method": "BROWSER_PlaceID"
+  },
+  {
+    "category": "Muro",
+    "address": "Periférico Sur N°4192",
+    "url": "https://maps.app.goo.gl/SnryWkrBnBhLa7sP6",
+    "resolved_url": "https://www.google.com/maps/place/Periferico+Sur+4192,+Jardines+del+Pedregal,+%C3%81lvaro+Obreg%C3%B3n,+01900+Ciudad+de+M%C3%A9xico,+CDMX/@19.3062178,-99.2094741,17z/data=!3m1!4b1!4m6!3m5!1s0x85cdffc153882af1:0xaef98d57cbdd92a0!8m2!3d19.3062178!4d-99.2068992!16s%2Fg%2F11fktdxht6?entry=tts&g_ep=EgoyMDI2MDIxOC4wIPu8ASoASAFQAw%3D%3D&skid=3fdafe2b-a0b0-4163-b789-f60d65ae4b2e",
+    "lat": 19.3062178,
+    "lng": -99.2094741,
+    "resolution_method": "URL_@"
+  },
+  {
+    "category": "Muro",
+    "address": "Av. Paseo de la Reforma N°80",
+    "url": "https://www.google.com/maps?q=place_id:ChIJg_7qGiX50YURrlKhBb_V7gE",
+    "resolved_url": "https://www.google.com/maps?q=place_id:ChIJg_7qGiX50YURrlKhBb_V7gE",
+    "lat": 19.4470441,
+    "lng": -99.1364935,
+    "resolution_method": "BROWSER_PlaceID"
+  },
+  {
+    "category": "Muro",
+    "address": "Horacio N°604",
+    "url": "https://www.google.com/maps?q=place_id:ChIJWbbjOAAC0oURlc1XU2YJhoI",
+    "resolved_url": "https://www.google.com/maps?q=place_id:ChIJWbbjOAAC0oURlc1XU2YJhoI",
+    "lat": 19.4333176,
+    "lng": -99.1911802,
+    "resolution_method": "BROWSER_PlaceID"
+  },
+  {
+    "category": "Muro",
+    "address": "Av. Constituyentes N°345",
+    "url": "https://www.google.com/maps?q=place_id:ChIJw7SpoOcB0oURk4RQVOnmyMo",
+    "resolved_url": "https://www.google.com/maps?q=place_id:ChIJw7SpoOcB0oURk4RQVOnmyMo",
+    "lat": 19.4081772,
+    "lng": -99.1981674,
+    "resolution_method": "BROWSER_PlaceID"
+  },
+  {
+    "category": "Muro",
+    "address": "Popocatépetl N°14",
+    "url": "https://www.google.com/maps?q=place_id:ChIJvSfNwDj_0YURDOUCCq251mU",
+    "resolved_url": "https://www.google.com/maps?q=place_id:ChIJvSfNwDj_0YURDOUCCq251mU",
+    "lat": 19.4151819,
+    "lng": -99.1662538,
+    "resolution_method": "BROWSER_PlaceID"
+  },
+  {
+    "category": "Muro",
+    "address": "Jalapa N°18",
+    "url": "https://www.google.com/maps?q=place_id:ChIJZaTK1DD_0YURunXeAVL0eZk",
+    "resolved_url": "https://www.google.com/maps?q=place_id:ChIJZaTK1DD_0YURunXeAVL0eZk",
+    "lat": 19.42285,
+    "lng": -99.1622036,
+    "resolution_method": "BROWSER_PlaceID"
+  },
+  {
+    "category": "Muro",
+    "address": "Av. Constituyentes N°647",
+    "url": "https://www.google.com/maps?q=place_id:ChIJZRjy3cAB0oURLpwpX-0DQaI",
+    "resolved_url": "https://www.google.com/maps?q=place_id:ChIJZRjy3cAB0oURLpwpX-0DQaI",
+    "lat": 19.4013868,
+    "lng": -99.2097117,
+    "resolution_method": "BROWSER_PlaceID"
+  },
+  {
+    "category": "Muro",
+    "address": "Periférico Manuel Ávila Camacho NTE, Nº131",
+    "url": "https://maps.app.goo.gl/LLYoxkTGQbTPH6t88",
+    "resolved_url": "https://www.google.com/maps/place/Periferico+Sur+131,+San+Jer%C3%B3nimo+L%C3%ADdice,+La+Magdalena+Contreras,+10200+Ciudad+de+M%C3%A9xico,+CDMX/@19.3273554,-99.2152369,17z/data=!3m1!4b1!4m5!3m4!1s0x85cdff8cc9eeb015:0xfeee31551c29b8ca!8m2!3d19.3273554!4d-99.212662?entry=tts&g_ep=EgoyMDI2MDQxMi4wIPu8ASoASAFQAw%3D%3D&skid=dfcc81cc-e8cb-443a-9cf6-b03bb14a5e42",
+    "lat": 19.3273554,
+    "lng": -99.2152369,
+    "resolution_method": "URL_@"
+  },
+  {
+    "category": "Muro",
+    "address": "Av. Río Churubusco Nº342",
+    "url": "https://maps.app.goo.gl/VsiNSCdguRUn1Tfe7",
+    "resolved_url": "https://www.google.com/maps/place/Cto+Interior+Avenida+R%C3%ADo+Churubusco+342,+Acacias,+Benito+Ju%C3%A1rez,+03240+Ciudad+de+M%C3%A9xico,+CDMX/@19.3601722,-99.1770866,17z/data=!3m1!4b1!4m6!3m5!1s0x85d1ffeb48d7439d:0x71e1502377592aec!8m2!3d19.3601723!4d-99.1722157!16s%2Fg%2F11nnkp_gly?entry=tts&g_ep=EgoyMDI2MDQxMi4wIPu8ASoASAFQAw%3D%3D&skid=b3d37d42-6ad3-4872-971f-14e258601b48",
+    "lat": 19.3601722,
+    "lng": -99.1770866,
+    "resolution_method": "URL_@"
+  },
+  {
+    "category": "Muro",
+    "address": "Hegel Nº228",
+    "url": "https://maps.app.goo.gl/CqMteAWQnWWb697C8",
+    "resolved_url": "https://www.google.com/maps/place/Hegel+228,+Polanco,+Polanco+V+Secc,+Miguel+Hidalgo,+11560+Ciudad+de+M%C3%A9xico,+CDMX/@19.4345562,-99.1904717,17z/data=!3m1!4b1!4m6!3m5!1s0x85d1f8aa4590016d:0x97b487242bff95bc!8m2!3d19.4345562!4d-99.1878968!16s%2Fg%2F11b8vfybxb?entry=tts&g_ep=EgoyMDI2MDQxMi4wIPu8ASoASAFQAw%3D%3D&skid=59748319-ed86-4345-9818-14cc5b8987f4",
+    "lat": 19.4345562,
+    "lng": -99.1904717,
+    "resolution_method": "URL_@"
+  },
+  {
+    "category": "Muro",
+    "address": "Av. Monterrey Nº150",
+    "url": "https://maps.app.goo.gl/6Bm279mbjKbG34CX8",
+    "resolved_url": "https://www.google.com/maps/place/Monterrey+150,+Roma+Nte.,+Cuauht%C3%A9moc,+06700+Ciudad+de+M%C3%A9xico,+CDMX/@19.4156675,-99.1682814,17z/data=!3m1!4b1!4m7!3m6!1s0x85d1ff3941cf6c65:0x72bfb0b69e12789c!8m2!3d19.4156676!4d-99.1634105!15sChVhdmVuaWRhIG1vbnRlcnJleSAxNTCSARFjb21wb3VuZF9idWlsZGluZ-ABAA!16s%2Fg%2F11bw3y2t95?entry=tts&g_ep=EgoyMDI2MDQxMi4wIPu8ASoASAFQAw%3D%3D&skid=3a1d2d82-2345-4946-8a00-ec973d6a6c25",
+    "lat": 19.4156675,
+    "lng": -99.1682814,
+    "resolution_method": "URL_@"
+  },
+  {
+    "category": "Muro",
+    "address": "C. Querétaro Nº147",
+    "url": "https://maps.app.goo.gl/yNwiJJVGXi7mNARW7",
+    "resolved_url": "https://www.google.com/maps/place/C.+Quer%C3%A9taro+147,+Roma+Nte.,+Cuauht%C3%A9moc,+06700+Ciudad+de+M%C3%A9xico,+CDMX/@19.414922,-99.1638878,17z/data=!3m1!4b1!4m6!3m5!1s0x85d1ff3bf10c02a9:0x9652569a860e749c!8m2!3d19.414922!4d-99.1613129!16s%2Fg%2F11bw3y6qgy?entry=tts&g_ep=EgoyMDI2MDQxMi4wIPu8ASoASAFQAw%3D%3D&skid=433dd160-2da1-4f96-94e3-b8e14bea4e7f",
+    "lat": 19.414922,
+    "lng": -99.1638878,
+    "resolution_method": "URL_@"
+  },
+  {
+    "category": "Muro",
+    "address": "Av. Álvaro Obregón Nº44",
+    "url": "https://maps.app.goo.gl/E22XRwrVfommCmGe9",
+    "resolved_url": "https://www.google.com/maps/place/Av.+%C3%81lvaro+Obreg%C3%B3n+44,+La+Cruz,+La+Magdalena+Contreras,+10800+Ciudad+de+M%C3%A9xico,+CDMX/@19.3055743,-99.239766,17z/data=!3m1!4b1!4m7!3m6!1s0x85cdff0a0e1c0213:0xcbb526c02f19c719!8m2!3d19.3055744!4d-99.2348951!15sChVhdi4gYWx2YXJvIG9icmVnb24gNDSSARFjb21wb3VuZF9idWlsZGluZ-ABAA!16s%2Fg%2F11bzz6238v?entry=tts&g_ep=EgoyMDI2MDQxMi4wIPu8ASoASAFQAw%3D%3D&skid=9ee52e21-eaa9-4697-b1a7-9494113d2b4d",
+    "lat": 19.3055743,
+    "lng": -99.239766,
+    "resolution_method": "URL_@"
+  },
+  {
+    "category": "Muro",
+    "address": "Av. Revolución Nº1348",
+    "url": "https://maps.app.goo.gl/jNxbPryJkF6GGKUu6",
+    "resolved_url": "https://www.google.com/maps/place/Av.+Revoluci%C3%B3n+1348,+Guadalupe+Inn,+%C3%81lvaro+Obreg%C3%B3n,+01020+Ciudad+de+M%C3%A9xico,+CDMX/@19.35792,-99.1942353,17z/data=!3m1!4b1!4m6!3m5!1s0x85d1fff565b61be3:0x32ec52ca3bcb4463!8m2!3d19.3579201!4d-99.1893644!16s%2Fg%2F11cpf6wlrc?entry=tts&g_ep=EgoyMDI2MDQxMi4wIPu8ASoASAFQAw%3D%3D&skid=393576ef-0698-45df-bd69-eed571f5d2b1",
+    "lat": 19.35792,
+    "lng": -99.1942353,
+    "resolution_method": "URL_@"
+  },
+  {
+    "category": "Muro",
+    "address": "Altata Nº22",
+    "url": "https://maps.app.goo.gl/NnZmX5cH1p7EKxTU9",
+    "resolved_url": "https://www.google.com/maps/place/Altata+22,+Hip%C3%B3dromo,+Cuauht%C3%A9moc,+06100+Ciudad+de+M%C3%A9xico,+CDMX/@19.4063034,-99.1751637,17z/data=!3m1!4b1!4m6!3m5!1s0x85d1ff6a22ab97bd:0x684f417549f8dc5f!8m2!3d19.4063034!4d-99.1725888!16s%2Fg%2F11cs6cs1p8?entry=tts&g_ep=EgoyMDI2MDQxMi4wIPu8ASoASAFQAw%3D%3D&skid=b4920e7a-f5d4-4b73-8837-2b272e02cba3",
+    "lat": 19.4063034,
+    "lng": -99.1751637,
+    "resolution_method": "URL_@"
+  },
+  {
+    "category": "Muro",
+    "address": "Viaducto Río Becerra Nº451",
+    "url": "https://maps.app.goo.gl/7NHGu2N8yDnoP8SE6",
+    "resolved_url": "https://www.google.com/maps/place/Viaducto+Rio+Becerra+451,+N%C3%A1poles,+Benito+Ju%C3%A1rez,+03840+Ciudad+de+M%C3%A9xico,+CDMX/@19.3866364,-99.1840854,17z/data=!3m1!4b1!4m6!3m5!1s0x85d1ff78550cd653:0xa1b6f9feb79e81cf!8m2!3d19.3866364!4d-99.1815105!16s%2Fg%2F11k52shg2j?entry=tts&g_ep=EgoyMDI2MDQxMi4wIPu8ASoASAFQAw%3D%3D&skid=ef763ec1-0148-4cd1-b17d-9944ed0dce26",
+    "lat": 19.3866364,
+    "lng": -99.1840854,
+    "resolution_method": "URL_@"
+  },
+  {
+    "category": "Muro",
+    "address": "Gutenberg Nº39",
+    "url": "https://maps.app.goo.gl/RcoN4kvweSzdyjQm6",
+    "resolved_url": "https://www.google.com/maps/place/Gutenberg+39,+Ver%C3%B3nica+Anz%C3%BAres,+Miguel+Hidalgo,+11300+Ciudad+de+M%C3%A9xico,+CDMX/@19.433731,-99.1753302,17z/data=!3m1!4b1!4m6!3m5!1s0x85d1f8b48522bc3d:0xd11038414b5d5674!8m2!3d19.433731!4d-99.1727553!16s%2Fg%2F11c4wnknng?entry=tts&g_ep=EgoyMDI2MDQxMi4wIPu8ASoASAFQAw%3D%3D&skid=c05774c8-a448-45cb-a0d9-3cabb1ffd1c8",
+    "lat": 19.433731,
+    "lng": -99.1753302,
+    "resolution_method": "URL_@"
+  },
+  {
+    "category": "Muro",
+    "address": "Av. Universidad Nº1883",
+    "url": "https://maps.app.goo.gl/ZxTLTXskFy5Taghz7",
+    "resolved_url": "https://www.google.com/maps/place/Av.+Universidad+1883,+Copilco+Universidad,+Coyoac%C3%A1n,+04318+Ciudad+de+M%C3%A9xico,+CDMX/@19.3422988,-99.1843125,17z/data=!3m1!4b1!4m6!3m5!1s0x85d1fffc7e6653b3:0xd9a0a62725d6cef9!8m2!3d19.3422988!4d-99.1817376!16s%2Fg%2F11snpx__r9?entry=tts&g_ep=EgoyMDI2MDQxMi4wIPu8ASoASAFQAw%3D%3D&skid=027bcf5e-c9de-41bd-9611-48a002e87e58",
+    "lat": 19.3422988,
+    "lng": -99.1843125,
+    "resolution_method": "URL_@"
+  },
+  {
+    "category": "Muro",
+    "address": "Ejército Nacional Nº436",
+    "url": "https://maps.app.goo.gl/DE4nEnZo4bx6E4nF7",
+    "resolved_url": "https://www.google.com/maps/place/Av.+Ej%C3%A9rcito+Nacional+Mexicano+436,+Polanco,+Polanco+V+Secc,+Miguel+Hidalgo,+11560+Ciudad+de+M%C3%A9xico,+CDMX/@19.4375175,-99.1932684,17z/data=!3m1!4b1!4m6!3m5!1s0x85d1f8a993342829:0xd25c4c6ea4160cf0!8m2!3d19.4375176!4d-99.1883975!16s%2Fg%2F11bw3hjxb9?entry=tts&g_ep=EgoyMDI2MDQxMi4wIPu8ASoASAFQAw%3D%3D&skid=1e2125d8-129d-45ec-9218-afb73b09de63",
+    "lat": 19.4375175,
+    "lng": -99.1932684,
+    "resolution_method": "URL_@"
+  },
+  {
+    "category": "Muro",
+    "address": "Viaducto M. Alemán Nº936",
+    "url": "https://maps.app.goo.gl/Ad3eUzigfM1HtQEWA",
+    "resolved_url": "https://www.google.com/maps/place/Viad.+Pdte.+Miguel+Alem%C3%A1n+Vald%C3%A9s+936,+N%C3%A1poles,+Benito+Ju%C3%A1rez,+03810+Ciudad+de+M%C3%A9xico,+CDMX/@19.3977634,-99.1783315,17z/data=!3m1!4b1!4m6!3m5!1s0x85d1ff6e458327d9:0xdcb2a77a3d0d65d9!8m2!3d19.3977634!4d-99.1757566!16s%2Fg%2F11f3jfml26?entry=tts&g_ep=EgoyMDI2MDQxMi4wIPu8ASoASAFQAw%3D%3D&skid=eac3ace9-af7c-4a4a-98ae-c67805c76d0d",
+    "lat": 19.3977634,
+    "lng": -99.1783315,
+    "resolution_method": "URL_@"
+  },
+  {
+    "category": "Muro",
+    "address": "Jose Maria Rico N°230",
+    "url": "https://maps.app.goo.gl/j8QgaPCZFXorMESk9",
+    "resolved_url": "https://www.google.com/maps/place/Jos%C3%A9+Mar%C3%ADa+Rico+230,+Col+del+Valle,+Benito+Ju%C3%A1rez,+03100+Ciudad+de+M%C3%A9xico,+CDMX/@19.3682503,-99.1780628,17z/data=!3m1!4b1!4m6!3m5!1s0x85d1ff910dc44d8b:0x8c3077c4ef5f6e6e!8m2!3d19.3682503!4d-99.1754879!16s%2Fg%2F11t4k0zhs2?entry=tts&g_ep=EgoyMDI2MDIxOC4wIPu8ASoASAFQAw%3D%3D&skid=ec55e782-41ef-4413-9b53-1d32d9363dea",
+    "lat": 19.3682503,
+    "lng": -99.1780628,
+    "resolution_method": "URL_@"
+  },
+  {
+    "category": "Muro",
+    "address": "Nuevo León Nº202",
+    "url": "https://maps.app.goo.gl/aYti7LDAFEtQHvNA6",
+    "resolved_url": "https://www.google.com/maps/place/Av.+Nuevo+Le%C3%B3n+202,+Hip%C3%B3dromo,+Cuauht%C3%A9moc,+06100+Ciudad+de+M%C3%A9xico,+CDMX/@19.4054595,-99.1762397,17z/data=!3m1!4b1!4m6!3m5!1s0x85d1ff6a4e5db8d3:0x3f9248f9e11b5b52!8m2!3d19.4054596!4d-99.1713688!16s%2Fg%2F11bw40wcql?entry=tts&g_ep=EgoyMDI2MDQxMi4wIPu8ASoASAFQAw%3D%3D&skid=346ae0af-e893-49bf-a7c3-e133190ae0c6",
+    "lat": 19.4054595,
+    "lng": -99.1762397,
+    "resolution_method": "URL_@"
+  },
+  {
+    "category": "Muro",
+    "address": "Av. Insurgentes Sur Nº568",
+    "url": "https://maps.app.goo.gl/cmSFTUEMA73hj9CC8",
+    "resolved_url": "https://www.google.com/maps/place/Av.+Insurgentes+Sur+568,+Col+del+Valle+Nte,+Benito+Ju%C3%A1rez,+03103+Ciudad+de+M%C3%A9xico,+CDMX/@19.399131,-99.1731159,17z/data=!3m1!4b1!4m6!3m5!1s0x85d1ff6d006e4001:0xa3b3ca39a166cae5!8m2!3d19.399131!4d-99.170541!16s%2Fg%2F11bw508klp?entry=tts&g_ep=EgoyMDI2MDQxMi4wIPu8ASoASAFQAw%3D%3D&skid=2ac3df43-f0ee-4f01-89b6-fd734b781039",
+    "lat": 19.399131,
+    "lng": -99.1731159,
+    "resolution_method": "URL_@"
+  },
+  {
+    "category": "Muro",
+    "address": "Av. Insurgentes Sur Nº58(6)",
+    "url": "https://maps.app.goo.gl/HEEEotPXeNrrEi917",
+    "resolved_url": "https://www.google.com/maps/place/Av.+Insurgentes+Sur+586,+Ju%C3%A1rez,+Benito+Ju%C3%A1rez,+03100+Ciudad+de+M%C3%A9xico,+CDMX/@19.3985737,-99.1737233,17z/data=!3m1!4b1!4m6!3m5!1s0x85d1ff6dae36c37f:0x2a03a1fe6dc1344a!8m2!3d19.3985737!4d-99.1711484!16s%2Fg%2F11rrrs4v6g?entry=tts&g_ep=EgoyMDI2MDEyMS4wIPu8ASoASAFQAw%3D%3D&skid=8fcf2ace-bd2e-4625-8e01-2685f4eed243",
+    "lat": 19.3985737,
+    "lng": -99.1737233,
+    "resolution_method": "URL_@"
+  },
+  {
+    "category": "Muro",
+    "address": "Av. Insurgentes Nº377",
+    "url": "https://maps.app.goo.gl/7rkBxZCMRUZmHfWJA",
+    "resolved_url": "https://www.google.com/maps/place/Av.+Insurgentes+Sur+377,+Hip%C3%B3dromo,+Cuauht%C3%A9moc,+06140+Ciudad+de+M%C3%A9xico,+CDMX/@19.4101571,-99.1698914,17z/data=!3m1!4b1!4m6!3m5!1s0x85d1ff39dec9e8d5:0x814d0d49050b424a!8m2!3d19.4101571!4d-99.1673165!16s%2Fg%2F11p12vgk34?entry=tts&g_ep=EgoyMDI2MDQxMi4wIPu8ASoASAFQAw%3D%3D&skid=b6031d99-be14-44f8-890e-b86247f9d7df",
+    "lat": 19.4101571,
+    "lng": -99.1698914,
+    "resolution_method": "URL_@"
+  },
+  {
+    "category": "Muro",
+    "address": "Periférico Sur Nº3380",
+    "url": "https://maps.app.goo.gl/ZQ8982Nejo4Fva1j8",
+    "resolved_url": "https://www.google.com/maps/place/Periferico+Sur+3380,+Conjunto+Residencial+del+Pedregal,+%C3%81lvaro+Obreg%C3%B3n,+14130+Ciudad+de+M%C3%A9xico,+CDMX/@19.3104199,-99.2229458,17z/data=!3m1!4b1!4m6!3m5!1s0x85cdffbde48d64d7:0x18457fa04094cccd!8m2!3d19.31042!4d-99.2180749!16s%2Fg%2F11c1950ckw?entry=tts&g_ep=EgoyMDI2MDQxMi4wIPu8ASoASAFQAw%3D%3D&skid=ce18cd61-4916-463a-bf11-3454b01db4dd",
+    "lat": 19.3104199,
+    "lng": -99.2229458,
+    "resolution_method": "URL_@"
+  },
+  {
+    "category": "Muro",
+    "address": "Periférico Norte, esq. Calle 5 Nº39",
+    "url": "https://maps.app.goo.gl/5S1Z3hrJbcxKMkgs7",
+    "resolved_url": "https://www.google.com/maps/place/Azulemex+Perif%C3%A9rico/@19.4674309,-99.2282593,17z/data=!4m6!3m5!1s0x85d20250f7bf5ac5:0xf344bba456cf2640!8m2!3d19.4671882!4d-99.2250943!16s%2Fg%2F1tdcb4k4?entry=tts&g_ep=EgoyMDI2MDQxMi4wIPu8ASoASAFQAw%3D%3D&skid=da50e206-895d-47a3-8c10-7075154b36c5",
+    "lat": 19.4674309,
+    "lng": -99.2282593,
+    "resolution_method": "URL_@"
+  },
+  {
+    "category": "Muro",
+    "address": "Viaducto Río de la Piedad y Coyuya Nº149",
+    "url": "https://maps.app.goo.gl/FW4fjs1YUXE2yJJe8",
+    "resolved_url": "https://www.google.com/maps/place/Coyuya+149,+Magdalena+Mixihuca,+Venustiano+Carranza,+15850+Ciudad+de+M%C3%A9xico,+CDMX/@19.4055715,-99.1232666,17z/data=!3m1!4b1!4m6!3m5!1s0x85d1fe94620ccecd:0xcce71d0e5557d57e!8m2!3d19.4055715!4d-99.1206917!16s%2Fg%2F11cpnw3yyj?entry=tts&g_ep=EgoyMDI2MDQxMi4wIPu8ASoASAFQAw%3D%3D&skid=66b3bab6-de3b-4015-91ef-97bf398ff6f5",
+    "lat": 19.4055715,
+    "lng": -99.1232666,
+    "resolution_method": "URL_@"
+  },
+  {
+    "category": "Muro",
+    "address": "Patricio Sanz Nº1365",
+    "url": "https://maps.app.goo.gl/5YZUMwLd6PZ79MeY7",
+    "resolved_url": "https://www.google.com/maps/place/Patricio+Sanz+1365,+Tlacoquemecatl+del+Valle,+Benito+Ju%C3%A1rez,+03200+Ciudad+de+M%C3%A9xico,+CDMX/@19.3773023,-99.1764291,17z/data=!3m1!4b1!4m6!3m5!1s0x85d1ff9be661d811:0x70c7d849fe681d26!8m2!3d19.3773023!4d-99.1738542!16s%2Fg%2F11cs6cfnpt?entry=tts&g_ep=EgoyMDI2MDMzMC4wIPu8ASoASAFQAw%3D%3D&skid=1f77e880-af92-4116-98b4-e726df5c64d1",
+    "lat": 19.3773023,
+    "lng": -99.1764291,
+    "resolution_method": "URL_@"
+  },
+  {
+    "category": "Muro",
+    "address": "José Vasconcelos N°82",
+    "url": "https://maps.app.goo.gl/t59czR4HQeR7sX4a7",
+    "resolved_url": "https://www.google.com/maps/place/Av.+Jos%C3%A9+Vasconcelos+82,+Colonia+Condesa,+Cuauht%C3%A9moc,+06140+Ciudad+de+M%C3%A9xico,+CDMX/@19.4174039,-99.180861,17z/data=!3m1!4b1!4m6!3m5!1s0x85d1ff45316a1485:0xd05847d5fa40af9b!8m2!3d19.4174039!4d-99.1782861!16s%2Fg%2F11c4f8x920?entry=tts&g_ep=EgoyMDI2MDQyMS4wIPu8ASoASAFQAw%3D%3D&skid=d449a472-f7e0-437c-b700-aa84595c20f4",
+    "lat": 19.4174039,
+    "lng": -99.180861,
+    "resolution_method": "URL_@"
+  },
+  {
+    "category": "Muro",
+    "address": "Arquímedes N°184",
+    "url": "https://maps.app.goo.gl/2s6T4DGGMcKidEXW8",
+    "resolved_url": "https://www.google.com/maps/place/C.+Arqu%C3%ADmedes+184,+Polanco,+Polanco+IV+Secc,+Miguel+Hidalgo,+11550+Ciudad+de+M%C3%A9xico,+CDMX/@19.4359351,-99.1933645,17z/data=!3m1!4b1!4m6!3m5!1s0x85d20200b1f5c449:0xac55df1bc7907c50!8m2!3d19.4359351!4d-99.1907896!16s%2Fg%2F11c2f6g9xy?entry=tts&g_ep=EgoyMDI2MDUxMC4wIPu8ASoASAFQAw%3D%3D&skid=80ef985b-b6fa-49a0-b3fe-c6ef624bb50d",
+    "lat": 19.4359351,
+    "lng": -99.1933645,
+    "resolution_method": "URL_@"
+  },
+  {
+    "category": "Pantalla Digital",
+    "address": "Periférico Nº30, Alfonso XIII",
+    "url": "https://maps.app.goo.gl/hZFGjN3AAkXUKV9s6",
+    "resolved_url": "https://www.google.com/maps/place/Periferico+Sur+30,+San+Jer%C3%B3nimo+L%C3%ADdice,+La+Magdalena+Contreras,+10200+Ciudad+de+M%C3%A9xico,+CDMX/@19.3272017,-99.2153384,17z/data=!3m1!4b1!4m5!3m4!1s0x85cdff8cc901cba1:0xa6e9f58351332889!8m2!3d19.3272017!4d-99.2127635?entry=tts&g_ep=EgoyMDI2MDQxMi4wIPu8ASoASAFQAw%3D%3D&skid=3e6108ab-96cf-4eac-928e-9f2ebb444361",
+    "lat": 19.3272017,
+    "lng": -99.2153384,
+    "resolution_method": "URL_@"
+  },
+  {
+    "category": "Pantalla Digital",
+    "address": "Anillo Periférico, esq. Estepa",
+    "url": "https://maps.app.goo.gl/FVnDH2PHxTe256gL7",
+    "resolved_url": "https://www.google.com/maps/search/19.302427,+-99.195568?entry=tts&g_ep=EgoyMDI2MDEwNC4wIPu8ASoASAFQAw%3D%3D&skid=d156e33d-9e9b-47a3-9ba8-a1441925dfcf",
+    "lat": 19.302427,
+    "lng": -99.195568,
+    "resolution_method": "URL_search"
+  },
+  {
+    "category": "Pantalla Digital",
+    "address": "Periférico Sur Nº5550",
+    "url": "https://maps.app.goo.gl/d8DvBDYFiaG5C1dv6",
+    "resolved_url": "https://www.google.com/maps/place//@19.3018522,-99.164802,3a,75y,328.19h,90t/data=!3m7!1e1!3m5!1sA_tlmjKNGpcHpfBooHUT3w!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D0%26panoid%3DA_tlmjKNGpcHpfBooHUT3w%26yaw%3D328.1941206072797!7i16384!8i8192?entry=tts&g_ep=EgoyMDI2MDUxMy4wIPu8ASoASAFQAw%3D%3D&skid=a8a21254-b8ec-4d2f-b386-5c415e91786d",
+    "lat": 19.3018522,
+    "lng": -99.164802,
+    "resolution_method": "URL_@"
+  },
+  {
+    "category": "Pantalla Digital",
+    "address": "Periférico Blvd. Adolfo Lopez Mateos Nº2799",
+    "url": "https://maps.app.goo.gl/MAFM8U3osVZFWdt19",
+    "resolved_url": "https://www.google.com/maps/place/Periferico+Sur+2799,+San+Jer%C3%B3nimo+L%C3%ADdice,+La+Magdalena+Contreras,+10200+Ciudad+de+M%C3%A9xico,+CDMX/@19.3254517,-99.2173026,17z/data=!3m1!4b1!4m6!3m5!1s0x85cdff8d08758e0d:0x96ba037432eaa1a9!8m2!3d19.3254517!4d-99.2147277!16s%2Fg%2F11rtdb97n5?entry=tts&g_ep=EgoyMDI2MDQxMi4wIPu8ASoASAFQAw%3D%3D&skid=66a93d43-94f2-427f-9eab-7ad95a099df6",
+    "lat": 19.3254517,
+    "lng": -99.2173026,
+    "resolution_method": "URL_@"
+  },
+  {
+    "category": "Pantalla Digital",
+    "address": "Periférico Sur Nº3380",
+    "url": "https://maps.app.goo.gl/HuvJxhxoFzSCqyv16",
+    "resolved_url": "https://www.google.com/maps/place/Periferico+Sur+3380,+Conjunto+Residencial+del+Pedregal,+%C3%81lvaro+Obreg%C3%B3n,+14130+Ciudad+de+M%C3%A9xico,+CDMX/@19.3221788,-99.22036,17z/data=!3m1!4b1!4m6!3m5!1s0x85cdff91f7a3fad3:0x5c232d74d4a018c9!8m2!3d19.3221788!4d-99.2177851!16s%2Fg%2F11bw4ptpcs?entry=tts&g_ep=EgoyMDI2MDQxMi4wIPu8ASoASAFQAw%3D%3D&skid=7acb36b6-e570-45c5-9c4e-2d4e8ed316f2",
+    "lat": 19.3221788,
+    "lng": -99.22036,
+    "resolution_method": "URL_@"
+  },
+  {
+    "category": "Pantalla Digital",
+    "address": "Periférico Sur Nº5185",
+    "url": "https://maps.app.goo.gl/BiRjWZtzDsdK1efr9",
+    "resolved_url": "https://www.google.com/maps/place/Periferico+Sur+5185,+Isidro+Fabela,+Tlalpan,+14030+Ciudad+de+M%C3%A9xico,+CDMX/@19.3029508,-99.1788158,17z/data=!3m1!4b1!4m5!3m4!1s0x85ce006f9efea8bd:0xaf17de90383b4b7e!8m2!3d19.3029508!4d-99.1762409?entry=tts&g_ep=EgoyMDI2MDQxMi4wIPu8ASoASAFQAw%3D%3D&skid=5ec75e41-c264-48ec-889d-15283143494d",
+    "lat": 19.3029508,
+    "lng": -99.1788158,
+    "resolution_method": "URL_@"
+  },
+  {
+    "category": "Pantalla Digital",
+    "address": "Periférico Blvd. A López Mateos, Esq. Gutiérrez de Mendoza Nº13",
+    "url": "https://maps.app.goo.gl/dY8NycoRWxaRkJc17",
+    "resolved_url": "https://www.google.com/maps/place/Periferico+Sur+13,+Belisario+Dom%C3%ADnguez+Secc+16,+Tlalpan,+14080+Ciudad+de+M%C3%A9xico,+CDMX/@19.2942563,-99.1570115,17z/data=!3m1!4b1!4m5!3m4!1s0x85ce00570f77c963:0x71a470c1e5adfa02!8m2!3d19.2942563!4d-99.1544366?entry=tts&g_ep=EgoyMDI2MDQxMi4wIPu8ASoASAFQAw%3D%3D&skid=6e1c7294-1244-4e65-9b45-b0de3865ee91",
+    "lat": 19.2942563,
+    "lng": -99.1570115,
+    "resolution_method": "URL_@"
+  },
+  {
+    "category": "Pantalla Digital",
+    "address": "Viaducto Miguel Alemán Nº35",
+    "url": "https://maps.app.goo.gl/1djv5WYk56PMWKvf7",
+    "resolved_url": "https://www.google.com/maps/place/Viad.+Pdte.+Miguel+Alem%C3%A1n+Vald%C3%A9s+35,+Roma+Sur,+Cuauht%C3%A9moc,+06760+Ciudad+de+M%C3%A9xico,+CDMX/@19.4042091,-99.1601547,17z/data=!3m1!4b1!4m6!3m5!1s0x85d1ff17420a06b3:0xfe8e3254590ba063!8m2!3d19.4042091!4d-99.1575798!16s%2Fg%2F11c2czny6q?entry=tts&g_ep=EgoyMDI2MDQxMi4wIPu8ASoASAFQAw%3D%3D&skid=63c9bbcc-7de4-471d-a36b-16968cfe7f6c",
+    "lat": 19.4042091,
+    "lng": -99.1601547,
+    "resolution_method": "URL_@"
+  },
+  {
+    "category": "Pantalla Digital",
+    "address": "Carretera México-Cuernavaca Nº51",
+    "url": "https://maps.app.goo.gl/4Aog9syfTQbeQJW96",
+    "resolved_url": "https://www.google.com/maps/place/M%C3%A9xico-cuernavaca+51,+Tecorral,+Tlalpan,+14409+Ciudad+de+M%C3%A9xico,+CDMX/@19.261694,-99.1687428,17z/data=!3m1!4b1!4m6!3m5!1s0x85ce00c0c635b55b:0x3b535aa0dd826945!8m2!3d19.261694!4d-99.1661679!16s%2Fg%2F11c4n00xr9?entry=tts&g_ep=EgoyMDI2MDQxMi4wIPu8ASoASAFQAw%3D%3D&skid=02fe2fd8-1ef3-418c-8553-a88c84db8b64",
+    "lat": 19.261694,
+    "lng": -99.1687428,
+    "resolution_method": "URL_@"
+  },
+  {
+    "category": "Pantalla Digital",
+    "address": "Super Vía Poniente (Dir. Santa Fe)",
+    "url": "https://maps.app.goo.gl/kQwUYDgS5gUnW5Zt6",
+    "resolved_url": "https://www.google.com/maps/place/19%C2%B020'43.6%22N+99%C2%B014'49.7%22W/@19.345434,-99.247131,17z/data=!3m1!4b1!4m4!3m3!8m2!3d19.345434!4d-99.247131?entry=tts&g_ep=EgoyMDI2MDEwNy4wIPu8ASoASAFQAw%3D%3D&skid=7b7f176b-7410-4375-9253-9dfb34f4ec55",
+    "lat": 19.345434,
+    "lng": -99.247131,
+    "resolution_method": "URL_@"
+  },
+  {
+    "category": "Pantalla Digital",
+    "address": "Super Vía Poniente (Dir. San Jerónimo)",
+    "url": "https://maps.app.goo.gl/LFUMEsz6pZsnBRwE9",
+    "resolved_url": "https://www.google.com/maps/place/19%C2%B020'43.6%22N+99%C2%B014'49.7%22W/@19.345434,-99.247131,17z/data=!3m1!4b1!4m4!3m3!8m2!3d19.345434!4d-99.247131?entry=tts&g_ep=EgoyMDI2MDEwNy4wIPu8ASoASAFQAw%3D%3D&skid=786847f2-0446-43ea-8fff-1efc6c089709",
+    "lat": 19.345434,
+    "lng": -99.247131,
+    "resolution_method": "URL_@"
+  },
+  {
+    "category": "Pantalla Digital",
+    "address": "Av. Monterrey Nº172",
+    "url": "https://maps.app.goo.gl/ydGa2hYUNP8aMFt77",
+    "resolved_url": "https://www.google.com/maps/place/Monterrey+172,+Roma+Nte.,+Cuauht%C3%A9moc,+06700+Ciudad+de+M%C3%A9xico,+CDMX/@19.414668,-99.1657259,17z/data=!3m1!4b1!4m6!3m5!1s0x85d1ff394ebc4071:0xafd7ecf9c35a0e6f!8m2!3d19.414668!4d-99.163151!16s%2Fg%2F11bw3xw56_?entry=tts&g_ep=EgoyMDI2MDQxMi4wIPu8ASoASAFQAw%3D%3D&skid=a834235d-f32e-4cd2-b4f5-b8118f1ae41e",
+    "lat": 19.414668,
+    "lng": -99.1657259,
+    "resolution_method": "URL_@"
+  },
+  {
+    "category": "Pantalla Digital",
+    "address": "Av. Patriotismo N°483",
+    "url": "https://maps.app.goo.gl/BqdremE3NEMnGY8z8",
+    "resolved_url": "https://www.google.com/maps/place/Av.+Patriotismo+483,+San+Pedro+de+los+Pinos,+Benito+Ju%C3%A1rez,+03800+Ciudad+de+M%C3%A9xico,+CDMX/@19.3869915,-99.1848619,17z/data=!3m1!4b1!4m6!3m5!1s0x85d1ff79033318ad:0x512499e99b1bf668!8m2!3d19.3869915!4d-99.182287!16s%2Fg%2F11crrxszhg?entry=tts&g_ep=EgoyMDI2MDIxOC4wIPu8ASoASAFQAw%3D%3D&skid=33d243fe-0fb7-4c14-b815-f26f6c76ce92",
+    "lat": 19.3869915,
+    "lng": -99.1848619,
+    "resolution_method": "URL_@"
+  },
+  {
+    "category": "Pantalla Digital",
+    "address": "Av. Río Churubusco, Esq. Biógrafos Nº1",
+    "url": "https://maps.app.goo.gl/7FDQ68qqFehexsWb9",
+    "resolved_url": "https://www.google.com/maps/place/Avenida+R%C3%ADo+Churubusco+%26+Bi%C3%B3grafos,+El+Sif%C3%B3n,+09400+Ciudad+de+M%C3%A9xico,+CDMX/@19.3703013,-99.114256,17z/data=!3m1!4b1!4m6!3m5!1s0x85d1fe7179168e9f:0x46154bf8afdfe232!8m2!3d19.3703014!4d-99.1093851!16s%2Fg%2F11f34vjh1j?entry=tts&g_ep=EgoyMDI2MDQxMi4wIPu8ASoASAFQAw%3D%3D&skid=84cacb4e-95e0-426c-9ec5-050d43d4072c",
+    "lat": 19.3703013,
+    "lng": -99.114256,
+    "resolution_method": "URL_@"
+  },
+  {
+    "category": "Pantalla Digital",
+    "address": "Av. Universidad Nº1770",
+    "url": "https://maps.app.goo.gl/Kcksw4xd5NXLGNhB7",
+    "resolved_url": "https://www.google.com/maps/place/Av.+Universidad+1770,+Romero+de+Terreros,+Coyoac%C3%A1n,+04310+Ciudad+de+M%C3%A9xico,+CDMX/@19.3455222,-99.180732,17z/data=!3m1!4b1!4m6!3m5!1s0x85d1fffb1d9f0ce3:0xbf4ad79af35aa3ba!8m2!3d19.3455222!4d-99.180732!16s%2Fg%2F11j3pnbn_h?entry=tts&g_ep=EgoyMDI2MDEyNi4wIPu8ASoASAFQAw%3D%3D&skid=ccb1daf2-cff5-4d63-ae1f-c2d4e5632879",
+    "lat": 19.3455222,
+    "lng": -99.180732,
+    "resolution_method": "URL_@"
+  },
+  {
+    "category": "Pantalla Digital",
+    "address": "Viaducto - Av. Río Piedad Nº108",
+    "url": "https://maps.app.goo.gl/iH5NqH1xH84iQM48A",
+    "resolved_url": "https://www.google.com/maps/place/Viad.+R%C3%ADo+de+la+Piedad+108,+Asturias,+Cuauht%C3%A9moc,+08200+Ciudad+de+M%C3%A9xico,+CDMX/@19.4029652,-99.1323786,17z/data=!3m1!4b1!4m5!3m4!1s0x85d1feef3b5cb461:0xf8b3a8967d1ce16f!8m2!3d19.4029652!4d-99.1323786?entry=tts&g_ep=EgoyMDI2MDEyOC4wIPu8ASoASAFQAw%3D%3D&skid=2cfd9549-0fe5-4037-89f1-60fb111d6666",
+    "lat": 19.4029652,
+    "lng": -99.1323786,
+    "resolution_method": "URL_@"
+  },
+  {
+    "category": "Pantalla Digital",
+    "address": "Viaducto Río de la Piedad y Coyuya Nº149",
+    "url": "https://maps.app.goo.gl/vFUbDwHkizYjfuKg7",
+    "resolved_url": "https://www.google.com/maps/place/Coyuya+149,+Magdalena+Mixihuca,+Venustiano+Carranza,+15850+Ciudad+de+M%C3%A9xico,+CDMX/@19.4055715,-99.1206917,17z/data=!3m1!4b1!4m6!3m5!1s0x85d1fe94620ccecd:0xcce71d0e5557d57e!8m2!3d19.4055715!4d-99.1206917!16s%2Fg%2F11cpnw3yyj?entry=tts&g_ep=EgoyMDI2MDEyOC4wIPu8ASoASAFQAw%3D%3D&skid=2bd86586-8ce1-47a8-9873-6910e37a8f23",
+    "lat": 19.4055715,
+    "lng": -99.1206917,
+    "resolution_method": "URL_@"
+  },
+  {
+    "category": "Pantalla Digital",
+    "address": "Periférico 131",
+    "url": "https://maps.app.goo.gl/HTvwFMzz9CF121K27",
+    "resolved_url": "https://www.google.com/maps/place/Periferico+Sur+133,+San+Jer%C3%B3nimo+L%C3%ADdice,+La+Magdalena+Contreras,+10200+Ciudad+de+M%C3%A9xico,+CDMX/@19.3273593,-99.2152343,17z/data=!3m1!4b1!4m5!3m4!1s0x85cdff8cc9eeb015:0xc28a8a1e79452fb7!8m2!3d19.3273593!4d-99.2126594?entry=tts&g_ep=EgoyMDI2MDQyMS4wIPu8ASoASAFQAw%3D%3D&skid=c11ecd33-772b-404a-85ee-26268366aaad",
+    "lat": 19.3273593,
+    "lng": -99.2152343,
+    "resolution_method": "URL_@"
+  },
+  {
+    "category": "Valla",
+    "address": "Circuito Azteca",
+    "url": "https://maps.app.goo.gl/ECxt3eTm5eJ3o1XCA",
+    "resolved_url": "https://www.google.com/maps/place/19%C2%B018'01.3%22N+99%C2%B009'42.3%22W/@19.3001771,-99.1627352,18.24z/data=!4m4!3m3!8m2!3d19.300364!4d-99.161744?entry=tts&g_ep=EgoyMDI2MDIxOC4wIPu8ASoASAFQAw%3D%3D&skid=539b545b-fb88-47e9-a87f-f15d8599ffea",
+    "lat": 19.3001771,
+    "lng": -99.1627352,
+    "resolution_method": "URL_@"
+  },
+  {
+    "category": "Valla",
+    "address": "Amsterdam N°116",
+    "url": "https://maps.app.goo.gl/ord2LZPN1CtCbjDa7",
+    "resolved_url": "https://www.google.com/maps/place/%C3%81msterdam+116,+Hip%C3%B3dromo,+Cuauht%C3%A9moc,+06100+Ciudad+de+M%C3%A9xico,+CDMX/@19.412456,-99.1732919,17z/data=!3m1!4b1!4m6!3m5!1s0x85d1ff412204aeb3:0x9f495905a0ad84d3!8m2!3d19.412456!4d-99.170717!16s%2Fg%2F11c5jkhc2h?entry=tts&g_ep=EgoyMDI2MDIxOC4wIPu8ASoASAFQAw%3D%3D&skid=41f79851-96bd-4486-a176-6357dd44c19f",
+    "lat": 19.412456,
+    "lng": -99.1732919,
+    "resolution_method": "URL_@"
+  },
+  {
+    "category": "Valla",
+    "address": "Viaducto Río de la Piedad y Coyuya N°149",
+    "url": "https://maps.app.goo.gl/diPbR5Gi2AbkYvbT8",
+    "resolved_url": "https://www.google.com/maps/place/Coyuya+149,+Magdalena+Mixihuca,+Venustiano+Carranza,+15850+Ciudad+de+M%C3%A9xico,+CDMX/@19.4055715,-99.1232666,17z/data=!3m1!4b1!4m6!3m5!1s0x85d1fe94620ccecd:0xcce71d0e5557d57e!8m2!3d19.4055715!4d-99.1206917!16s%2Fg%2F11cpnw3yyj?entry=tts&g_ep=EgoyMDI2MDIxOC4wIPu8ASoASAFQAw%3D%3D&skid=4a432f20-e498-43d4-afcd-fe4f9d57d2bc",
+    "lat": 19.4055715,
+    "lng": -99.1232666,
+    "resolution_method": "URL_@"
+  },
+  {
+    "category": "Valla",
+    "address": "Av. Melchor Ocampo N°379",
+    "url": "https://maps.app.goo.gl/tbv5Xx6baxrcNnye6",
+    "resolved_url": "https://www.google.com/maps/place/Av+Melchor+Ocampo+379,+Romero+de+Terreros,+Coyoac%C3%A1n,+04310+Ciudad+de+M%C3%A9xico,+CDMX/@19.342882,-99.1716476,17z/data=!3m1!4b1!4m6!3m5!1s0x85d1ffe13465b8ab:0x2779c9cc63428eff!8m2!3d19.342882!4d-99.1716476!16s%2Fg%2F11c17tpzkz?entry=tts&g_ep=EgoyMDI2MDMxMC4wIPu8ASoASAFQAw%3D%3D&skid=1183e68c-e41f-4450-829c-5c46730462d9",
+    "lat": 19.342882,
+    "lng": -99.1716476,
+    "resolution_method": "URL_@"
+  },
+  {
+    "category": "Valla",
+    "address": "Periférico Sur Nº5550",
+    "url": "https://maps.app.goo.gl/d8DvBDYFiaG5C1dv6",
+    "resolved_url": "https://www.google.com/maps/place//@19.3018522,-99.164802,3a,75y,328.19h,90t/data=!3m7!1e1!3m5!1sA_tlmjKNGpcHpfBooHUT3w!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D0%26panoid%3DA_tlmjKNGpcHpfBooHUT3w%26yaw%3D328.1941206072797!7i16384!8i8192?entry=tts&g_ep=EgoyMDI2MDUxMy4wIPu8ASoASAFQAw%3D%3D&skid=a8a21254-b8ec-4d2f-b386-5c415e91786d",
+    "lat": 19.3018522,
+    "lng": -99.164802,
+    "resolution_method": "URL_@"
+  }
+]

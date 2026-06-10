@@ -1,11 +1,19 @@
 const fs = require('fs');
+const { execSync } = require('child_process');
+
+console.log('Running apply_truth.cjs to ensure correct coordinates...');
+try {
+  execSync('node scripts/apply_truth.cjs', { stdio: 'inherit' });
+} catch (err) {
+  console.error('Failed to run apply_truth.cjs:', err);
+}
 
 const rawSpaces = JSON.parse(fs.readFileSync('publimex_billboards.json', 'utf8'));
 const rawReservations = JSON.parse(fs.readFileSync('publimex_reservations.json', 'utf8'));
 const allResolvedBillboards = JSON.parse(fs.readFileSync('final_billboards.json', 'utf8'));
 
 // Identify space numerical IDs that belong to the CDMX zone
-const cdmxNumericalIds = new Set();
+const cdmxNumericalIds = new Set([84, 85, 86]);
 rawSpaces.forEach(space => {
   if (space.fields && space.fields.Zona === 'CDMX') {
     const numId = space.fields.ID || space.fields['﻿ID'];
@@ -134,3 +142,11 @@ const geojson = {
 
 fs.writeFileSync('public/billboards.geojson', JSON.stringify(geojson, null, 2));
 console.log(`Successfully generated public/billboards.geojson with updated availability.`);
+
+// Also update src/data/billboards.geojson to keep in sync
+try {
+  fs.writeFileSync('src/data/billboards.geojson', JSON.stringify(geojson, null, 2));
+  console.log(`Successfully updated src/data/billboards.geojson.`);
+} catch (err) {
+  console.error('Failed to write to src/data/billboards.geojson:', err);
+}

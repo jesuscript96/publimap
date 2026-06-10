@@ -15,8 +15,8 @@
     ],
     "original_maps_url": "https://www.google.com/maps?q=place_id:ChIJWbbjOAAC0oURlc1XU2YJhoI",
     "resolved_maps_url": "https://www.google.com/maps?q=place_id:ChIJWbbjOAAC0oURlc1XU2YJhoI",
-    "lat": 19.433431,
-    "lng": -99.191103
+    "lat": 19.4333176,
+    "lng": -99.1911802
   },
   {
     "id": 68,
@@ -47,8 +47,8 @@
     "price": 130000,
     "available": true,
     "images": [],
-    "lat": 19.482831,
-    "lng": -98.868267
+    "lat": 19.3869915,
+    "lng": -99.1848619
   },
   {
     "id": 53,
@@ -85,8 +85,8 @@
     ],
     "original_maps_url": "https://www.google.com/maps?q=place_id:ChIJlWOMRicA0oURyShcQ8HudYg",
     "resolved_maps_url": "https://www.google.com/maps?q=place_id:ChIJlWOMRicA0oURyShcQ8HudYg",
-    "lat": 18.042308,
-    "lng": -98.437937
+    "lat": 19.3660022,
+    "lng": -99.1911649
   },
   {
     "id": 56,
@@ -121,10 +121,10 @@
     "images": [
       "https://v5.airtableusercontent.com/v3/u/54/54/1781071200000/8ZSfnwhdLqnz-dNasE9RiA/XKHVolR7fzsRk2nD_EbrNe0mSz22a0MR38Gq7En5YjTl1Au34p-VQh3_R8HkdmNRkE1__l535rTAgcWXyh1SG_-CupJKf_p7MNTvMCVQk17PcrJiHE8X0ezWm8VYIthk0evzJpGoaTR5f8nYelwWcEnzwnzdFbSOQ_dcz5HeqsM/HuYeFcTqC5IVHDo16mR5FuePyykiOvkRz-eRIai5fFk"
     ],
-    "original_maps_url": "https://maps.app.goo.gl/i2ge6TMw4x2yBEsC9",
-    "resolved_maps_url": "https://www.google.com/maps/place/Periferico+Sur+5550,+Pedregal+de+Carrasco,+Coyoac%C3%A1n,+04700+Ciudad+de+M%C3%A9xico,+CDMX/@19.3074705,-99.1667838,17z/data=!3m1!4b1!4m6!3m5!1s0x85ce0043dac0709f:0xe0b7ffa1fcb79fdd!8m2!3d19.3074705!4d-99.1642089!16s%2Fg%2F11k46qfd_b?entry=tts&g_ep=EgoyMDI2MDQxMi4wIPu8ASoASAFQAw%3D%3D&skid=e14a3a8f-7b53-4736-809d-11653ae590c9",
-    "lat": 19.3074705,
-    "lng": -99.1667838
+    "original_maps_url": "https://maps.app.goo.gl/d8DvBDYFiaG5C1dv6",
+    "resolved_maps_url": "https://www.google.com/maps/place//@19.3018522,-99.164802,3a,75y,328.19h,90t/data=!3m7!1e1!3m5!1sA_tlmjKNGpcHpfBooHUT3w!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D0%26panoid%3DA_tlmjKNGpcHpfBooHUT3w%26yaw%3D328.1941206072797!7i16384!8i8192?entry=tts&g_ep=EgoyMDI2MDUxMy4wIPu8ASoASAFQAw%3D%3D&skid=a8a21254-b8ec-4d2f-b386-5c415e91786d",
+    "lat": 19.3018522,
+    "lng": -99.164802
   },
   {
     "id": 46,
@@ -142,8 +142,8 @@
     ],
     "original_maps_url": "https://www.google.com/maps?q=place_id:ChIJw7SpoOcB0oURk4RQVOnmyMo",
     "resolved_maps_url": "https://www.google.com/maps?q=place_id:ChIJw7SpoOcB0oURk4RQVOnmyMo",
-    "lat": 19.416479,
-    "lng": -99.18108
+    "lat": 19.4081772,
+    "lng": -99.1981674
   },
   {
     "id": 7,
@@ -218,8 +218,8 @@
     ],
     "original_maps_url": "https://www.google.com/maps?q=place_id:ChIJ44cEtSAA0oURBd42ZpJHnPI",
     "resolved_maps_url": "https://www.google.com/maps?q=place_id:ChIJ44cEtSAA0oURBd42ZpJHnPI",
-    "lat": 19.537247,
-    "lng": -99.043166
+    "lat": 19.3655268,
+    "lng": -99.1911672
   },
   {
     "id": 27,
@@ -323,8 +323,8 @@
     "size": "—",
     "available": true,
     "images": [],
-    "lat": 19.411648,
-    "lng": -99.057055
+    "lat": 19.3585,
+    "lng": -99.1985
   },
   {
     "id": 60,
@@ -337,8 +337,8 @@
     "price": 250000,
     "available": false,
     "images": [],
-    "lat": 19.313922,
-    "lng": -99.04215
+    "lat": 19.4302,
+    "lng": -99.0854
   },
   {
     "id": 25,
@@ -470,8 +470,8 @@
     ],
     "original_maps_url": "https://www.google.com/maps?q=place_id:ChIJ44cEtSAA0oURBd42ZpJHnPI",
     "resolved_maps_url": "https://www.google.com/maps?q=place_id:ChIJ44cEtSAA0oURBd42ZpJHnPI",
-    "lat": 19.537247,
-    "lng": -99.043166
+    "lat": 19.3655268,
+    "lng": -99.1911672
   },
   {
     "id": 65,
@@ -504,8 +504,8 @@
     ],
     "original_maps_url": "https://www.google.com/maps?q=place_id:ChIJZRjy3cAB0oURLpwpX-0DQaI",
     "resolved_maps_url": "https://www.google.com/maps?q=place_id:ChIJZRjy3cAB0oURLpwpX-0DQaI",
-    "lat": 19.415798,
-    "lng": -99.183746
+    "lat": 19.4013868,
+    "lng": -99.2097117
   },
   {
     "id": 35,
@@ -517,8 +517,8 @@
     "area_m2": 92.88000000000001,
     "available": false,
     "images": [],
-    "lat": 19.308007,
-    "lng": -99.163864
+    "lat": 19.3029508,
+    "lng": -99.1788158
   },
   {
     "id": 4,
@@ -626,8 +626,10 @@
     "price": 1800000,
     "available": false,
     "images": [],
-    "lat": 19.422771,
-    "lng": -99.16234
+    "lat": 19.42285,
+    "lng": -99.1622036,
+    "original_maps_url": "https://www.google.com/maps?q=place_id:ChIJZaTK1DD_0YURunXeAVL0eZk",
+    "resolved_maps_url": "https://www.google.com/maps?q=place_id:ChIJZaTK1DD_0YURunXeAVL0eZk"
   },
   {
     "id": 66,
@@ -636,8 +638,8 @@
     "size": "—",
     "available": true,
     "images": [],
-    "lat": 19.411648,
-    "lng": -99.057055
+    "lat": 19.3585,
+    "lng": -99.1985
   },
   {
     "id": 22,
@@ -693,8 +695,8 @@
     ],
     "original_maps_url": "https://www.google.com/maps?q=place_id:ChIJvSfNwDj_0YURDOUCCq251mU",
     "resolved_maps_url": "https://www.google.com/maps?q=place_id:ChIJvSfNwDj_0YURDOUCCq251mU",
-    "lat": 19.426298,
-    "lng": -99.161723
+    "lat": 19.4151819,
+    "lng": -99.1662538
   },
   {
     "id": 26,
@@ -703,8 +705,8 @@
     "size": "—",
     "available": true,
     "images": [],
-    "lat": 19.468618,
-    "lng": -99.226366
+    "lat": 19.3273554,
+    "lng": -99.2152369
   },
   {
     "id": 28,
@@ -776,8 +778,8 @@
     ],
     "original_maps_url": "https://maps.app.goo.gl/i2ge6TMw4x2yBEsC9",
     "resolved_maps_url": "https://www.google.com/maps/place/Periferico+Sur+5550,+Pedregal+de+Carrasco,+Coyoac%C3%A1n,+04700+Ciudad+de+M%C3%A9xico,+CDMX/@19.3074705,-99.1667838,17z/data=!3m1!4b1!4m6!3m5!1s0x85ce0043dac0709f:0xe0b7ffa1fcb79fdd!8m2!3d19.3074705!4d-99.1642089!16s%2Fg%2F11k46qfd_b?entry=tts&g_ep=EgoyMDI2MDQxMi4wIPu8ASoASAFQAw%3D%3D&skid=e14a3a8f-7b53-4736-809d-11653ae590c9",
-    "lat": 19.3074705,
-    "lng": -99.1667838
+    "lat": 19.3018522,
+    "lng": -99.164802
   },
   {
     "id": 59,
@@ -790,8 +792,8 @@
     "price": 220000,
     "available": false,
     "images": [],
-    "lat": 19.313922,
-    "lng": -99.04215
+    "lat": 19.4361,
+    "lng": -99.0719
   },
   {
     "id": 61,
@@ -809,8 +811,8 @@
     ],
     "original_maps_url": "https://maps.app.goo.gl/i2ge6TMw4x2yBEsC9",
     "resolved_maps_url": "https://www.google.com/maps/place/Periferico+Sur+5550,+Pedregal+de+Carrasco,+Coyoac%C3%A1n,+04700+Ciudad+de+M%C3%A9xico,+CDMX/@19.3074705,-99.1667838,17z/data=!3m1!4b1!4m6!3m5!1s0x85ce0043dac0709f:0xe0b7ffa1fcb79fdd!8m2!3d19.3074705!4d-99.1642089!16s%2Fg%2F11k46qfd_b?entry=tts&g_ep=EgoyMDI2MDQxMi4wIPu8ASoASAFQAw%3D%3D&skid=e14a3a8f-7b53-4736-809d-11653ae590c9",
-    "lat": 19.3074705,
-    "lng": -99.1667838
+    "lat": 19.4361,
+    "lng": -99.0719
   },
   {
     "id": 2,
@@ -861,8 +863,8 @@
     "price": 220000,
     "available": false,
     "images": [],
-    "lat": 19.313922,
-    "lng": -99.04215
+    "lat": 19.4361,
+    "lng": -99.0719
   },
   {
     "id": 30,
@@ -970,8 +972,10 @@
     "price": 200000,
     "available": true,
     "images": [],
-    "lat": 19.397629,
-    "lng": -99.171038
+    "lat": 19.3985737,
+    "lng": -99.1737233,
+    "original_maps_url": "https://maps.app.goo.gl/HEEEotPXeNrrEi917",
+    "resolved_maps_url": "https://www.google.com/maps/place/Av.+Insurgentes+Sur+586,+Ju%C3%A1rez,+Benito+Ju%C3%A1rez,+03100+Ciudad+de+M%C3%A9xico,+CDMX/@19.3985737,-99.1737233,17z/data=!3m1!4b1!4m6!3m5!1s0x85d1ff6dae36c37f:0x2a03a1fe6dc1344a!8m2!3d19.3985737!4d-99.1711484!16s%2Fg%2F11rrrs4v6g?entry=tts&g_ep=EgoyMDI2MDEyMS4wIPu8ASoASAFQAw%3D%3D&skid=8fcf2ace-bd2e-4625-8e01-2685f4eed243"
   },
   {
     "id": 23,
@@ -1008,8 +1012,8 @@
     ],
     "original_maps_url": "https://www.google.com/maps?q=place_id:ChIJg_7qGiX50YURrlKhBb_V7gE",
     "resolved_maps_url": "https://www.google.com/maps?q=place_id:ChIJg_7qGiX50YURrlKhBb_V7gE",
-    "lat": 19.44696,
-    "lng": -99.136421
+    "lat": 19.4470441,
+    "lng": -99.1364935
   },
   {
     "id": 29,
@@ -1110,8 +1114,10 @@
     "price": 350000,
     "available": false,
     "images": [],
-    "lat": 19.386589,
-    "lng": -99.181439
+    "lat": 19.3866364,
+    "lng": -99.1840854,
+    "original_maps_url": "https://maps.app.goo.gl/7NHGu2N8yDnoP8SE6",
+    "resolved_maps_url": "https://www.google.com/maps/place/Viaducto+Rio+Becerra+451,+N%C3%A1poles,+Benito+Ju%C3%A1rez,+03840+Ciudad+de+M%C3%A9xico,+CDMX/@19.3866364,-99.1840854,17z/data=!3m1!4b1!4m6!3m5!1s0x85d1ff78550cd653:0xa1b6f9feb79e81cf!8m2!3d19.3866364!4d-99.1815105!16s%2Fg%2F11k52shg2j?entry=tts&g_ep=EgoyMDI2MDQxMi4wIPu8ASoASAFQAw%3D%3D&skid=ef763ec1-0148-4cd1-b17d-9944ed0dce26"
   },
   {
     "id": 11,
@@ -1275,5 +1281,56 @@
     "resolved_maps_url": "https://www.google.com/maps/search/19.302427,+-99.195568?entry=tts&g_ep=EgoyMDI2MDEwNC4wIPu8ASoASAFQAw%3D%3D&skid=d156e33d-9e9b-47a3-9ba8-a1441925dfcf",
     "lat": 19.302427,
     "lng": -99.195568
+  },
+  {
+    "id": 84,
+    "address": "ALTATA Nº22, CONDESA",
+    "reference": "Muro en Altata 22, Condesa",
+    "category": "Muro",
+    "size": "Por confirmar",
+    "width": 0,
+    "height": 0,
+    "area_m2": 0,
+    "price": 0,
+    "available": true,
+    "images": [],
+    "original_maps_url": "https://maps.app.goo.gl/NnZmX5cH1p7EKxTU9",
+    "resolved_maps_url": "https://www.google.com/maps/place/Altata+22,+Hip%C3%B3dromo,+Cuauht%C3%A9moc,+06100+Ciudad+de+M%C3%A9xico,+CDMX/@19.4063034,-99.1751637,17z/data=!3m1!4b1!4m6!3m5!1s0x85d1ff6a22ab97bd:0x684f417549f8dc5f!8m2!3d19.4063034!4d-99.1725888!16s%2Fg%2F11cs6cs1p8?entry=tts&g_ep=EgoyMDI2MDQxMi4wIPu8ASoASAFQAw%3D%3D&skid=b4920e7a-f5d4-4b73-8837-2b272e02cba3",
+    "lat": 19.4063034,
+    "lng": -99.1751637
+  },
+  {
+    "id": 85,
+    "address": "PERIFÉRICO NORTE, ESQ. CALLE 5 Nº39",
+    "reference": "Muro en Periférico Norte y Calle 5, Naucalpan (Edomex)",
+    "category": "Muro",
+    "size": "Por confirmar",
+    "width": 0,
+    "height": 0,
+    "area_m2": 0,
+    "price": 0,
+    "available": true,
+    "images": [],
+    "original_maps_url": "https://maps.app.goo.gl/5S1Z3hrJbcxKMkgs7",
+    "resolved_maps_url": "https://www.google.com/maps/place/Azulemex+Perif%C3%A9rico/@19.4674309,-99.2282593,17z/data=!4m6!3m5!1s0x85d20250f7bf5ac5:0xf344bba456cf2640!8m2!3d19.4671882!4d-99.2250943!16s%2Fg%2F1tdcb4k4?entry=tts&g_ep=EgoyMDI2MDQxMi4wIPu8ASoASAFQAw%3D%3D&skid=da50e206-895d-47a3-8c10-7075154b36c5",
+    "lat": 19.4674309,
+    "lng": -99.2282593
+  },
+  {
+    "id": 86,
+    "address": "PERIFÉRICO SUR N°4192",
+    "reference": "Muro en Periférico Sur 4192 near TV Azteca",
+    "category": "Muro",
+    "size": "Por confirmar",
+    "width": 0,
+    "height": 0,
+    "area_m2": 0,
+    "price": 0,
+    "available": true,
+    "images": [],
+    "original_maps_url": "https://maps.app.goo.gl/SnryWkrBnBhLa7sP6",
+    "resolved_maps_url": "https://www.google.com/maps/place/Periferico+Sur+4192,+Jardines+del+Pedregal,+%C3%81lvaro+Obreg%C3%B3n,+01900+Ciudad+de+M%C3%A9xico,+CDMX/@19.3062178,-99.2094741,17z/data=!3m1!4b1!4m6!3m5!1s0x85cdffc153882af1:0xaef98d57cbdd92a0!8m2!3d19.3062178!4d-99.2068992!16s%2Fg%2F11fktdxht6?entry=tts&g_ep=EgoyMDI2MDIxOC4wIPu8ASoASAFQAw%3D%3D&skid=3fdafe2b-a0b0-4163-b789-f60d65ae4b2e",
+    "lat": 19.3062178,
+    "lng": -99.2094741
   }
 ]
