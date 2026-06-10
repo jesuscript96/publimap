@@ -120,6 +120,41 @@ function calculateDistance(coords1: [number, number], coords2: [number, number])
 }
 
 const size = 100;
+
+// Generate Canvas-based Pin with Publimex Logo inside for Mapbox
+function createBillboardLogoIcon(logoImg: HTMLImageElement): HTMLImageElement {
+  const canvas = document.createElement('canvas');
+  canvas.width = 44;
+  canvas.height = 54;
+  const ctx = canvas.getContext('2d');
+  
+  if (ctx) {
+    // 1. Draw Post (miniature black pole)
+    ctx.fillStyle = '#000000';
+    ctx.fillRect(20, 40, 4, 12);
+    
+    // 2. Draw Billboard Panel (Square rect) - Solid yellow background with white border
+    ctx.fillStyle = '#FFD700';
+    ctx.fillRect(2, 2, 40, 38);
+    
+    ctx.strokeStyle = '#FFFFFF';
+    ctx.lineWidth = 2;
+    ctx.strokeRect(2, 2, 40, 38);
+    
+    // 3. Draw the logo inside (aspect ratio 568/402 = 1.41)
+    const destW = 34;
+    const destH = 34 / 1.41;
+    const destX = 5;
+    const destY = 4 + (34 - destH) / 2;
+    
+    ctx.drawImage(logoImg, destX, destY, destW, destH);
+  }
+
+  const img = new Image();
+  img.src = canvas.toDataURL();
+  return img;
+}
+
 const pulsingDot = {
   width: size,
   height: size,
@@ -253,16 +288,26 @@ function initMap() {
 
     // Add pulsing dot image
     map.addImage('pulsing-dot', pulsingDot as any);
-      
-    // Fetch and load GeoJSON
-    fetch('/billboards.geojson')
-      .then(res => res.json())
-      .then(data => {
-        billboardsData = data;
-        setupBillboardLayers();
-        updateStats();
-      })
-      .catch(err => console.error('Error loading GeoJSON:', err));
+
+    // Load custom WebGL Pin Image using Publimex Logo
+    const logoImg = new Image();
+    logoImg.src = '/logo.png';
+    logoImg.onload = () => {
+      const pinImage = createBillboardLogoIcon(logoImg);
+      pinImage.onload = () => {
+        map.addImage('publimex-logo', pinImage);
+        
+        // Fetch and load GeoJSON after logo is loaded
+        fetch('/billboards.geojson')
+          .then(res => res.json())
+          .then(data => {
+            billboardsData = data;
+            setupBillboardLayers();
+            updateStats();
+          })
+          .catch(err => console.error('Error loading GeoJSON:', err));
+      };
+    };
       
     // Load Landmark markers
     setupLandmarkMarkers();
@@ -329,12 +374,32 @@ function setupBillboardLayers() {
     type: 'symbol',
     source: 'billboards',
     layout: {
-      'icon-image': 'pulsing-dot',
+      'icon-image': [
+        'case',
+        ['coalesce', ['get', 'is_top_15'], false],
+        'publimex-logo',
+        'pulsing-dot'
+      ],
       'icon-size': [
         'interpolate', ['linear'], ['zoom'],
-        8, 0.5,
-        12, 0.8,
-        16, 1.2
+        8, [
+          'case',
+          ['coalesce', ['get', 'is_top_15'], false],
+          0.3,
+          0.5
+        ],
+        12, [
+          'case',
+          ['coalesce', ['get', 'is_top_15'], false],
+          0.55,
+          0.8
+        ],
+        16, [
+          'case',
+          ['coalesce', ['get', 'is_top_15'], false],
+          0.85,
+          1.2
+        ]
       ],
       'icon-allow-overlap': true,
       'icon-ignore-placement': true
@@ -593,7 +658,9 @@ function applyMapFilters() {
   const filters: any[] = ['all'];
 
   // Category Filter
-  if (activeCategoryFilter !== 'all') {
+  if (activeCategoryFilter === 'top-15') {
+    filters.push(['coalesce', ['get', 'is_top_15'], false]);
+  } else if (activeCategoryFilter !== 'all') {
     filters.push(['in', activeCategoryFilter, ['get', 'category']]);
   }
 
@@ -622,7 +689,9 @@ function applyMapFilters() {
     const nearby = filterNearbyBillboards(selectedLandmark.coordinates);
     
     const filteredNearby = nearby.filter(feat => {
-      const matchCat = activeCategoryFilter === 'all' || feat.properties.category.includes(activeCategoryFilter);
+      const matchCat = activeCategoryFilter === 'all' || 
+                       (activeCategoryFilter === 'top-15' && feat.properties.is_top_15) ||
+                       (activeCategoryFilter !== 'top-15' && feat.properties.category.includes(activeCategoryFilter));
       const matchAvail = true;
       return matchCat && matchAvail;
     });
@@ -811,14 +880,11 @@ function resetView() {
 function updateStats() {
   if (!billboardsData) return;
   
-  const total = billboardsData.features.length;
-  const available = total;
-  
   const totalEl = document.getElementById('total-billboards-count');
   const availEl = document.getElementById('available-billboards-count');
   
-  if (totalEl) totalEl.innerText = total.toString();
-  if (availEl) availEl.innerText = available.toString();
+  if (totalEl) totalEl.innerText = "+100";
+  if (availEl) availEl.innerText = "+100";
 }
 
 // Setup Event Listeners
@@ -838,7 +904,7 @@ function setupEvents() {
       
       // Update formats cards active styles
       document.querySelectorAll('.format-card').forEach(c => c.classList.remove('active'));
-      if (activeCategoryFilter !== 'all') {
+      if (activeCategoryFilter !== 'all' && activeCategoryFilter !== 'top-15') {
         const matchingCard = document.querySelector(`.format-card[data-format="${activeCategoryFilter}"]`);
         matchingCard?.classList.add('active');
       }
@@ -847,6 +913,29 @@ function setupEvents() {
       closeSidebarOnMobile();
     });
   });
+
+  // Premium Selection Banner (CTA) click
+  const top15Cta = document.getElementById('top-15-cta');
+  if (top15Cta) {
+    top15Cta.addEventListener('click', (e) => {
+      e.stopPropagation();
+      activeCategoryFilter = 'top-15';
+      
+      // Update active filter buttons
+      document.querySelectorAll('.filter-btn').forEach(btn => {
+        btn.classList.remove('active');
+        if (btn.getAttribute('data-category') === 'top-15') {
+          btn.classList.add('active');
+        }
+      });
+      
+      // Reset format cards
+      document.querySelectorAll('.format-card').forEach(c => c.classList.remove('active'));
+      
+      applyMapFilters();
+      closeSidebarOnMobile();
+    });
+  }
 
 
 

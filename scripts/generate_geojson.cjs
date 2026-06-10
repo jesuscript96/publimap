@@ -21,10 +21,12 @@ const geojson = {
       area_m2: b.area_m2 || 0,
       price: b.price || 0,
       available: b.available,
-      images: b.images || []
+      images: b.images || [],
+      is_top_15: b.is_top_15 || false
     }
   }))
 };
 
 fs.writeFileSync('billboards.geojson', JSON.stringify(geojson, null, 2));
-console.log(`Successfully generated billboards.geojson with ${geojson.features.length} features.`);
+fs.writeFileSync('public/billboards.geojson', JSON.stringify(geojson, null, 2));
+console.log(`Successfully generated billboards.geojson in root and public/ with ${geojson.features.length} features.`);

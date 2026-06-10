@@ -62,7 +62,6 @@
 
     <!-- Main Application Wrapper -->
     <div id="app" class="app-container">
-      
       <!-- Float Header (Logo & Branding) -->
       <header class="main-header">
         <div class="logo-container">
@@ -74,6 +73,7 @@
       <section class="filters-panel" aria-label="Filtros de mapa">
         <div class="filters-scroll">
           <button class="filter-btn active" data-category="all">Todos</button>
+          <button class="filter-btn premium-filter-btn" data-category="top-15">Top 15</button>
           <button class="filter-btn" data-category="Muro">Muros</button>
           <button class="filter-btn" data-category="Espectacular">Espectaculares</button>
           <button class="filter-btn" data-category="Pantalla Digital">Pantallas</button>
@@ -123,13 +123,23 @@
 
             <div class="stats-row">
               <div class="stat-card">
-                <span class="stat-num" id="total-billboards-count">83</span>
+                <span class="stat-num" id="total-billboards-count">+100</span>
                 <span class="stat-label">Espacios Totales</span>
               </div>
               <div class="stat-card">
                 <span class="stat-num" id="available-billboards-count">--</span>
                 <span class="stat-label">Disponibles Mundial</span>
               </div>
+            </div>
+
+            <!-- Premium Selection Banner (CTA) -->
+            <div class="top-15-banner" id="top-15-cta">
+              <div class="banner-badge">Exclusivo</div>
+              <div class="banner-body">
+                <h3>Selección Top 15</h3>
+                <p>Ubicaciones estratégicas premium en CDMX y Aeropuerto con máxima audiencia.</p>
+              </div>
+              <button class="btn-banner-filter">Ver Top 15</button>
             </div>
 
             <!-- Focus on Formats -->
@@ -276,6 +286,10 @@
       <div class="map-legend" aria-label="Leyenda del mapa">
         <div class="legend-title">Simbología</div>
         <div class="legend-group">
+          <div class="legend-item">
+            <span class="legend-pin-premium"></span>
+            <span class="legend-label">Espacio Top 15 / Premium</span>
+          </div>
           <div class="legend-item">
             <span class="legend-dot pulsing-green"></span>
             <span class="legend-label">Espacio Publimex (Disponible)</span>
