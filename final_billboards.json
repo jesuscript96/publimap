@@ -298,20 +298,6 @@
     "lng": -99.1601547
   },
   {
-    "id": 75,
-    "address": "VIA MORELOS N° 252, COL. SANTA MARÍA TULPETLAC, ECATEPEC",
-    "category": "Muro + Espectacular",
-    "size": "12.90 x 10.80 M",
-    "width": 12.9,
-    "height": 10.8,
-    "area_m2": 139.32000000000002,
-    "price": 40000,
-    "available": true,
-    "images": [],
-    "lat": 19.40961976864841,
-    "lng": -99.15177182353807
-  },
-  {
     "id": 3,
     "address": "CARR. MEXICO - CUERNAVACA N° 51",
     "reference": "Salida de México a Cuernavaca, cerca del monumento Caminero",
@@ -353,34 +339,6 @@
     "images": [],
     "lat": 19.44825833520322,
     "lng": -99.14431515335797
-  },
-  {
-    "id": 82,
-    "address": "BLD.DE LAS NACIONES KM.14.5 (PUERTO AL APTO.)",
-    "category": "Muro + Espectacular",
-    "size": "12.90 x 7.20 M",
-    "width": 12.9,
-    "height": 7.2,
-    "area_m2": 92.88000000000001,
-    "price": 40000,
-    "available": true,
-    "images": [],
-    "lat": 19.456360619354594,
-    "lng": -99.12015681401377
-  },
-  {
-    "id": 78,
-    "address": "BLVD. MIGUEL ALEMAN. ESQ. CAMINO AL CERRILLO",
-    "category": "Muro + Espectacular",
-    "size": "25.00 x 7.20 M",
-    "width": 25,
-    "height": 7.2,
-    "area_m2": 180,
-    "price": 55000,
-    "available": true,
-    "images": [],
-    "lat": 19.43829623499853,
-    "lng": -99.15751172513355
   },
   {
     "id": 25,
@@ -582,20 +540,6 @@
     "lng": -99.1687428
   },
   {
-    "id": 76,
-    "address": "VIA MORELOS N° 252, COL. SANTA MARÍA TULPETLAC, ECATEPEC",
-    "category": "Muro + Espectacular",
-    "size": "12.90 x 10.80 M",
-    "width": 12.9,
-    "height": 10.8,
-    "area_m2": 139.32000000000002,
-    "price": 35000,
-    "available": true,
-    "images": [],
-    "lat": 19.4299465807547,
-    "lng": -99.15663691468723
-  },
-  {
     "id": 40,
     "address": "AV. ALVARO OBREGÓN N°52, COL. ROMA NORTE",
     "reference": "Av. Álvaro Obregón N44",
@@ -734,20 +678,6 @@
     "lng": -99.1698914
   },
   {
-    "id": 80,
-    "address": "BLD. A. LÓPEZ MATEOS N° 302, COL. SAN PEDRO TOTOLTEPEC",
-    "category": "Muro + Espectacular",
-    "size": "12.90 x 7.20 M",
-    "width": 12.9,
-    "height": 7.2,
-    "area_m2": 92.88000000000001,
-    "price": 35000,
-    "available": true,
-    "images": [],
-    "lat": 19.407964218318842,
-    "lng": -99.15218290323054
-  },
-  {
     "id": 14,
     "address": "INSURGENTES, ESQ. POPOCATEPETL N° 14",
     "reference": "A espaldas de la Secretaría de Energía (SENER), a dos cuadras de la Glorieta de los Insurgentes",
@@ -767,20 +697,6 @@
     "lng": -99.13507182587463
   },
   {
-    "id": 73,
-    "address": "BLD. A. LÓPEZ PORTILLO, ESQ. CALLE TREINTA TREINTA",
-    "category": "Muro + Espectacular",
-    "size": "12.90 x 10.80 M",
-    "width": 12.9,
-    "height": 10.8,
-    "area_m2": 139.32000000000002,
-    "price": 45000,
-    "available": true,
-    "images": [],
-    "lat": 19.45327284169156,
-    "lng": -99.1110919075031
-  },
-  {
     "id": 26,
     "address": "PERIFERICO MANUEL AVILA CAMACHO N° 131 (PANTALLA DIGITAL)",
     "category": "Pantalla Digital",
@@ -789,20 +705,6 @@
     "images": [],
     "lat": 19.44776672869462,
     "lng": -99.12519161777301
-  },
-  {
-    "id": 81,
-    "address": "BLD.DE LAS NACIONES KM.14.5 (APTO.AL PUERTO)",
-    "category": "Muro + Espectacular",
-    "size": "12.90 x 7.20 M",
-    "width": 12.9,
-    "height": 7.2,
-    "area_m2": 92.88000000000001,
-    "price": 45000,
-    "available": true,
-    "images": [],
-    "lat": 19.41573127339407,
-    "lng": -99.15732998963068
   },
   {
     "id": 28,
@@ -890,20 +792,6 @@
     "images": [],
     "lat": 19.441790151161616,
     "lng": -99.14704583966844
-  },
-  {
-    "id": 79,
-    "address": "BLD. A. LÓPEZ MATEOS N° 302, COL. SAN PEDRO TOTOLTEPEC",
-    "category": "Muro + Espectacular",
-    "size": "12.90 x 7.20 M",
-    "width": 12.9,
-    "height": 7.2,
-    "area_m2": 92.88000000000001,
-    "price": 45000,
-    "available": true,
-    "images": [],
-    "lat": 19.423511375158007,
-    "lng": -99.1277031645642
   },
   {
     "id": 61,
@@ -1053,20 +941,6 @@
     "lng": -99.1770866
   },
   {
-    "id": 83,
-    "address": "COSTERA M. ALEMAN - MERCADO DALIA",
-    "category": "Muro + Espectacular",
-    "size": "12.90 x 7.20 M",
-    "width": 12.9,
-    "height": 7.2,
-    "area_m2": 92.88000000000001,
-    "price": 45000,
-    "available": true,
-    "images": [],
-    "lat": 19.449193009463798,
-    "lng": -99.11027450812455
-  },
-  {
     "id": 21,
     "address": "NUEVO LEON N°202, ESQ. BAJA CALIFORNIA",
     "reference": "Casi esquina con Tlaxcala y a solo dos cuadras del Parque México",
@@ -1136,20 +1010,6 @@
     "resolved_maps_url": "https://www.google.com/maps?q=place_id:ChIJg_7qGiX50YURrlKhBb_V7gE",
     "lat": 19.4334169869461,
     "lng": -99.14707908882953
-  },
-  {
-    "id": 74,
-    "address": "BLD. A. LÓPEZ PORTILLO, ESQ. CALLE TREINTA TREINTA",
-    "category": "Muro + Espectacular",
-    "size": "12.90 x 10.80 M",
-    "width": 12.9,
-    "height": 10.8,
-    "area_m2": 139.32000000000002,
-    "price": 35000,
-    "available": true,
-    "images": [],
-    "lat": 19.439849254588108,
-    "lng": -99.15217729925736
   },
   {
     "id": 29,
@@ -1271,20 +1131,6 @@
     "resolved_maps_url": "https://www.google.com/maps/place/Periferico+Sur+30,+San+Jer%C3%B3nimo+L%C3%ADdice,+La+Magdalena+Contreras,+10200+Ciudad+de+M%C3%A9xico,+CDMX/@19.3272017,-99.2153384,17z/data=!3m1!4b1!4m5!3m4!1s0x85cdff8cc901cba1:0xa6e9f58351332889!8m2!3d19.3272017!4d-99.2127635?entry=tts&g_ep=EgoyMDI2MDQxMi4wIPu8ASoASAFQAw%3D%3D&skid=3e6108ab-96cf-4eac-928e-9f2ebb444361",
     "lat": 19.3272017,
     "lng": -99.2153384
-  },
-  {
-    "id": 77,
-    "address": "BLVD. MIGUEL ALEMAN. ESQ. CAMINO AL CERRILLO",
-    "category": "Muro + Espectacular",
-    "size": "25.00 x 7.20 M",
-    "width": 25,
-    "height": 7.2,
-    "area_m2": 180,
-    "price": 60000,
-    "available": true,
-    "images": [],
-    "lat": 19.427003472653155,
-    "lng": -99.1385361862527
   },
   {
     "id": 47,

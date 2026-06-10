@@ -2,7 +2,22 @@ const fs = require('fs');
 
 const rawSpaces = JSON.parse(fs.readFileSync('publimex_billboards.json', 'utf8'));
 const rawReservations = JSON.parse(fs.readFileSync('publimex_reservations.json', 'utf8'));
-const resolvedBillboards = JSON.parse(fs.readFileSync('final_billboards.json', 'utf8'));
+const allResolvedBillboards = JSON.parse(fs.readFileSync('final_billboards.json', 'utf8'));
+
+// Identify space numerical IDs that belong to the CDMX zone
+const cdmxNumericalIds = new Set();
+rawSpaces.forEach(space => {
+  if (space.fields && space.fields.Zona === 'CDMX') {
+    const numId = space.fields.ID || space.fields['﻿ID'];
+    if (numId !== undefined && numId !== null) {
+      cdmxNumericalIds.add(numId);
+    }
+  }
+});
+
+// Filter resolved billboards to only include CDMX zone records
+const resolvedBillboards = allResolvedBillboards.filter(b => cdmxNumericalIds.has(b.id));
+
 
 // World Cup 2026 dates in Mexico
 const WC_START = new Date('2026-06-11');

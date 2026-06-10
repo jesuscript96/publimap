@@ -2,7 +2,9 @@ const fs = require('fs');
 const https = require('https');
 const url = require('url');
 
-const records = JSON.parse(fs.readFileSync('publimex_billboards.json', 'utf8'));
+const rawRecords = JSON.parse(fs.readFileSync('publimex_billboards.json', 'utf8'));
+const records = rawRecords.filter(r => r.fields && r.fields.Zona === 'CDMX');
+
 
 // Helper to follow redirects and get final location
 function getRedirectUrl(targetUrl) {

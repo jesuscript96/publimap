@@ -404,29 +404,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -99.15177182353807,
-          19.40961976864841
-        ]
-      },
-      "properties": {
-        "id": 75,
-        "address": "VIA MORELOS N° 252, COL. SANTA MARÍA TULPETLAC, ECATEPEC",
-        "reference": "",
-        "category": "Muro + Espectacular",
-        "size": "12.90 x 10.80 M",
-        "width": 12.9,
-        "height": 10.8,
-        "area_m2": 139.32000000000002,
-        "price": 40000,
-        "available": true,
-        "images": []
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -99.1687428,
           19.261694
         ]
@@ -490,52 +467,6 @@
         "area_m2": 91,
         "price": 250000,
         "available": false,
-        "images": []
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -99.12015681401377,
-          19.456360619354594
-        ]
-      },
-      "properties": {
-        "id": 82,
-        "address": "BLD.DE LAS NACIONES KM.14.5 (PUERTO AL APTO.)",
-        "reference": "",
-        "category": "Muro + Espectacular",
-        "size": "12.90 x 7.20 M",
-        "width": 12.9,
-        "height": 7.2,
-        "area_m2": 92.88000000000001,
-        "price": 40000,
-        "available": true,
-        "images": []
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -99.15751172513355,
-          19.43829623499853
-        ]
-      },
-      "properties": {
-        "id": 78,
-        "address": "BLVD. MIGUEL ALEMAN. ESQ. CAMINO AL CERRILLO",
-        "reference": "",
-        "category": "Muro + Espectacular",
-        "size": "25.00 x 7.20 M",
-        "width": 25,
-        "height": 7.2,
-        "area_m2": 180,
-        "price": 55000,
-        "available": true,
         "images": []
       }
     },
@@ -817,29 +748,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -99.15663691468723,
-          19.4299465807547
-        ]
-      },
-      "properties": {
-        "id": 76,
-        "address": "VIA MORELOS N° 252, COL. SANTA MARÍA TULPETLAC, ECATEPEC",
-        "reference": "",
-        "category": "Muro + Espectacular",
-        "size": "12.90 x 10.80 M",
-        "width": 12.9,
-        "height": 10.8,
-        "area_m2": 139.32000000000002,
-        "price": 35000,
-        "available": true,
-        "images": []
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -99.239766,
           19.3055743
         ]
@@ -1036,29 +944,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -99.15218290323054,
-          19.407964218318842
-        ]
-      },
-      "properties": {
-        "id": 80,
-        "address": "BLD. A. LÓPEZ MATEOS N° 302, COL. SAN PEDRO TOTOLTEPEC",
-        "reference": "",
-        "category": "Muro + Espectacular",
-        "size": "12.90 x 7.20 M",
-        "width": 12.9,
-        "height": 7.2,
-        "area_m2": 92.88000000000001,
-        "price": 35000,
-        "available": true,
-        "images": []
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -99.13507182587463,
           19.448710973372926
         ]
@@ -1084,29 +969,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -99.1110919075031,
-          19.45327284169156
-        ]
-      },
-      "properties": {
-        "id": 73,
-        "address": "BLD. A. LÓPEZ PORTILLO, ESQ. CALLE TREINTA TREINTA",
-        "reference": "",
-        "category": "Muro + Espectacular",
-        "size": "12.90 x 10.80 M",
-        "width": 12.9,
-        "height": 10.8,
-        "area_m2": 139.32000000000002,
-        "price": 45000,
-        "available": true,
-        "images": []
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -99.12519161777301,
           19.44776672869462
         ]
@@ -1121,29 +983,6 @@
         "height": 0,
         "area_m2": 0,
         "price": 0,
-        "available": true,
-        "images": []
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -99.15732998963068,
-          19.41573127339407
-        ]
-      },
-      "properties": {
-        "id": 81,
-        "address": "BLD.DE LAS NACIONES KM.14.5 (APTO.AL PUERTO)",
-        "reference": "",
-        "category": "Muro + Espectacular",
-        "size": "12.90 x 7.20 M",
-        "width": 12.9,
-        "height": 7.2,
-        "area_m2": 92.88000000000001,
-        "price": 45000,
         "available": true,
         "images": []
       }
@@ -1268,29 +1107,6 @@
         "area_m2": 96,
         "price": 220000,
         "available": false,
-        "images": []
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -99.1277031645642,
-          19.423511375158007
-        ]
-      },
-      "properties": {
-        "id": 79,
-        "address": "BLD. A. LÓPEZ MATEOS N° 302, COL. SAN PEDRO TOTOLTEPEC",
-        "reference": "",
-        "category": "Muro + Espectacular",
-        "size": "12.90 x 7.20 M",
-        "width": 12.9,
-        "height": 7.2,
-        "area_m2": 92.88000000000001,
-        "price": 45000,
-        "available": true,
         "images": []
       }
     },
@@ -1497,29 +1313,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -99.11027450812455,
-          19.449193009463798
-        ]
-      },
-      "properties": {
-        "id": 83,
-        "address": "COSTERA M. ALEMAN - MERCADO DALIA",
-        "reference": "",
-        "category": "Muro + Espectacular",
-        "size": "12.90 x 7.20 M",
-        "width": 12.9,
-        "height": 7.2,
-        "area_m2": 92.88000000000001,
-        "price": 45000,
-        "available": true,
-        "images": []
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -99.1762397,
           19.4054595
         ]
@@ -1611,29 +1404,6 @@
         "images": [
           "https://v5.airtableusercontent.com/v3/u/54/54/1780970400000/gwiofaFvImiyLPVMTkYM1A/sImdmeu5LZVT3aBNFcDzhLoa6spQsok0yyy2ck25BktL_J7DeKzy2K-lIvNMOuS_5sv3sf1OzOoFOjeRKETXNxYINT04yKpqEOFz2p3DzqeYUxk9mgCBJT3ts-dZa_D3fW9jbFBp9-ULqOGzZGmVSVOod9zViMFSubp9mGewR6w/XKNbZHIhbe7_O9aVBYGumA661dNm0Jw8upgTthjD4Q8"
         ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -99.15217729925736,
-          19.439849254588108
-        ]
-      },
-      "properties": {
-        "id": 74,
-        "address": "BLD. A. LÓPEZ PORTILLO, ESQ. CALLE TREINTA TREINTA",
-        "reference": "",
-        "category": "Muro + Espectacular",
-        "size": "12.90 x 10.80 M",
-        "width": 12.9,
-        "height": 10.8,
-        "area_m2": 139.32000000000002,
-        "price": 35000,
-        "available": true,
-        "images": []
       }
     },
     {
@@ -1807,29 +1577,6 @@
         "images": [
           "https://v5.airtableusercontent.com/v3/u/54/54/1780970400000/nP9mVtG8T8JLGYcPvrtarw/ViPDPDivpbj2teu-vMsU-f0ts8QC__RdoeMwupSbKF0rhGNeXgf4J2TLcfZvVd9tsS_WwIzXtMXNGDuJUKT-20bqrAAIbEr-5F9SlrvsP3FYyxQ4PD5EWFQdHNAftgYJb7gXANsGM4i-iVeAQDbGfL6ZaruKM6-f5R6Pgu_OOyc/CpEQwJchCwQAhkufVoB05Mv6ApzRdhW_5EGOk72IIic"
         ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -99.1385361862527,
-          19.427003472653155
-        ]
-      },
-      "properties": {
-        "id": 77,
-        "address": "BLVD. MIGUEL ALEMAN. ESQ. CAMINO AL CERRILLO",
-        "reference": "",
-        "category": "Muro + Espectacular",
-        "size": "25.00 x 7.20 M",
-        "width": 25,
-        "height": 7.2,
-        "area_m2": 180,
-        "price": 60000,
-        "available": true,
-        "images": []
       }
     },
     {
